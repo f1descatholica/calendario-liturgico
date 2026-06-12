@@ -1,5 +1,5 @@
-"use strict";
 
+"use strict";
 // =========================================================
 // O CÉREBRO - MOTOR LITÚRGICO GLOBAL
 // =========================================================
@@ -1093,7 +1093,7 @@ const SANTOS_FIXOS = {
   }, {
       t:"Ss. Basílides, Cirino, Nabor e Nazário, mártires",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
-      s:"Sl 33. Clamaverunt justi... Hb 11,33-39 • Lc 21,9-19",
+      s:"Sl 78. Intret in conspectu... Hb 10,32-38 • Mt 24,3-13",
       l:"/",
       p: { cor: COR.VERMELHA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_N }
   }],
