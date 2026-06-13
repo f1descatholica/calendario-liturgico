@@ -1,4 +1,3 @@
-
 "use strict";
 // =========================================================
 // O CÉREBRO - MOTOR LITÚRGICO GLOBAL
@@ -1088,19 +1087,19 @@ const SANTOS_FIXOS = {
       t:"S. João de S. Facundo, confessor",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Sl 36. Os justi meditabitur sapientiam... Eclo 31,8-11 • Lc 12,35-40",
-      l:"/",
+      l:"/2026/06/12-junho-sao-joao-de-sao-facundo.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.CONF_NPON }
   }, {
       t:"Ss. Basílides, Cirino, Nabor e Nazário, mártires",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Sl 78. Intret in conspectu... Hb 10,32-38 • Mt 24,3-13",
-      l:"/",
+      l:"/2025/06/12-junho-ss-basilides-e-companheiros.html",
       p: { cor: COR.VERMELHA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_N }
   }],
   "6-13":[{
       t:"S. Antônio de Pádua, confessor e doutor",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
-      s:"Eclo 15. In medio Ecclesiæ aperuit os ejus... 1 Co 4,9-14 • Lc 12,35-40",
+      s:"Eclo 15. In medio Ecclesiæ aperuit os ejus... 2 Tm 4:1-8 • Mt 5:13-19",
       l:"/2025/06/13-junho-s-antonio-de-padua-confessor.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
