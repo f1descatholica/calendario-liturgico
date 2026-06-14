@@ -1099,14 +1099,14 @@ const SANTOS_FIXOS = {
   "6-13":[{
       t:"S. Antônio de Pádua, confessor e doutor",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
-      s:"Eclo 15. In medio Ecclesiæ aperuit os ejus... 2 Tm 4:1-8 • Mt 5:13-19",
+      s:"Eclo 15. In medio Ecclesiæ aperuit os ejus... 2 Tm 4,1-8 • Mt 5,13-19",
       l:"/2025/06/13-junho-s-antonio-de-padua-confessor.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
   "6-14":[{
       t:"S. Basílio Magno, bispo, confessor e doutor",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
-      s:"Eclo 15. In medio Ecclesiæ aperuit os ejus... Eclo 39,6-14 • Lc 14,26-33",
+      s:"Eclo 15. In medio Ecclesiæ aperuit os ejus... 2 Tim 4, 1-8 • Lc 14,26-35",
       l:"/2025/06/14-junho-s-basilio-magno-bispo.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: COMUM.DOCT, orProprias: true, observacao: "Epístola e Evang. próprios" }
   }],
