@@ -1114,7 +1114,7 @@ const SANTOS_FIXOS = {
       t:"Ss. Vito, Modesto e Crescência, mártires",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Sl 36. Salus autem justorum a Domino... Sb 3,1-8 • Lc 10,16-20",
-      l:"/",
+      l:"/2026/06/15-jun-santos-vito-modesto-e-crescencia.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_N }
   }],
   "6-18":[{
