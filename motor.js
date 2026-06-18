@@ -1,3 +1,8 @@
+
+
+
+
+
 "use strict";
 // =========================================================
 // O CÉREBRO - MOTOR LITÚRGICO GLOBAL
@@ -1125,9 +1130,9 @@ const SANTOS_FIXOS = {
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: COMUM.DOCT }
   }, {
       t:"Ss. Marcos e Marceliano, mártires",
-      rito:RITO.SEMIDUPLEX, prec:PREC.FESTA_SEMIDUPLEX,
+      rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Sl 36. Salus autem justorum a Domino... Hb 10,32-38 • Lc 12,1-8",
-      l:"/",
+      l:"/2026/06/18-jun-santos-marcos-e-marceliano.html",
       p: { cor: COR.VERMELHA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_N }
   }],
   "6-19":[{
