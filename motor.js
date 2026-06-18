@@ -1,8 +1,3 @@
-
-
-
-
-
 "use strict";
 // =========================================================
 // O CÉREBRO - MOTOR LITÚRGICO GLOBAL
@@ -1139,14 +1134,14 @@ const SANTOS_FIXOS = {
       t:"S. Juliana Falconieri, virgem",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Sl 44. Dilexisti justitiam et odisti iniquitatem... 2 Co 10,17-18; 11,1-2 • Mt 25,1-13",
-      l:"/",
-      p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.VIRG_1 }
+      l:"/2026/06/19-junho-s-juliana-falconieri-virgem.html",
+      p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.VIRG_3 }
   }, {
       t:"Ss. Gervásio e Protásio, mártires",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
-      s:"Sl 33. Clamaverunt justi... Rm 8,18-23 • Lc 21,9-19",
-      l:"/",
-      p: { cor: COR.VERMELHA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_N }
+      s:"Sl 84. Loquétur Dóminus... 1 Pd 4,13-19 • Lc 6,17-23",
+      l:"/2026/06/19-junho-ss-gervasio-e-protasio.html",
+      p: { cor: COR.VERMELHA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: "Missa Própria" }
   }],
   "6-20":[{
       t:"S. Silvério, papa e mártir",
