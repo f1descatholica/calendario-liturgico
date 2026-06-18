@@ -1171,19 +1171,18 @@ const SANTOS_FIXOS = {
       l:"/2025/06/23-junho-vigilia-da-natividade-de-s.html",
       p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
-  "6-24":[{
-      t: "Natividade de S. João Batista (com Oitava)",
-      rito:RITO.DUPLEX_I, prec:PREC.FESTA_I_CLASSE,
-      s:"Is 49. De ventre matris meæ vocavit me Dominus... Is 49,1-3.5-7 • Lc 1,57-68",
-      l:"/2025/06/24-junho-natividade-de-s-joao-batista.html",
-      p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
-  }],
-  "6-25":[{
+ "6-25":[{
       t:"S. Guilherme, abade",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Sl 36. Os justi meditabitur sapientiam... Eclo 45,1-6 • Mt 19,27-29",
       l:"/2025/06/25-junho-s-guilherme-abade.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.ABBATIS }
+  }, {
+      t:"Na Oitava de S. João Batista",
+      rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
+      s:"Is 49. De ventre matris meæ... Is 49,1-3.5-7 • Lc 1,57-68",
+      l:"/2025/06/24-junho-natividade-de-s-joao-batista.html",
+      p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: "da Festa" }
   }],
   "6-26":[{
       t:"Ss. João e Paulo, mártires",
@@ -1191,6 +1190,12 @@ const SANTOS_FIXOS = {
       s:"Sl 33. Multæ tribulationes justorum... Ap 11,3-7 • Lc 12,1-8",
       l:"/2025/06/26-junho-ss-joao-e-paulo-martires.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
+  }, {
+      t:"Na Oitava de S. João Batista",
+      rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
+      s:"Is 49. De ventre matris meæ... Is 49,1-3.5-7 • Lc 1,57-68",
+      l:"/2025/06/24-junho-natividade-de-s-joao-batista.html",
+      p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: "da Festa" }
   }],
   "6-27":[{
       t:"Nossa Senhora do Perpétuo Socorro",
@@ -1198,6 +1203,12 @@ const SANTOS_FIXOS = {
       s:"Sedul. Salve, sancta parens... Eclo 24,14-16 • Lc 11,27-28",
       l:"/",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.BVM, comum: COMUM.PROPRIA }
+  }, {
+      t:"Na Oitava de S. João Batista",
+      rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
+      s:"Is 49. De ventre matris meæ... Is 49,1-3.5-7 • Lc 1,57-68",
+      l:"/2025/06/24-junho-natividade-de-s-joao-batista.html",
+      p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: "da Festa" }
   }],
   "6-28":[{
       t:"S. Irineu, bispo e mártir",
@@ -1211,6 +1222,12 @@ const SANTOS_FIXOS = {
       s:"Jo 21. Dicit Dominus Petro... At 3,1-10 • Jo 21,15-19",
       l:"/",
       p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
+  }, {
+      t:"Na Oitava de S. João Batista",
+      rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
+      s:"Is 49. De ventre matris meæ... Is 49,1-3.5-7 • Lc 1,57-68",
+      l:"/2025/06/24-junho-natividade-de-s-joao-batista.html",
+      p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: "da Festa" }
   }],
   "6-29":[{
       t: "Ss. Pedro e Paulo, Apóstolos (com Oitava)",
@@ -1219,6 +1236,12 @@ const SANTOS_FIXOS = {
       s:"At 12. Nunc scio vere quia misit Dominus Angelum suum... At 12,1-11 • Mt 16,13-19",
       l:"/2025/06/29junho-sao-pedro-e-sao-paulo-apostolos.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: true, prefacio: PREF.APOSTOLOS, comum: COMUM.PROPRIA }
+  }, {
+      t:"Na Oitava de S. João Batista",
+      rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
+      s:"Is 49. De ventre matris meæ... Is 49,1-3.5-7 • Lc 1,57-68",
+      l:"/2025/06/24-junho-natividade-de-s-joao-batista.html",
+      p: { cor: COR.BRANCA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: "da Festa" }
   }],
 "6-30":[{
       t:"Comemoração de S. Paulo Apóstolo",
@@ -1236,13 +1259,13 @@ const SANTOS_FIXOS = {
       p: { cor: COR.VERMELHA, gloria: false, credo: false, prefacio: PREF.APOSTOLOS, comum: "Comemoração especial" }
   }, {
       t:"Na Oitava de S. João Batista",
-      rito:RITO.SIMPLEX, prec:PREC.INFRA_OCTAVAM,
+      rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"Is 49. De ventre matris meæ... Is 49,1-3.5-7 • Lc 1,57-68",
-      l:"/",
+      l:"/2025/06/24-junho-natividade-de-s-joao-batista.html",
       p: { cor: COR.BRANCA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: "da Festa" }
   }],
 
-// =========================================================
+  // =========================================================
   // MÊS DE JULHO
   // =========================================================
   "7-1": [{
@@ -1252,11 +1275,11 @@ const SANTOS_FIXOS = {
       l:"/2025/07/01-julho-festa-do-preciosissimo-sangue.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: true, prefacio: PREF.CRUZ, comum: COMUM.PROPRIA }
   }, {
-      t:"Oitava de S. João Batista",
-      rito:RITO.SIMPLEX, prec:PREC.INFRA_OCTAVAM,
+      t:"Dia da Oitava de S. João Batista",
+      rito:RITO.DUPLEX_MAJ, prec:PREC.FESTA_DUPLEX_MAJ,
       s:"Is 49. De ventre matris meæ... Is 49,1-3.5-7 • Lc 1,57-68",
-      l:"/",
-      p: { cor: COR.BRANCA, gloria: false, credo: false, prefacio: PREF.COMUM }
+      l:"/2025/06/24-junho-natividade-de-s-joao-batista.html",
+      p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM }
   }],
   "7-2": [{
       t:"Visitação da Santíssima Virgem Maria",
@@ -1266,7 +1289,7 @@ const SANTOS_FIXOS = {
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.BVM, comum: COMUM.PROPRIA }
   }, {
       t:"Ss. Processo e Martiniano, mártires",
-      rito:RITO.SEMIDUPLEX, prec:PREC.FESTA_SEMIDUPLEX,
+      rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Sb 3. Judicant sancti gentes... Hb 11,33-39 • Lc 12,1-8",
       l:"/2025/07/02-julho-ss-processo-e-martiano-martires.html",
       p: { cor: COR.VERMELHA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_N }
