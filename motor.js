@@ -1164,12 +1164,19 @@ const SANTOS_FIXOS = {
       l:"/",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.CONF_PONT }
   }],
-  "6-23":[{
+"6-23":[{
       t:"Vigília da Natividade de S. João Batista",
       rito:RITO.SEMIDUPLEX, prec:PREC.VIGILIA_COMUM,
       s:"Lc 1. Ne timeas Zacharia... Jr 1,4-10 • Lc 1,5-17",
       l:"/2025/06/23-junho-vigilia-da-natividade-de-s.html",
       p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
+  }],
+  "6-24":[{
+      t: "Natividade de S. João Batista (com Oitava)",
+      rito:RITO.DUPLEX_I, prec:PREC.FESTA_I_CLASSE,
+      s:"Is 49. De ventre matris meæ vocavit me Dominus... Is 49,1-3.5-7 • Lc 1,57-68",
+      l:"/2025/06/24-junho-natividade-de-s-joao-batista.html",
+      p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
  "6-25":[{
       t:"S. Guilherme, abade",
