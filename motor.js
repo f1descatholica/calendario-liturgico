@@ -1146,7 +1146,7 @@ const SANTOS_FIXOS = {
   "6-20":[{
       t:"S. Silvério, papa e mártir",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
-      s:"Jo 21. Si díligis me... Tg 1,12-18 • Mt 16,24-27",
+      s:"Jo 21. Si díligis me... 1 Pd 5,1-4.10-11 • Mt 16,13-19",
       l:"/2025/06/20-junho-na-oitava-de-corpus-christi.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.SUM_PONT }
   }],
@@ -3049,11 +3049,11 @@ function calcularDiaLiturgico(itens) {
 }
 
 function obterSabadoBVM(t, mesNum, dia) {
-    if (t >= anoState.iAdv.getTime() && t < anoState.epochNatal) return { s: "Is 45. Rorate, cæli, desuper", l: "/2025/06/missa-rorate-miss-de-sancta-maria-in.html" };
-    if ((mesNum === 11 && dia >= 25) || mesNum === 0 || (mesNum === 1 && dia <= 2)) return { s: "Sl 44. Vultum tuum deprecabuntur", l: "/2025/01/liturgia-diaria-11-jan-sancta-maria-in.html" };
-    if (t >= new Date(anoState.ano, 1, 3).getTime() && t < anoState.epochQuaSanta) return { s: "Sedul. Salve, sancta parens (s/ Aleluia)", l: "/2026/04/sabado-de-nossa-senhora-iii.html" };
-    if (t >= anoState.epochPascoa && t < anoState.epochPentecostes) return { s: "Sedul. Salve, sancta parens (c/ Aleluia)", l: "/2025/07/missa-comum-das-festas-da-bem.html" };
-    return { s: "Sedul. Salve, sancta parens (s/ Aleluia)", l: "/2024/09/missa-salve-commune-festorum-b-mari.html" };
+    if (t >= anoState.iAdv.getTime() && t < anoState.epochNatal) return { s: "Is 45. Rorate, cæli, desuper... Is 7,10-15 • Lc 1,26-38", l: "/2025/06/missa-rorate-miss-de-sancta-maria-in.html" };
+    if ((mesNum === 11 && dia >= 25) || mesNum === 0 || (mesNum === 1 && dia <= 2)) return { s: "Sl 44. Vultum tuum deprecabuntur... Tt 3,4-7 • Lc 2,15-20", l: "/2025/01/liturgia-diaria-11-jan-sancta-maria-in.html" };
+    if (t >= new Date(anoState.ano, 1, 3).getTime() && t < anoState.epochQuaSanta) return { s: "Sedul. Salve, sancta parens... Eclo 24,14-16 • Lc 11,27-28", l: "/2026/04/sabado-de-nossa-senhora-iii.html" };
+    if (t >= anoState.epochPascoa && t < anoState.epochPentecostes) return { s: "Sedul. Salve, sancta parens... Eclo 24,14-16 • Jo 19,25-27", l: "/2025/07/missa-comum-das-festas-da-bem.html" };
+    return { s: "Sedul. Salve, sancta parens... Eclo 24,14-16 • Lc 11,27-28", l: "/2024/09/missa-salve-commune-festorum-b-mari.html" };
 }
 
 function getDiaLiturgicoCache(ano, mesNum, dia) {
