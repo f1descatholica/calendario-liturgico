@@ -1160,9 +1160,9 @@ const SANTOS_FIXOS = {
   "6-22":[{
       t:"S. Paulino, bispo e confessor",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
-      s:"Eclo 45. Statuit ei Dominus testamentum pacis... 2 Co 8,9-15 • Lc 12,32-34",
-      l:"/",
-      p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.CONF_PONT }
+      s:"Sl 131. Sacerdotes tui, Domine... 2 Co 8,9-15 • Lc 12,32-34",
+      l:"/2026/06/22-junho-sao-paulino-de-nola-bispo-e.html",
+      p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
 "6-23":[{
       t:"Vigília da Natividade de S. João Batista",
