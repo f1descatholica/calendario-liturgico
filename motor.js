@@ -3041,7 +3041,7 @@ function calcularDiaLiturgico(itens) {
             p.numCom = numCom++;
             if (!ultimoEvangelho) {
                 const isDomVigFeria = (p.item.tipo === TIPO.DOMINGO) || (p.item.tipo === TIPO.FERIA && p.item.prec >= PREC.FERIA_MAIOR) || (p.item.tipo === TIPO.VIGILIA);
-                const isFestaPropria = (p.item.tipo === TIPO.FESTA && p.item.p && (p.item.p.comum === COMUM.PROPRIA || p.item.p.comum === "Missa Própria"));
+                const isFestaPropria = (p.item.tipo === TIPO.FESTA && p.item.p && p.item.p.comum === COMUM.PROPRIA);
                 
                 if (isDomVigFeria || isFestaPropria) {
                     ultimoEvangelho = p.item.t;
