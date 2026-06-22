@@ -500,10 +500,10 @@ const SANTOS_FIXOS = {
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: COMUM.DOCT, orProprias: true }
   }, {
       t:"Vigília de S. Matias, apóstolo",
-      rito:RITO.SIMPLEX, prec:PREC.VIGILIA_COMUM,
+      rito:null, prec:PREC.VIGILIA_COMUM,
       s:"Sl 51. Ego autem sicut oliva fructifera... Eclo 44,25-27; 45,2-4; 45,6-9 • Jo 15,12-16",
       l:"/",
-      p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: "Vigília Apostolorum" }
+      p: { cor: COR.ROXA, gloria: false, credo: false, _gradual: "gradual", prefacio: PREF.COMUM, comum: "Missa da Vigília" }
   }],
   "2-24":[{
       t:"S. Matias, apóstolo",
@@ -1166,10 +1166,10 @@ const SANTOS_FIXOS = {
   }],
 "6-23":[{
       t:"Vigília da Natividade de S. João Batista",
-      rito:RITO.SEMIDUPLEX, prec:PREC.VIGILIA_COMUM,
+      rito:RITO.SIMPLEX, prec:PREC.VIGILIA_COMUM,
       s:"Lc 1. Ne timeas Zacharia... Jr 1,4-10 • Lc 1,5-17",
       l:"/2025/06/23-junho-vigilia-da-natividade-de-s.html",
-      p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
+      p: { cor: COR.ROXA, gloria: false, credo: false, _gradual: "gradual", prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
   "6-24":[{
       t: "Natividade de S. João Batista (com Oitava)",
@@ -1225,10 +1225,10 @@ const SANTOS_FIXOS = {
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }, {
       t:"Vigília dos Ss. Pedro e Paulo",
-      rito:RITO.SEMIDUPLEX, prec:PREC.VIGILIA_COMUM,
+      rito:RITO.SIMPLEX, prec:PREC.VIGILIA_COMUM,
       s:"Jo 21. Dicit Dominus Petro... At 3,1-10 • Jo 21,15-19",
       l:"/",
-      p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
+      p: { cor: COR.ROXA, gloria: false, credo: false, _gradual: "gradual", prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }, {
       t:"Na Oitava de S. João Batista",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
@@ -1462,10 +1462,10 @@ const SANTOS_FIXOS = {
   }],
   "7-24":[{
       t:"Vigília de S. Tiago Maior, apóstolo",
-      rito:RITO.SEMIDUPLEX, prec:PREC.VIGILIA_COMUM,
+      rito:null, prec:PREC.VIGILIA_COMUM,
       s:"Sl 51. Ego autem sicut oliva fructifera in domo Domini... 1 Co 4,9-14 • Jo 15,12-16",
       l:"/2025/07/24-julho-vigilia-de-s-tiago-apostolo.html",
-      p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
+      p: { cor: COR.ROXA, gloria: false, credo: false, _gradual: "gradual", prefacio: PREF.COMUM, comum: "Missa da Vigília" }
   }, {
       t:"S. Cristina, virgem e mártir",
       rito:RITO.SEMIDUPLEX, prec:PREC.FESTA_SEMIDUPLEX,
@@ -1614,10 +1614,10 @@ const SANTOS_FIXOS = {
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.CONF_NPON }
   }, {
       t:"Vigília de S. Lourenço",
-      rito:RITO.SEMIDUPLEX, prec:PREC.VIGILIA_COMUM,
+      rito:null, prec:PREC.VIGILIA_COMUM,
       s:"Sl 111. Dispersit, dedit pauperibus... Eclo 51,1-8; 12 • Mt 16,24-27",
       l:"/2025/08/09-ago-vigilia-de-s-lourenco.html",
-      p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
+      p: { cor: COR.ROXA, gloria: false, credo: false, _gradual: "gradual", prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }, {
       t:"S. Romão, mártir",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
@@ -1658,7 +1658,7 @@ const SANTOS_FIXOS = {
       rito:RITO.SEMIDUPLEX, prec:PREC.VIGILIA_MAIOR,
       s:"Sl 44. Vultum tuum deprecabuntur omnes divites plebis... Eclo 24,23-31 • Lc 11,27-28",
       l:"/2025/08/14-ago-vigilia-de-nossa-senhora-da.html",
-      p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
+      p: { cor: COR.ROXA, gloria: false, credo: false, _gradual: "gradual", prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
   "8-15":[{
       t:"Assunção da Bem-Aventurada Virgem Maria (com Oitava)",
@@ -1748,10 +1748,10 @@ const SANTOS_FIXOS = {
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }, {
       t:"Vigília de S. Bartolomeu, apóstolo",
-      rito:RITO.SIMPLEX, prec:PREC.VIGILIA_COMUM,
+      rito:null, prec:PREC.VIGILIA_COMUM,
       s:"Sl 51. Ego autem sicut oliva... Eclo 44,25-27; 45,2-4; 6-9 • Jo 15,12-16",
       l:"/",
-      p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
+      p: { cor: COR.ROXA, gloria: false, credo: false, _gradual: "gradual", prefacio: PREF.COMUM, comum: "Missa da Vigília" }
   }],
   "8-24":[{
       t:"S. Bartolomeu, apóstolo",
@@ -1944,10 +1944,10 @@ const SANTOS_FIXOS = {
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }, {
       t:"Vigília de S. Mateus, apóstolo e evang.",
-      rito:RITO.SIMPLEX, prec:PREC.VIGILIA_COMUM,
+      rito:null, prec:PREC.VIGILIA_COMUM,
       s:"Sl 51. Ego autem sicut oliva... Ez 1,10-14 • Mt 9,9-13",
       l:"/",
-      p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
+      p: { cor: COR.ROXA, gloria: false, credo: false, _gradual: "gradual", prefacio: PREF.COMUM, comum: "Missa da Vigília" }
   }],
   "9-21":[{
       t:"S. Mateus, apóstolo e evangelista",
@@ -2207,10 +2207,10 @@ const SANTOS_FIXOS = {
   }],
   "10-27":[{
       t:"Vigília de Ss. Simão e Judas Tadeu, apóstolos",
-      rito:RITO.SIMPLEX, prec:PREC.VIGILIA_COMUM,
+      rito:null, prec:PREC.VIGILIA_COMUM,
       s:"Sl 78. Intret in conspectu tuo Domine... 1 Co 4,9-14 • Jo 15,1-7",
       l:"/",
-      p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
+      p: { cor: COR.ROXA, gloria: false, credo: false, _gradual: "gradual", prefacio: PREF.COMUM, comum: "Missa da Vigília" }
   }],
   "10-28":[{
       t:"S. Simão e S. Judas Tadeu, apóstolos",
@@ -2221,10 +2221,10 @@ const SANTOS_FIXOS = {
   }],
   "10-31":[{
       t:"Vigília de Todos os Santos",
-      rito:RITO.SIMPLEX, prec:PREC.VIGILIA_COMUM,
+      rito:null, prec:PREC.VIGILIA_COMUM,
       s:"Sap 3. Judicant sancti gentes et dominantur populis... Ap 5,11-14 • Lc 6,17-23",
       l:"/",
-      p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
+      p: { cor: COR.ROXA, gloria: false, credo: false, _gradual: "gradual", prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
 
   // =========================================================
@@ -2451,10 +2451,10 @@ const SANTOS_FIXOS = {
   }],
   "11-29":[{
       t:"Vigília de Santo André",
-      rito:RITO.SIMPLEX, prec:PREC.VIGILIA_COMUM,
+      rito:null, prec:PREC.VIGILIA_COMUM,
       s:"Mt 4. Dominus secus mare Galilææ... Rm 10,10-18 • Jo 1,35-51",
       l:"/2025/11/29-nov-vigilia-de-s-andre.html",
-      p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
+      p: { cor: COR.ROXA, gloria: false, credo: false, _gradual: "gradual", prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }, {
       t:"S. Saturnino, mártir",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
@@ -2606,10 +2606,10 @@ const SANTOS_FIXOS = {
   }],
   "12-20":[{
       t:"Vigília de S. Tomé, apóstolo",
-      rito:RITO.SIMPLEX, prec:PREC.VIGILIA_COMUM,
+      rito:null, prec:PREC.VIGILIA_COMUM,
       s:"Sl 51. Ego autem sicut oliva... Ef 2,19-22 • Jo 14,1-7",
       l:"/",
-      p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
+      p: { cor: COR.ROXA, gloria: false, credo: false, _gradual: "gradual", prefacio: PREF.COMUM, comum: "Missa da Vigília" }
   }],
   "12-21":[{
       t:"S. Tomé, apóstolo",
