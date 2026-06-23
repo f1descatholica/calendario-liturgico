@@ -273,7 +273,7 @@ const SANTOS_FIXOS = {
       l:"/2025/01/liturgia-diaria-22-jan-ss-vicente-e.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_N_1, orProprias: true }
   }],
-"1-23":[{
+  "1-23":[{
       t:"S. Raimundo de Penaforte, confessor",
       rito:RITO.SEMIDUPLEX, prec:PREC.FESTA_SEMIDUPLEX,
       s:"Sl 36. Os justi meditábitur sapiéntiam... Eclo 31,8-11 • Lc 12,35-40",
@@ -293,7 +293,7 @@ const SANTOS_FIXOS = {
       l:"/2025/01/liturgia-diaria-24-jan-sao-timoteo.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_1_PONT, orProprias: true }
   }],
-"1-25":[{
+  "1-25":[{
       t:"Conversão de S. Paulo Apóstolo",
       isPedroPaulo:true,
       rito:RITO.DUPLEX_MAJ, prec:PREC.FESTA_DUPLEX_MAJ,
@@ -842,7 +842,7 @@ const SANTOS_FIXOS = {
       l:"/2025/05/09-maio-sao-gregorio-nazianzeno-bispo.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: COMUM.DOCT, orProprias: true, observacao: "Epístola própria" }
   }],
-"5-10":[{
+  "5-10":[{
       t:"S. Antonino, bispo e confessor",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Eclo 45. Statuit ei Dominus testamentum pacis... Eclo 44,16-27; 45,3-20 • Mt 25,14-23",
@@ -910,7 +910,7 @@ const SANTOS_FIXOS = {
       l:"/2025/05/18-maio-s-venancio-martir.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_1_TP, orProprias: true }
   }],
-"5-19":[{
+  "5-19":[{
       t:"S. Pedro Celestino, papa e confessor",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Jo 21. Si díligis me... 1 Pd 5,1-4; 5,10-11 • Mt 16,13-19",
@@ -1135,13 +1135,13 @@ const SANTOS_FIXOS = {
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Sl 44. Dilexisti justitiam et odisti iniquitatem... 2 Co 10,17-18; 11,1-2 • Mt 25,1-13",
       l:"/2026/06/19-junho-s-juliana-falconieri-virgem.html",
-      p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.VIRG_3 }
+      p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.VIRG_1_3 }
   }, {
       t:"Ss. Gervásio e Protásio, mártires",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Sl 84. Loquétur Dóminus... 1 Pd 4,13-19 • Lc 6,17-23",
       l:"/2026/06/19-junho-ss-gervasio-e-protasio.html",
-      p: { cor: COR.VERMELHA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: "Missa Própria" }
+      p: { cor: COR.VERMELHA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_N }
   }],
   "6-20":[{
       t:"S. Silvério, papa e mártir",
@@ -1164,9 +1164,9 @@ const SANTOS_FIXOS = {
       l:"/2026/06/22-junho-sao-paulino-de-nola-bispo-e.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
-"6-23":[{
+  "6-23":[{
       t:"Vigília da Natividade de S. João Batista",
-      rito:RITO.SIMPLEX, prec:PREC.VIGILIA_COMUM,
+      rito:null, prec:PREC.VIGILIA_COMUM,
       s:"Lc 1. Ne timeas Zacharia... Jr 1,4-10 • Lc 1,5-17",
       l:"/2025/06/23-junho-vigilia-da-natividade-de-s.html",
       p: { cor: COR.ROXA, gloria: false, credo: false, _gradual: "gradual", prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
@@ -1250,7 +1250,7 @@ const SANTOS_FIXOS = {
       l:"/2025/06/24-junho-natividade-de-s-joao-batista.html",
       p: { cor: COR.BRANCA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: "da Festa" }
   }],
-"6-30":[{
+  "6-30":[{
       t:"Comemoração de S. Paulo Apóstolo",
       isPedroPaulo:true,
       rito:RITO.DUPLEX_MAJ, prec:PREC.FESTA_DUPLEX_MAJ,
@@ -1673,6 +1673,12 @@ const SANTOS_FIXOS = {
       s:"Sl 111. Dispersit, dedit pauperibus... Eclo 31,8-11 • Mt 1,1-16",
       l:"/2025/08/16-ago-s-joaquim-confessor-pai-de-nossa.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.BVM, comum: COMUM.PROPRIA }
+  }], {
+      t:"Na Oitava da Assunção de Nossa Senhora",
+      rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
+      s:"Ap 12. Signum magnum apparuit in cælo... Jt 13,22-25; 15,10 • Lc 1,41-50",
+      l:"/2025/08/15-ago-assuncao-de-nossa-senhora.html",
+      p: { cor: COR.BRANCA, gloria: false, credo: false, prefacio: PREF.BVM, comum: "da Festa" }
   }],
   "8-17":[{
       t:"S. Jacinto, confessor",
@@ -1686,12 +1692,18 @@ const SANTOS_FIXOS = {
       s:"Sl 95. Confessio et pulchritudo... 2 Co 9,6-10 • Jo 12,24-26",
       l:"/",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: "da Festa" }
-  }],
-  "8-18":[{
-      t:"Quarto dia na Oitava da Assunção",
+  }], {
+      t:"Na Oitava da Assunção de Nossa Senhora",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"Ap 12. Signum magnum apparuit in cælo... Jt 13,22-25; 15,10 • Lc 1,41-50",
-      l:"/2025/08/15-ago-assuncao-de-nossa-senhora",
+      l:"/2025/08/15-ago-assuncao-de-nossa-senhora.html",
+      p: { cor: COR.BRANCA, gloria: false, credo: false, prefacio: PREF.BVM, comum: "da Festa" }
+  }],
+  "8-18":[{
+      t:"Na Oitava da Assunção de Nossa Senhora",
+      rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
+      s:"Ap 12. Signum magnum apparuit in cælo... Jt 13,22-25; 15,10 • Lc 1,41-50",
+      l:"/2025/08/15-ago-assuncao-de-nossa-senhora.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.BVM, comum: "da Festa" }
   }, {
       t:"S. Agapito, mártir",
@@ -1706,6 +1718,12 @@ const SANTOS_FIXOS = {
       s:"Sl 36. Os justi meditabitur sapientiam... Eclo 31,8-11 • Mt 11,25-30",
       l:"/2025/08/19-ago-s-joao-eudes-confessor.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.BVM, comum: COMUM.PROPRIA }
+  }], {
+      t:"Na Oitava da Assunção de Nossa Senhora",
+      rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
+      s:"Ap 12. Signum magnum apparuit in cælo... Jt 13,22-25; 15,10 • Lc 1,41-50",
+      l:"/2025/08/15-ago-assuncao-de-nossa-senhora.html",
+      p: { cor: COR.BRANCA, gloria: false, credo: false, prefacio: PREF.BVM, comum: "da Festa" }
   }],
   "8-20":[{
       t:"S. Bernardo, abade e doutor",
@@ -1713,6 +1731,12 @@ const SANTOS_FIXOS = {
       s:"Eclo 15. In medio Ecclesiæ aperuit os ejus... Eclo 39,6-14 • Mt 5,13-19",
       l:"/2025/08/20-ago-s-bernardo-confessor-e-doutor.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.BVM, comum: COMUM.DOCT }
+  }], {
+      t:"Na Oitava da Assunção de Nossa Senhora",
+      rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
+      s:"Ap 12. Signum magnum apparuit in cælo... Jt 13,22-25; 15,10 • Lc 1,41-50",
+      l:"/2025/08/15-ago-assuncao-de-nossa-senhora.html",
+      p: { cor: COR.BRANCA, gloria: false, credo: false, prefacio: PREF.BVM, comum: "da Festa" }
   }],
   "8-21":[{
       t:"S. Joana Francisca de Chantal, viúva",
@@ -1720,6 +1744,12 @@ const SANTOS_FIXOS = {
       s:"Sl 118. Cognovi, Domine, quia æquitas judicia tua... Pr 31,10-31 • Mt 13,44-52",
       l:"/2025/08/21-ago-s-joana-francisca-de-chantal.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.BVM, comum: COMUM.PROPRIA }
+  }], {
+      t:"Na Oitava da Assunção de Nossa Senhora",
+      rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
+      s:"Ap 12. Signum magnum apparuit in cælo... Jt 13,22-25; 15,10 • Lc 1,41-50",
+      l:"/2025/08/15-ago-assuncao-de-nossa-senhora.html",
+      p: { cor: COR.BRANCA, gloria: false, credo: false, prefacio: PREF.BVM, comum: "da Festa" }
   }],
   "8-22":[{
       t:"Imaculado Coração de Maria",
@@ -1731,7 +1761,7 @@ const SANTOS_FIXOS = {
       t:"Oitava da Assunção de Nossa Senhora",
       rito:RITO.SIMPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"Ap 12. Signum magnum apparuit in cælo... Jt 13,22-25; 15,10 • Lc 1,41-50",
-      l:"/",
+      l:"/2025/08/15-ago-assuncao-de-nossa-senhora.html",
       p: { cor: COR.BRANCA, gloria: false, credo: false, prefacio: PREF.BVM, comum: "da Festa" }
   }, {
       t:"Ss. Timóteo, Hipólito e Sinforiano, mártires",
@@ -2845,7 +2875,7 @@ function prepararMotorLiturgico(anoParaCalcular) {
     const introitDP = {2:"Sl 32. Misericordia Domini plena est terra", 3:"Sl 65. Jubilate Deo omnis terra", 4:"Sl 97. Cantate Domino canticum novum", 5:"Is 48. Vocem jucunditatis annuntiate"};
     const leiturasDP = {2:"1 Pd 2,21-25 • Jo 10,11-16", 3:"1 Pd 2,11-19 • Jo 16,16-22", 4:"Tg 1,17-21 • Jo 16,5-14", 5:"Tg 1,22-27 • Jo 16,23-30"};
     for (let i = 2; i <= 5; i++) addM(dP(i * 7), {t:`${nomesDP[i]} Domingo depois da Páscoa`, rito:RITO.SEMIDUPLEX, prec:PREC.DOMINGO_COMUM, s:introitDP[i] + "... " + leiturasDP[i], l:linksDP[i], dom:true, p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.PASCAL }});
-    addM(dP(17), {t:"Patrocínio de S. José (com Oitava)", rito:RITO.DUPLEX_I, prec:PREC.FESTA_I_CLASSE, s:"Sl 32. Adjutor, et protector noster est Dominus... Gn 49,22-26 • Lc 3,21-23", l:"/2026/04/patrocinio-de-s-jose-protecao-universal.html", p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.SAO_JOSE }});
+    addM(dP(17), {t:"Patrocínio de S. José (com Oitava)", rito:RITO.DUPLEX_I, prec:PREC.FESTA_I_CLASSE, dom:true, s:"Sl 32. Adjutor, et protector noster est Dominus... Gn 49,22-26 • Lc 3,21-23", l:"/2026/04/patrocinio-de-s-jose-protecao-universal.html", p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.SAO_JOSE }});
     [18,19,20,21,22,23].forEach(n => addM(dP(n), {t:"Na Oitava do Patrocínio de S. José", rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM, s:"Sl 32. Adjutor, et protector noster est Dominus... Gn 49,22-26 • Lc 3,21-23", l:"/", p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.SAO_JOSE }}));
     addM(dP(24), {t:"Dia Oitavo do Patrocínio de S. José", isOitava:true, rito:RITO.DUPLEX_MAJ, prec:PREC.DIA_OITAVA_COMUM, s:"Sl 32. Adjutor, et protector noster est Dominus... Gn 49,22-26 • Lc 3,21-23", l:"/", p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.SAO_JOSE }});
     addM(dP(36), {t:"Litanias Menores (Rogações)", isLitania: true, prec:PREC.FERIA_MAIOR, s:"Sl 17. Exaudivit de templo sancto suo... Tg 5,16-20 • Lc 11,5-13", l:"/2026/05/litanias-menores-dias-de-rogacoes.html", p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.PASCAL, communicantes: "pascal", observacao: "Litanias na Procissão" }});
@@ -2864,7 +2894,7 @@ function prepararMotorLiturgico(anoParaCalcular) {
     addM(dP(53), {t:"Quinta-feira da Oitava de Pentecostes", rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM_PRIV_1_ORDEM, s:"Sb 1. Spiritus Domini replevit orbem terrarum... At 8,5-8; 8,14-17 • Lc 9,1-6", l:"/2025/06/12-junho-5a-feira-de-pentecostes.html", p: { cor: COR.VERMELHA, gloria: true, credo: true, sequencia: SEQ.VENI, prefacio: PREF.PENTECOSTES, communicantes: "pentecostes", hancIgitur: true }});
     addM(dP(54), {t:"Sexta-feira das Têmporas de Pentecostes", rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM_PRIV_1_ORDEM, s:"Sl 70. Repleatur os meum laude tua... Jl 2,23-24; 2,26-27 • Lc 5,17-26", l:"/2025/06/13junho-6a-feira-das-temporas-de.html", p: { cor: COR.VERMELHA, gloria: true, credo: true, sequencia: SEQ.VENI, prefacio: PREF.PENTECOSTES, communicantes: "pentecostes", hancIgitur: true, observacao: "Têmporas" }});
     addM(dP(55), {t:"Sábado das Têmporas de Pentecostes", rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM_PRIV_1_ORDEM, s:"Rm 5. Caritas Dei diffusa est in cordibus nostris... Jl 2,28-32 | Lv 23,9-11; 15-17; 21 | Dt 26,1-11 | Lv 26,3-12 | Dn 3,47-51 | Rm 5,1-5 • Lc 4,38-44", l:"/2025/06/14-junho-sabado-das-temporas-de.html", p: { cor: COR.VERMELHA, gloria: true, credo: true, sequencia: SEQ.VENI, prefacio: PREF.PENTECOSTES, communicantes: "pentecostes", hancIgitur: true, observacao: "Têmporas · 6 Lições" }});
-    addM(dP(56), {t:"Festa da Santíssima Trindade", rito:RITO.DUPLEX_I, prec:PREC.FESTA_I_CLASSE, s:"Tb 12. Benedicta sit sancta Trinitas... Rm 11,33-36 • Mt 28,18-20", l:"/2025/06/15-junho-festa-da-santissima-trindade.html", p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.TRINDADE }});
+    addM(dP(56), {t:"Festa da Santíssima Trindade", rito:RITO.DUPLEX_I, prec:PREC.FESTA_I_CLASSE, dom:true, s:"Tb 12. Benedicta sit sancta Trinitas... Rm 11,33-36 • Mt 28,18-20", l:"/2025/06/15-junho-festa-da-santissima-trindade.html", p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.TRINDADE }});
     addM(dP(56), {t:"I Domingo depois de Pentecostes", rito:RITO.SEMIDUPLEX, prec:PREC.DOMINGO_COMUM, s:"Sl 12. Dómine, in tua misericórdia sperávi... 1 Jo 4,8-21 • Lc 6,36-42", l:"/2025/06/15-junho-i-domingo-depois-de-pentecostes.html", dom:true, p: { cor: COR.VERDE, gloria: true, credo: true, prefacio: PREF.TRINDADE }});
     addM(dP(60), {t:"Festa de Corpus Christi (com Oitava)", rito:RITO.DUPLEX_I, prec:PREC.FESTA_I_CLASSE, s:"Sl 80. Cibavit eos ex adipe frumenti... 1 Co 11,23-29 • Jo 6,55-58", l:"/2025/06/19-junho-festa-de-corpus-christi.html", p: { cor: COR.BRANCA, gloria: true, credo: true, sequencia: SEQ.LAUDA, prefacio: PREF.NATAL }});
     [61, 62, 64, 65, 66].forEach(n => addM(dP(n), {t:"Na Oitava de Corpus Christi", rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM_PRIV_2_ORDEM, s:"Sl 80. Cibavit eos ex adipe frumenti... 1 Co 11,23-29 • Jo 6,55-58", l:"/2025/06/19-junho-festa-de-corpus-christi.html", p: { cor: COR.BRANCA, gloria: true, credo: true, sequencia: SEQ.LAUDA, prefacio: PREF.NATAL }}));
@@ -2885,14 +2915,14 @@ function prepararMotorLiturgico(anoParaCalcular) {
     const domingosPentecostes = [{n: "IV", d: 3}, {n: "V", d: 4}, {n: "VI", d: 5}, {n: "VII", d: 6}, {n: "VIII", d: 7}, {n: "IX", d: 8}, {n: "X", d: 9}, {n: "XI", d: 10}, {n: "XII", d: 11}, {n: "XIII", d: 12}, {n: "XIV", d: 13}, {n: "XV", d: 14}, {n: "XVI", d: 15}, {n: "XVII", d: 16}, {n: "XVIII", d: 17}, {n: "XIX", d: 18}, {n: "XX", d: 19}, {n: "XXI", d: 20}, {n: "XXII", d: 21}, {n: "XXIII", d: 22}, {n: "XXIV", d: 23}, {n: "XXV", d: 24}, {n: "XXVI", d: 25}, {n: "XXVII", d: 26}, {n: "XXVIII", d: 27}];
     for (const dom of domingosPentecostes) {
         const domP = dP(56 + dom.d * 7);
-        if (domP.getTime() >= anoState.ultimDom.getTime() || domP.getTime() === anoState.cristoRei.getTime()) break;
+        if (domP.getTime() > anoState.ultimDom.getTime() || domP.getTime() === anoState.cristoRei.getTime()) break;
         let leituraDia = leiturasP[dom.n];
         if (dom.d >= 22 && indiceRetomada < 4) { leituraDia = leiturasRetomadasEpi[indiceRetomada]; indiceRetomada++; }
         else if (!leituraDia) leituraDia = "Cl 1,9-14 • Mt 24,15-35";
         addM(domP, {t:`${dom.n} Domingo depois de Pentecostes`, rito:RITO.SEMIDUPLEX, prec:PREC.DOMINGO_COMUM, s:(introitosPentecostesMap[dom.n] || "") + "... " + leituraDia, l:linksP[dom.n] || "/", dom:true, p: { cor: COR.VERDE, gloria: true, credo: true, prefacio: PREF.TRINDADE }});
     }
 
-    addM(anoState.cristoRei, {t:"Festa do Cristo Rei", rito:RITO.DUPLEX_I, prec:PREC.FESTA_I_CLASSE, s:"Ap 5. Dignus est Agnus qui occisus est... Cl 1,12-20 • Jo 18,33-37", l:"/2025/10/26-out-festa-de-cristo-rei.html", p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.CRISTO_REI }});
+    addM(anoState.cristoRei, {t:"Festa do Cristo Rei", rito:RITO.DUPLEX_I, prec:PREC.FESTA_I_CLASSE, dom:true, s:"Ap 5. Dignus est Agnus qui occisus est... Cl 1,12-20 • Jo 18,33-37", l:"/2025/10/26-out-festa-de-cristo-rei.html", p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.CRISTO_REI }});
 
     let domIIEpifania = new Date(anoState.ano, 0, 14);
     while (domIIEpifania.getDay() !== 0) domIIEpifania.setDate(domIIEpifania.getDate() + 1);
@@ -2922,7 +2952,7 @@ function prepararMotorLiturgico(anoParaCalcular) {
     let achouNome = false;
     for (let d = 2; d <= 5; d++) {
         if (new Date(anoState.ano, 0, d).getDay() === 0) {
-            addM(new Date(anoState.ano, 0, d), {t:"Festa do Santíssimo Nome de Jesus", rito:RITO.DUPLEX_II, prec:PREC.FESTA_II_CLASSE, s:"Fl 2. In nomine Jesu omne genu flectatur... At 4,8-12 • Lc 2,21", l:"/2025/01/liturgia-diaria-05-jan-santissimo-nome.html", p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.NATAL }});
+            addM(new Date(anoState.ano, 0, d), {t:"Festa do Santíssimo Nome de Jesus", rito:RITO.DUPLEX_II, prec:PREC.FESTA_II_CLASSE, dom:true, s:"Fl 2. In nomine Jesu omne genu flectatur... At 4,8-12 • Lc 2,21", l:"/2025/01/liturgia-diaria-05-jan-santissimo-nome.html", p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.NATAL }});
             achouNome = true; break;
         }
     }
@@ -2931,7 +2961,7 @@ function prepararMotorLiturgico(anoParaCalcular) {
     let achouDomEpi = false;
     for (let d = 7; d <= 12; d++) {
         if (new Date(anoState.ano, 0, d).getDay() === 0) {
-            addM(new Date(anoState.ano, 0, d), {t:"Festa da Sagrada Família", rito:RITO.DUPLEX_II, prec:PREC.FESTA_II_CLASSE, s:"Pr 23. Exsultat gaudio pater justi... Cl 3,12-17 • Lc 2,42-52", l:"/2025/01/liturgia-diaria-12-jan-festa-da-sagrada.html", p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.EPIFANIA, communicantes: "epifania" }});
+            addM(new Date(anoState.ano, 0, d), {t:"Festa da Sagrada Família", rito:RITO.DUPLEX_II, prec:PREC.FESTA_II_CLASSE, dom:true, s:"Pr 23. Exsultat gaudio pater justi... Cl 3,12-17 • Lc 2,42-52", l:"/2025/01/liturgia-diaria-12-jan-festa-da-sagrada.html", p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.EPIFANIA, communicantes: "epifania" }});
             achouDomEpi = true; break;
         }
     }
@@ -3002,17 +3032,19 @@ function calcularDiaLiturgico(itens) {
                 if (!isFeriaMaior && item.prec < PREC.FESTA_II_CLASSE && iTipo !== TIPO.DOMINGO) omitido = true;
                 if (iTipo === TIPO.OITAVA && item.prec <= PREC.INFRA_OCTAVAM) omitido = true;
             } else if (principal.prec === PREC.INFRA_OCTAVAM_PRIV_1_ORDEM) {
-                if (!isFeriaMaior && iTipo !== TIPO.DOMINGO) { if (iTipo === TIPO.OITAVA || item.prec === PREC.SABADO_BVM) omitido = true; }
-            } else if (principal.prec === PREC.DOMINGO_II_CLASSE) {
+				// [OK] Simples NÃO é omitido aqui (Bloco 2/3 Protocolo Rubricas: Qua-Sáb Pentecostes comemoram Simples)
+				if (!isFeriaMaior && iTipo !== TIPO.DOMINGO) { if (iTipo === TIPO.OITAVA || item.prec === PREC.SABADO_BVM) omitido = true; }
+			} else if (principal.prec === PREC.DOMINGO_II_CLASSE) {
                 if (!isFeriaMaior && item.prec <= PREC.INFRA_OCTAVAM && iTipo !== TIPO.DOMINGO) omitido = true;
                 if (item.prec === PREC.SABADO_BVM) omitido = true;
             } else if (principal.prec === PREC.INFRA_OCTAVAM_PRIV_2_ORDEM) {
                 if (!isFeriaMaior && item.prec === PREC.INFRA_OCTAVAM && iTipo !== TIPO.DOMINGO) omitido = true;
                 if (item.prec === PREC.SABADO_BVM) omitido = true;
             } else if (principal.prec === PREC.INFRA_OCTAVAM_PRIV_3_ORDEM) {
-                if (item.prec === PREC.FESTA_SEMIDUPLEX && iTipo !== TIPO.DOMINGO) omitido = true;
-                if (item.prec === PREC.SABADO_BVM) omitido = true;
-            } else if (principal.prec >= PREC.FESTA_SEMIDUPLEX) {
+				if (item.prec === PREC.FESTA_SEMIDUPLEX && iTipo !== TIPO.DOMINGO) omitido = true;
+				if (item.prec === PREC.INFRA_OCTAVAM && iTipo !== TIPO.DOMINGO) omitido = true;
+				if (item.prec === PREC.SABADO_BVM) omitido = true;
+			} else if (principal.prec >= PREC.FESTA_SEMIDUPLEX) {
                 if (item.prec === PREC.SABADO_BVM) omitido = true;
             }
             if (item.prec === PREC.FERIA_COMUM) omitido = true;
@@ -3073,7 +3105,7 @@ function getDiaLiturgicoCache(ano, mesNum, dia) {
     const emCorpus = t >= anoState.epochCorpus && t <= anoState.epochFimCorpus;
     const emCoracao = t >= anoState.epochCoracao && t <= anoState.epochFimCoracao;
     if (ds === 6 && !emTempoEspecial && !emPentec && !emAscensao && !emCorpus && !emCoracao) {
-        if (!itens.some(i => i.prec >= PREC.FESTA_SEMIDUPLEX)) {
+		if (!itens.some(i => i.prec >= PREC.INFRA_OCTAVAM)) {
             const bvmInfo = obterSabadoBVM(t, mesNum, dia);
             itens.unshift({ t: "Sábado de Nossa Senhora", rito: RITO.SIMPLEX, prec: PREC.SABADO_BVM, tipo: TIPO.SABADO_BVM, s: bvmInfo.s, l: bvmInfo.l, p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.BVM, comum: COMUM.BVM } });
         }
@@ -3162,10 +3194,11 @@ function badgeFeriaAnonima(t) {
 
 function calcularRubricas(base, t, ano, prec) {
     if (!base || typeof base === "string") return base;
+    const prefacioBase = base.prefacio;
     let r = aplicarHerancaOitava(Object.assign({}, base), t, ano);
     const emSeptuagesima = t >= anoState.epochSeptuagesima && t < anoState.epochSabadoSanto, emCinzas = t >= anoState.epochCinzas && t < anoState.epochSabadoSanto, emPascoa = t >= anoState.epochPascoa && t < anoState.epochFimOitPent, emAdvento = t >= anoState.iAdv.getTime() && t < anoState.epochNatal;
-    r._gradual = emSeptuagesima ? (r.tratoproprio ? "trato_proprio" : "trato") : (emAdvento ? "gradual" : (t === dP(48).getTime() ? "trato" : (emPascoa ? "duplo" : "aleluia")));
-    if (!PREFACIOS_PROPRIOS.has(r.prefacio)) {
+    r._gradual = r._gradual || (emSeptuagesima ? (r.tratoproprio ? "trato_proprio" : "trato") : (emAdvento ? "gradual" : (t === dP(48).getTime() ? "trato" : (emPascoa ? "duplo" : "aleluia"))));
+    if (!PREFACIOS_PROPRIOS.has(r.prefacio) && prefacioBase === PREF.COMUM) {
         if (emCinzas) r.prefacio = PREF.QUARESMA; if (emPascoa) r.prefacio = PREF.PASCAL; if (t === anoState.epochAscensao || (t > anoState.epochAscensao && t < dP(48).getTime())) r.prefacio = PREF.ASCENSAO; if (t >= anoState.epochPentecostes && t < anoState.epochFimOitPent) r.prefacio = PREF.PENTECOSTES;
     }
     if ((t >= anoState.epochNatal && t <= new Date(ano, 11, 31).getTime()) || t === new Date(ano, 0, 1).getTime()) r.communicantes = "natal";
