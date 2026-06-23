@@ -1673,7 +1673,7 @@ const SANTOS_FIXOS = {
       s:"Sl 111. Dispersit, dedit pauperibus... Eclo 31,8-11 • Mt 1,1-16",
       l:"/2025/08/16-ago-s-joaquim-confessor-pai-de-nossa.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.BVM, comum: COMUM.PROPRIA }
-  }], {
+  }, {
       t:"Na Oitava da Assunção de Nossa Senhora",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"Ap 12. Signum magnum apparuit in cælo... Jt 13,22-25; 15,10 • Lc 1,41-50",
@@ -1692,7 +1692,7 @@ const SANTOS_FIXOS = {
       s:"Sl 95. Confessio et pulchritudo... 2 Co 9,6-10 • Jo 12,24-26",
       l:"/",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: "da Festa" }
-  }], {
+  }, {
       t:"Na Oitava da Assunção de Nossa Senhora",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"Ap 12. Signum magnum apparuit in cælo... Jt 13,22-25; 15,10 • Lc 1,41-50",
@@ -1718,7 +1718,7 @@ const SANTOS_FIXOS = {
       s:"Sl 36. Os justi meditabitur sapientiam... Eclo 31,8-11 • Mt 11,25-30",
       l:"/2025/08/19-ago-s-joao-eudes-confessor.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.BVM, comum: COMUM.PROPRIA }
-  }], {
+  }, {
       t:"Na Oitava da Assunção de Nossa Senhora",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"Ap 12. Signum magnum apparuit in cælo... Jt 13,22-25; 15,10 • Lc 1,41-50",
@@ -1731,7 +1731,7 @@ const SANTOS_FIXOS = {
       s:"Eclo 15. In medio Ecclesiæ aperuit os ejus... Eclo 39,6-14 • Mt 5,13-19",
       l:"/2025/08/20-ago-s-bernardo-confessor-e-doutor.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.BVM, comum: COMUM.DOCT }
-  }], {
+  }, {
       t:"Na Oitava da Assunção de Nossa Senhora",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"Ap 12. Signum magnum apparuit in cælo... Jt 13,22-25; 15,10 • Lc 1,41-50",
@@ -1744,7 +1744,7 @@ const SANTOS_FIXOS = {
       s:"Sl 118. Cognovi, Domine, quia æquitas judicia tua... Pr 31,10-31 • Mt 13,44-52",
       l:"/2025/08/21-ago-s-joana-francisca-de-chantal.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.BVM, comum: COMUM.PROPRIA }
-  }], {
+  }, {
       t:"Na Oitava da Assunção de Nossa Senhora",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"Ap 12. Signum magnum apparuit in cælo... Jt 13,22-25; 15,10 • Lc 1,41-50",
