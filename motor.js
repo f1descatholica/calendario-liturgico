@@ -2275,7 +2275,7 @@ const SANTOS_FIXOS = {
       p: { cor: COR.PRETA, gloria: false, credo: false, sequencia: SEQ.DIES_IRAE, prefacio: PREF.DEFUNTOS, comum: COMUM.PROPRIA, observacao: "3 Missas permitidas" }
   }],
   "11-3": [{
-      t:"Terceiro dia na Oitava de Todos os Santos",
+      t:"Na Oitava de Todos os Santos",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"Liturgia. Gaudeamus omnes in Domino... Ap 7,2-12 • Mt 5,1-12",
       l:"/",
@@ -2289,14 +2289,14 @@ const SANTOS_FIXOS = {
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: COMUM.CONF_PONT }
   }],
   "11-5": [{
-      t:"Quinto dia na Oitava de Todos os Santos",
+      t:"Na Oitava de Todos os Santos",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"Liturgia. Gaudeamus omnes in Domino... Ap 7,2-12 • Mt 5,1-12",
       l:"/",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: "da Festa" }
   }],
   "11-6": [{
-      t:"Sexto dia na Oitava de Todos os Santos",
+      t:"Na Oitava de Todos os Santos",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"Liturgia. Gaudeamus omnes in Domino... Ap 7,2-12 • Mt 5,1-12",
       l:"/",
@@ -2309,7 +2309,7 @@ const SANTOS_FIXOS = {
       p: { cor: COR.BRANCA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.CONF_NPON }
   }],
   "11-7": [{
-      t:"Sétimo dia na Oitava de Todos os Santos",
+      t:"Na Oitava de Todos os Santos",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"Liturgia. Gaudeamus omnes in Domino... Ap 7,2-12 • Mt 5,1-12",
       l:"/",
@@ -2559,14 +2559,14 @@ const SANTOS_FIXOS = {
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.BVM, comum: COMUM.PROPRIA }
   }],
   "12-9": [{
-      t:"Segundo dia na Oitava da Imaculada Conceição",
+      t:"Na Oitava da Imaculada Conceição",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"Is 61. Gaudens gaudebo in Domino... Pr 8,22-35 • Lc 1,26-28",
       l:"/2024/12/liturgia-diaria-08122024-imaculada.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.BVM, comum: "da Festa" }
   }],
   "12-10":[{
-      t:"Terceiro dia na Oitava da Imaculada Conceição",
+      t:"Na Oitava da Imaculada Conceição",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"Is 61. Gaudens gaudebo in Domino... Pr 8,22-35 • Lc 1,26-28",
       l:"/2024/12/liturgia-diaria-08122024-imaculada.html", 
@@ -2586,7 +2586,7 @@ const SANTOS_FIXOS = {
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.BVM, comum: COMUM.SUM_PONT }
   }],
   "12-12":[{
-      t:"Quinto dia na Oitava da Imaculada Conceição",
+      t:"Na Oitava da Imaculada Conceição",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"Is 61. Gaudens gaudebo in Domino... Pr 8,22-35 • Lc 1,26-28",
       l:"/2024/12/liturgia-diaria-08122024-imaculada.html",
@@ -2606,7 +2606,7 @@ const SANTOS_FIXOS = {
       p: { cor: COR.VERMELHA, gloria: true, credo: true, prefacio: PREF.BVM, comum: COMUM.PROPRIA }
   }],
   "12-14":[{
-      t:"Sétimo dia na Oitava da Imaculada Conceição",
+      t:"Na Oitava da Imaculada Conceição",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"Is 61. Gaudens gaudebo in Domino... Pr 8,22-35 • Lc 1,26-28",
       l:"/2024/12/liturgia-diaria-08122024-imaculada.html",
@@ -2669,7 +2669,7 @@ const SANTOS_FIXOS = {
       l:"/2025/12/26-dez-s-estevao-protomartir.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: true, prefacio: PREF.NATAL, communicantes: "natal", comum: COMUM.PROPRIA }
   }, {
-      t:"Comemoração da Oitava do Natal",
+      t:"Na Oitava do Natal",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM_PRIV_3_ORDEM,
       s:"Is 9. Puer natus est nobis... Hb 1,1-12 • Jo 1,1-14",
       l:"/",
@@ -2682,7 +2682,7 @@ const SANTOS_FIXOS = {
       l:"/2024/12/liturgia-diaria-27-dez-sao-joao.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.NATAL, communicantes: "natal", comum: COMUM.PROPRIA }
   }, {
-      t:"Comemoração da Oitava do Natal",
+      t:"Na Oitava do Natal",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM_PRIV_3_ORDEM,
       s:"Is 9. Puer natus est nobis... Hb 1,1-12 • Jo 1,1-14",
       l:"/",
@@ -2696,7 +2696,7 @@ const SANTOS_FIXOS = {
       l:"/2024/12/liturgia-diaria-28-dez-os-S.s.html",
       p: { cor: COR.ROXA, gloria: false, credo: true, prefacio: PREF.NATAL, communicantes: "natal", comum: COMUM.PROPRIA }
   }, {
-      t:"Comemoração da Oitava do Natal",
+      t:"Na Oitava do Natal",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM_PRIV_3_ORDEM,
       s:"Is 9. Puer natus est nobis... Hb 1,1-12 • Jo 1,1-14",
       l:"/",
@@ -2709,14 +2709,14 @@ const SANTOS_FIXOS = {
       l:"/2025/12/29-dez-s-tomas-becket-bispo-e-martir.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: true, prefacio: PREF.NATAL, communicantes: "natal", comum: COMUM.PROPRIA }
   }, {
-      t:"Comemoração da Oitava do Natal",
+      t:"Na Oitava do Natal",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM_PRIV_3_ORDEM,
       s:"Is 9. Puer natus est nobis... Hb 1,1-12 • Jo 1,1-14",
       l:"/",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.NATAL, communicantes: "natal" }
   }],
   "12-30":[{
-      t:"Sexto dia na Oitava do Natal",
+      t:"Na Oitava do Natal",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM_PRIV_3_ORDEM,
       s:"Is 9. Puer natus est nobis... Tt 3,4-7 • Lc 2,15-20",
       l:"/2025/12/30-dez-sexto-dia-da-oitava-de-natal.html",
@@ -2729,7 +2729,7 @@ const SANTOS_FIXOS = {
       l:"/2024/12/liturgia-diaria-31-dez-vii-dia-da.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.NATAL, communicantes: "natal", comum: COMUM.PROPRIA }
   }, {
-      t:"Comemoração da Oitava do Natal",
+      t:"Na Oitava do Natal",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM_PRIV_3_ORDEM,
       s:"Is 9. Puer natus est nobis... Hb 1,1-12 • Jo 1,1-14",
       l:"/",
@@ -2765,10 +2765,9 @@ function prepararMotorLiturgico(anoParaCalcular) {
         const itens = SANTOS_FIXOS[key], [mStr, dStr] = key.split('-');
         const mesNum = parseInt(mStr) - 1, dia = parseInt(dStr), dataObj = new Date(anoState.ano, mesNum, dia);
         if (dataObj.getDay() === 0) {
-            const isVigiliaEpifania = (mesNum === 0 && dia === 5);
-            const vigilias = itens.filter(i => (i.prec === PREC.VIGILIA_COMUM || i.prec === PREC.VIGILIA_MAIOR) && !isVigiliaEpifania);
+            const vigilias = itens.filter(i => i.prec === PREC.VIGILIA_COMUM);
             if (vigilias.length > 0) {
-                SANTOS_FIXOS[key] = itens.filter(i => !(i.prec === PREC.VIGILIA_COMUM || i.prec === PREC.VIGILIA_MAIOR) || isVigiliaEpifania);
+                SANTOS_FIXOS[key] = itens.filter(i => i.prec !== PREC.VIGILIA_COMUM);
                 const dataSabado = new Date(anoState.ano, mesNum, dia - 1), tSabado = dataSabado.getTime();
                 if (tSabado !== anoState.epochSabadoSanto && tSabado !== anoState.epochCinzas) {
                     const keySabado = `${dataSabado.getMonth() + 1}-${dataSabado.getDate()}`;
@@ -3048,7 +3047,7 @@ function calcularDiaLiturgico(itens) {
                 if (item.prec === PREC.SABADO_BVM) omitido = true;
             }
             if (item.prec === PREC.FERIA_COMUM) omitido = true;
-            if (iTipo === TIPO.VIGILIA) {
+            if (item.prec === PREC.VIGILIA_COMUM) {
                 if (principal.tipo === TIPO.DOMINGO || principal.prec >= PREC.FESTA_I_CLASSE || principal.prec === PREC.FERIA_PRIVILEGIADA || (principal.tipo === TIPO.OITAVA && principal.prec >= PREC.INFRA_OCTAVAM_PRIV_3_ORDEM)) omitido = true;
             }
             if (ordenados.some(i => i.isPedroPaulo) && item.isPedroPaulo && principal.prec < PREC.FESTA_I_CLASSE) omitido = false;
