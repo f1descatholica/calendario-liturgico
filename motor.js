@@ -1176,7 +1176,7 @@ const SANTOS_FIXOS = {
       rito:RITO.DUPLEX_I, prec:PREC.FESTA_I_CLASSE,
       s:"Is 49. De ventre matris meæ vocavit me Dominus... Is 49,1-3.5-7 • Lc 1,57-68",
       l:"/2025/06/24-junho-natividade-de-s-joao-batista.html",
-      p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
+      p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
  "6-25":[{
       t:"S. Guilherme, abade",
@@ -2755,8 +2755,8 @@ function prepararMotorLiturgico(anoParaCalcular) {
     if (SANTOS_FIXOS["12-28"]) {
         const inocentes = SANTOS_FIXOS["12-28"].find(i => i.t.includes("Inocentes"));
         if (inocentes) {
-            if (dataInocentes.getDay() === 0) { inocentes.p.gloria = true; inocentes.p.cor = COR.VERMELHA; }
-            else { inocentes.p.gloria = false; inocentes.p.cor = COR.ROXA; }
+            if (dataInocentes.getDay() === 0) { inocentes.p.gloria = true; inocentes.p.cor = COR.VERMELHA; inocentes.p.credo = true; }
+            else { inocentes.p.gloria = false; inocentes.p.cor = COR.ROXA; inocentes.p.credo = false; }
         }
     }
 
@@ -2885,7 +2885,7 @@ function prepararMotorLiturgico(anoParaCalcular) {
     [40, 41, 43, 44, 45].forEach(n => addM(dP(n), {t:"Na Oitava da Ascensão", rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM_PRIV_3_ORDEM, s:"At 1. Viri Galilæi quid admiramini... At 1,1-11 • Mc 16,14-20", l:"/2026/05/oitava-da-ascensao-gloria-celeste-e.html", p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.ASCENSAO, communicantes: "ascensao" }}));
     addM(dP(42), {t:"Domingo dentro da Oitava da Ascensão", rito:RITO.SEMIDUPLEX, prec:PREC.DOMINGO_COMUM, s:"Sl 26. Exaudi Domine vocem meam... 1 Pd 4,7-11 • Jo 15,26-27; 16,1-4", l:"/2025/06/01-junho-domingo-depois-da-ascensao.html", dom:true, p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.ASCENSAO, communicantes: "ascensao" }});
     addM(dP(46), {t:"Dia da Oitava da Ascensão", isOitava:true, rito:RITO.DUPLEX_MAJ, prec:PREC.DIA_OITAVA_COMUM, s:"At 1. Viri Galilæi quid admiramini... At 1,1-11 • Mc 16,14-20", l:"/2026/05/oitava-da-ascensao-gloria-celeste-e.html", p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.ASCENSAO, communicantes: "ascensao" }});
-    addM(dP(48), {t:"Vigília de Pentecostes", prec:PREC.VIGILIA_MAIOR, s:"[Missa sem Intróito]... At 19,1-8 • Jo 14,15-21", l:"/2025/06/07-junho-vigilia-de-pentecostes.html", p: { cor: COR.ROXA, gloria: true, credo: false, prefacio: PREF.PENTECOSTES, communicantes: "pentecostes", hancIgitur: true, observacao: "6 Profecias · Bênção da Pia · Litanias · Glória (após Litanias)" }});
+    addM(dP(48), {t:"Vigília de Pentecostes", rito:RITO.SEMIDUPLEX, prec:PREC.VIGILIA_MAIOR, s:"[Missa sem Intróito]... At 19,1-8 • Jo 14,15-21", l:"/2025/06/07-junho-vigilia-de-pentecostes.html", p: { cor: COR.ROXA, gloria: true, credo: false, prefacio: PREF.PENTECOSTES, communicantes: "pentecostes", hancIgitur: true, observacao: "6 Profecias · Bênção da Pia · Litanias · Glória (após Litanias)" }});
     addM(dP(49), {t:"Domingo de Pentecostes (com Oitava)", rito:RITO.DUPLEX_I, prec:PREC.DOMINGO_I_CLASSE, s:"Sb 1. Spiritus Domini replevit orbem terrarum... At 2,1-11 • Jo 14,23-31", l:"/2025/06/08-junho-domingo-de-pentecostes.html", dom:true, p: { cor: COR.VERMELHA, gloria: true, credo: true, sequencia: SEQ.VENI, prefacio: PREF.PENTECOSTES, communicantes: "pentecostes", hancIgitur: true }});
     addM(dP(50), {t:"Segunda-feira da Oitava de Pentecostes", rito:RITO.DUPLEX_I, prec:PREC.FESTA_I_CLASSE, s:"Sl 80. Cibavit eos ex adipe frumenti... At 10,42-48 • Jo 3,16-21", l:"/2025/06/09-junho-2a-feira-de-pentecostes.html", p: { cor: COR.VERMELHA, gloria: true, credo: true, sequencia: SEQ.VENI, prefacio: PREF.PENTECOSTES, communicantes: "pentecostes", hancIgitur: true }});
     addM(dP(51), {t:"Terça-feira da Oitava de Pentecostes", rito:RITO.DUPLEX_I, prec:PREC.FESTA_I_CLASSE, s:"4 Esd 2. Accipite jucunditatem gloriæ vestræ... At 8,14-17 • Jo 10,1-10", l:"/2025/06/10-junho-3a-feira-de-pentecostes.html", p: { cor: COR.VERMELHA, gloria: true, credo: true, sequencia: SEQ.VENI, prefacio: PREF.PENTECOSTES, communicantes: "pentecostes", hancIgitur: true }});
@@ -3112,7 +3112,8 @@ function getDiaLiturgicoCache(ano, mesNum, dia) {
     const result = calcularDiaLiturgico(itens);
     result._cor = (result.principal && result.principal.p && result.principal.p.cor) ? result.principal.p.cor : obterCorTempo(t, mesNum, dia);
     result._t = t;
-    cacheDias.set(keyCache, result); return result;
+    cacheDias.set(keyCache, result); 
+	if (ds === 0 && result.principal && result.principal.p) result.principal.p.credo = true; return result;
 }
 
 function obterCorTempo(t, mes, dia) {
