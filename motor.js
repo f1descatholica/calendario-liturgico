@@ -1208,7 +1208,7 @@ const SANTOS_FIXOS = {
       t:"Nossa Senhora do Perpétuo Socorro",
       rito:RITO.LOCAL, prec:PREC.PRO_ALIQUIBUS_LOCIS,
       s:"Sedul. Salve, sancta parens... Eclo 24,14-16 • Lc 11,27-28",
-      l:"/",
+      l:"/2026/06/27-jun-nossa-senhora-do-perpetuo.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.BVM, comum: COMUM.PROPRIA }
   }, {
       t:"Na Oitava de S. João Batista",
@@ -1221,13 +1221,13 @@ const SANTOS_FIXOS = {
       t:"S. Irineu, bispo e mártir",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Ml 2. Lex veritatis fuit in ore ejus... 2 Tm 3,14-17; 4,1-5 • Mt 10,28-33",
-      l:"/",
+      l:"/2025/06/28-junho-s-irineu-bispo-e-martir.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }, {
       t:"Vigília dos Ss. Pedro e Paulo",
       prec:PREC.VIGILIA_COMUM,
       s:"Jo 21. Dicit Dominus Petro... At 3,1-10 • Jo 21,15-19",
-      l:"/",
+      l:"/2025/06/28-junho-vigilia-dos-ss-pedro-e-paulo.html",
       p: { cor: COR.ROXA, gloria: false, credo: false, _gradual: "gradual", prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }, {
       t:"Na Oitava de S. João Batista",
