@@ -52,7 +52,7 @@ function inicializarEpocas() {
 const RITO = { DUPLEX_I: { abrev: "D.I.cl." }, DUPLEX_II: { abrev: "D.II.cl." }, DUPLEX_MAJ: { abrev: "D.maj." }, DUPLEX: { abrev: "D." }, SEMIDUPLEX: { abrev: "Sd." }, SIMPLEX: { abrev: "Simp." }, LOCAL: { abrev: "Local" } };
 const TIPO = Object.freeze({ DOMINGO: "domingo", FESTA: "festa", FERIA: "feria", VIGILIA: "vigilia", OITAVA: "oitava", SABADO_BVM: "sabado_bvm", COMEMORACAO: "comemoracao", LOCAL: "local" });
 const DIGNITAS = Object.freeze({ DOMINI: 60, BVM: 50, ANGELORUM: 40, BAPTISTAE: 30, JOSEPH: 20, APOSTOLORUM: 10 });
-const PREC = Object.freeze({ DOMINGO_I_CLASSE: 100, FERIA_PRIVILEGIADA: 95, FESTA_I_CLASSE: 90, INFRA_OCTAVAM_PRIV_1_ORDEM: 89, DOMINGO_II_CLASSE: 85, FESTA_II_CLASSE: 80, VIGILIA_MAIOR: 78, FESTA_SENHOR_DUPLEX_MAJ: 65, DOMINGO_COMUM: 60, INFRA_OCTAVAM_PRIV_2_ORDEM: 55, FESTA_DUPLEX_MAJ: 50, DIA_OITAVA_COMUM: 50, FESTA_DUPLEX: 40, FESTA_SEMIDUPLEX: 35, INFRA_OCTAVAM_PRIV_3_ORDEM: 30, FERIA_MAIOR: 25, VIGILIA_COMUM: 22, INFRA_OCTAVAM: 20, SABADO_BVM: 12, FESTA_SIMPLEX: 10, FERIA_COMUM: 5, COMEMORACAO_FIXA: 3, PRO_ALIQUIBUS_LOCIS: 2 });
+const PREC = Object.freeze({ DOMINGO_I_CLASSE: 100, FERIA_PRIVILEGIADA: 95, FESTA_I_CLASSE: 90, INFRA_OCTAVAM_PRIV_1_ORDEM: 89, DOMINGO_II_CLASSE: 85, FESTA_II_CLASSE: 80, VIGILIA_MAIOR: 78, FESTA_SENHOR_DUPLEX_MAJ: 65, DOMINGO_COMUM: 60, INFRA_OCTAVAM_PRIV_2_ORDEM: 55, FESTA_DUPLEX_MAJ: 50, DIA_OITAVA_COMUM: 50, FESTA_DUPLEX: 40, FESTA_SEMIDUPLEX: 35, INFRA_OCTAVAM_PRIV_3_ORDEM: 30, INFRA_OCTAVAM: 27, FERIA_MAIOR: 25, VIGILIA_COMUM: 22, SABADO_BVM: 12, FESTA_SIMPLEX: 10, FERIA_COMUM: 5, COMEMORACAO_FIXA: 3, PRO_ALIQUIBUS_LOCIS: 2 });
 const COR = { BRANCA: "br", VERMELHA: "vm", VERDE: "vd", ROXA: "rx", PRETA: "pt", ROSA: "rs" };
 const COR_TEXTO = { br: "c-br", vm: "c-vm", vd: "c-vd", rx: "c-rx", pt: "c-pt", rs: "c-rs" };
 const ABREV_MESES = ["jan","fev","mar","abr","mai","jun","jul","ago","set","out","nov","dez"];
@@ -1225,7 +1225,7 @@ const SANTOS_FIXOS = {
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }, {
       t:"Vigília dos Ss. Pedro e Paulo",
-      rito:RITO.SIMPLEX, prec:PREC.VIGILIA_COMUM,
+      prec:PREC.VIGILIA_COMUM,
       s:"Jo 21. Dicit Dominus Petro... At 3,1-10 • Jo 21,15-19",
       l:"/",
       p: { cor: COR.ROXA, gloria: false, credo: false, _gradual: "gradual", prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
@@ -2546,7 +2546,7 @@ const SANTOS_FIXOS = {
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: COMUM.DOCT }
   }, {
       t:"Vigília da Imaculada Conceição",
-      rito:RITO.SIMPLEX, prec:PREC.VIGILIA_COMUM,
+      prec:PREC.VIGILIA_COMUM,
       s:"Pr 8. Dominus possedit me... Pr 8,22-35 • Mt 1,1-16",
       l:"/",
       p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
