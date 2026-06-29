@@ -1282,10 +1282,10 @@ const SANTOS_FIXOS = {
       l:"/2025/07/01-julho-festa-do-preciosissimo-sangue.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: true, prefacio: PREF.CRUZ, comum: COMUM.PROPRIA }
   }, {
-      t:"Oitava dos Ss. Pedro e Paulo, apóstolos",
+      t:"Na oitava dos Ss. Pedro e Paulo, apóstolos",
       isPedroPaulo:true,
       isOitava:true,
-      rito:RITO.DUPLEX_MAJ, prec:PREC.DIA_OITAVA_COMUM,
+      rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"At 12. Nunc scio vere quia misit Dominus Angelum suum... At 12,1-11 • Mt 14,22-33",
       l:"/2025/06/29junho-sao-pedro-e-sao-paulo-apostolos.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: true, prefacio: PREF.APOSTOLOS, comum: COMUM.PROPRIA }
@@ -1303,10 +1303,10 @@ const SANTOS_FIXOS = {
       l:"/2025/07/02-julho-visitacao-de-nossa-senhora.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.BVM, comum: COMUM.PROPRIA }
   }, {
-      t:"Oitava dos Ss. Pedro e Paulo, apóstolos",
+      t:"Na oitava dos Ss. Pedro e Paulo, apóstolos",
       isPedroPaulo:true,
       isOitava:true,
-      rito:RITO.DUPLEX_MAJ, prec:PREC.DIA_OITAVA_COMUM,
+      rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"At 12. Nunc scio vere quia misit Dominus Angelum suum... At 12,1-11 • Mt 14,22-33",
       l:"/2025/06/29junho-sao-pedro-e-sao-paulo-apostolos.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: true, prefacio: PREF.APOSTOLOS, comum: COMUM.PROPRIA }
@@ -1324,19 +1324,19 @@ const SANTOS_FIXOS = {
       l:"/2025/07/03-julho-s-leao-ii-papa-e-confessor.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.SUM_PONT }
   }, {
-      t:"Na Oitava dos Ss. Pedro e Paulo, apóstolos",
+      t:"Na oitava dos Ss. Pedro e Paulo, apóstolos",
       isPedroPaulo:true,
       isOitava:true,
-      rito:RITO.SEMIDUPLEX, prec:PREC.OITAVA_COMUM,
+      rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"At 12. Nunc scio vere quia misit Dominus Angelum suum... At 12,1-11 • Mt 14,22-33",
       l:"/2025/06/29junho-sao-pedro-e-sao-paulo-apostolos.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: true, prefacio: PREF.APOSTOLOS, comum: COMUM.PROPRIA }
   }],
   "7-4": [{
-      t:"Na Oitava dos Ss. Pedro e Paulo, apóstolos",
+      t:"Na oitava dos Ss. Pedro e Paulo, apóstolos",
       isPedroPaulo:true,
       isOitava:true,
-      rito:RITO.SEMIDUPLEX, prec:PREC.OITAVA_COMUM,
+      rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"At 12. Nunc scio vere quia misit Dominus Angelum suum... At 12,1-11 • Mt 14,22-33",
       l:"/2025/06/29junho-sao-pedro-e-sao-paulo-apostolos.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: true, prefacio: PREF.APOSTOLOS, comum: COMUM.PROPRIA }
@@ -1348,10 +1348,10 @@ const SANTOS_FIXOS = {
       l:"/2025/07/05-julho-s-antonio-maria-zaccaria.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }, {
-      t:"Na Oitava dos Ss. Pedro e Paulo, apóstolos",
+      t:"Na oitava dos Ss. Pedro e Paulo, apóstolos",
       isPedroPaulo:true,
       isOitava:true,
-      rito:RITO.SEMIDUPLEX, prec:PREC.OITAVA_COMUM,
+      rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"At 12. Nunc scio vere quia misit Dominus Angelum suum... At 12,1-11 • Mt 14,22-33",
       l:"/2025/06/29junho-sao-pedro-e-sao-paulo-apostolos.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: true, prefacio: PREF.APOSTOLOS, comum: COMUM.PROPRIA }
