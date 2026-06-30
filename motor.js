@@ -3047,9 +3047,8 @@ function calcularDiaLiturgico(itens) {
         if (a.isVigAscensao && b.isLitania) return -1;
         if (b.isVigAscensao && a.isLitania) return 1;
         const aO1 = a.prec === PREC.INFRA_OCTAVAM_PRIV_1_ORDEM, bO1 = b.prec === PREC.INFRA_OCTAVAM_PRIV_1_ORDEM;
-        const aI = a.prec >= PREC.FESTA_II_CLASSE, bI = b.prec >= PREC.FESTA_II_CLASSE;
+        const aI = (a.prec || 0) >= PREC.FESTA_II_CLASSE, bI = (b.prec || 0) >= PREC.FESTA_II_CLASSE;
         if (aO1 && bI) return -1; if (bO1 && aI) return 1;
-        // BLINDAGEM: Se prec for undefined/null, assume 0 só para a conta matemática não retornar NaN e quebrar o sort. O objeto original não é alterado.
         if (b.prec !== a.prec) return (b.prec || 0) - (a.prec || 0);
         if ((a.primaria ? 1 : 0) !== (b.primaria ? 1 : 0)) return (b.primaria ? 1 : 0) - (a.primaria ? 1 : 0);
         if ((a.dignitas || 0) !== (b.dignitas || 0)) return (b.dignitas || 0) - (a.dignitas || 0);
@@ -3065,47 +3064,50 @@ function calcularDiaLiturgico(itens) {
     const perdedores = [];
     ordenados.slice(1).forEach(item => {
         let omitido = false, transferido = false;
-        const iTipo = item.tipo, isFeriaMaior = (iTipo === TIPO.FERIA && item.prec >= PREC.FERIA_MAIOR);
-        if (iTipo === TIPO.FESTA && item.prec >= PREC.FESTA_II_CLASSE) {
+        const iPrec = item.prec || 0;
+        const pPrec = principal.prec || 0;
+        const iTipo = item.tipo, isFeriaMaior = (iTipo === TIPO.FERIA && iPrec >= PREC.FERIA_MAIOR);
+        
+        if (iTipo === TIPO.FESTA && iPrec >= PREC.FESTA_II_CLASSE) {
             transferido = true;
         } else {
-            if (principal.prec >= PREC.FESTA_I_CLASSE) {
-                if (!isFeriaMaior && item.prec < PREC.FESTA_II_CLASSE && iTipo !== TIPO.DOMINGO) omitido = true;
-                if (iTipo === TIPO.OITAVA && item.prec <= PREC.INFRA_OCTAVAM) omitido = true;
-            } else if (principal.prec === PREC.INFRA_OCTAVAM_PRIV_1_ORDEM) {
-				// [OK] Simples NÃO é omitido aqui (Bloco 2/3 Protocolo Rubricas: Qua-Sáb Pentecostes comemoram Simples)
-				if (!isFeriaMaior && iTipo !== TIPO.DOMINGO) { if (iTipo === TIPO.OITAVA || item.prec === PREC.SABADO_BVM) omitido = true; }
-			} else if (principal.prec === PREC.DOMINGO_II_CLASSE) {
-                if (!isFeriaMaior && item.prec <= PREC.INFRA_OCTAVAM && iTipo !== TIPO.DOMINGO) omitido = true;
-                if (item.prec === PREC.SABADO_BVM) omitido = true;
-            } else if (principal.prec === PREC.INFRA_OCTAVAM_PRIV_2_ORDEM) {
-                if (!isFeriaMaior && item.prec === PREC.INFRA_OCTAVAM && iTipo !== TIPO.DOMINGO) omitido = true;
-                if (item.prec === PREC.SABADO_BVM) omitido = true;
-            } else if (principal.prec === PREC.INFRA_OCTAVAM_PRIV_3_ORDEM) {
-				if (item.prec === PREC.FESTA_SEMIDUPLEX && iTipo !== TIPO.DOMINGO) omitido = true;
-				if (item.prec === PREC.INFRA_OCTAVAM && iTipo !== TIPO.DOMINGO) omitido = true;
-				if (item.prec === PREC.SABADO_BVM) omitido = true;
-			} else if (principal.prec >= PREC.FESTA_SEMIDUPLEX) {
-                if (item.prec === PREC.SABADO_BVM) omitido = true;
+            if (pPrec >= PREC.FESTA_I_CLASSE) {
+                if (!isFeriaMaior && iPrec < PREC.FESTA_II_CLASSE && iTipo !== TIPO.DOMINGO) omitido = true;
+                if (iTipo === TIPO.OITAVA && iPrec <= PREC.INFRA_OCTAVAM) omitido = true;
+            } else if (pPrec === PREC.INFRA_OCTAVAM_PRIV_1_ORDEM) {
+                if (!isFeriaMaior && iTipo !== TIPO.DOMINGO) { if (iTipo === TIPO.OITAVA || iPrec === PREC.SABADO_BVM) omitido = true; }
+            } else if (pPrec === PREC.DOMINGO_II_CLASSE) {
+                if (!isFeriaMaior && iPrec <= PREC.INFRA_OCTAVAM && iTipo !== TIPO.DOMINGO) omitido = true;
+                if (iPrec === PREC.SABADO_BVM) omitido = true;
+            } else if (pPrec === PREC.INFRA_OCTAVAM_PRIV_2_ORDEM) {
+                if (!isFeriaMaior && iPrec === PREC.INFRA_OCTAVAM && iTipo !== TIPO.DOMINGO) omitido = true;
+                if (iPrec === PREC.SABADO_BVM) omitido = true;
+            } else if (pPrec === PREC.INFRA_OCTAVAM_PRIV_3_ORDEM) {
+                if (iPrec === PREC.FESTA_SEMIDUPLEX && iTipo !== TIPO.DOMINGO) omitido = true;
+                if (iPrec === PREC.INFRA_OCTAVAM && iTipo !== TIPO.DOMINGO) omitido = true;
+                if (iPrec === PREC.SABADO_BVM) omitido = true;
+            } else if (pPrec >= PREC.FESTA_SEMIDUPLEX) {
+                if (iPrec === PREC.SABADO_BVM) omitido = true;
             }
-            if (item.prec === PREC.FERIA_COMUM) omitido = true;
-            if (item.prec === PREC.VIGILIA_COMUM) {
-                if (principal.tipo === TIPO.DOMINGO || principal.prec >= PREC.FESTA_I_CLASSE || principal.prec === PREC.FERIA_PRIVILEGIADA || (principal.tipo === TIPO.OITAVA && principal.prec >= PREC.INFRA_OCTAVAM_PRIV_3_ORDEM)) omitido = true;
+            if (iPrec === PREC.FERIA_COMUM) omitido = true;
+            if (iPrec === PREC.VIGILIA_COMUM) {
+                if (principal.tipo === TIPO.DOMINGO || pPrec >= PREC.FESTA_I_CLASSE || pPrec === PREC.FERIA_PRIVILEGIADA || (principal.tipo === TIPO.OITAVA && pPrec >= PREC.INFRA_OCTAVAM_PRIV_3_ORDEM)) omitido = true;
             }
-            if (ordenados.some(i => i.isPedroPaulo) && item.isPedroPaulo && principal.prec < PREC.FESTA_I_CLASSE) omitido = false;
+            if (ordenados.some(i => i.isPedroPaulo) && item.isPedroPaulo && pPrec < PREC.FESTA_I_CLASSE) omitido = false;
         }
         if (transferido) { item.isTransferred = true; filaTransferencia.push(item); }
         else { perdedores.push({ item, omitido }); }
     });
 
-    if (principal.prec < PREC.FERIA_COMUM) { perdedores.push({ item: principal, omitido: false }); principal = null; }
+    if (principal && (principal.prec || 0) < PREC.FERIA_COMUM) { perdedores.push({ item: principal, omitido: false }); principal = null; }
 
     perdedores.sort((a, b) => {
         if (a.item.isVigAscensao && b.item.isLitania) return -1;
         if (b.item.isVigAscensao && a.item.isLitania) return 1;
-        const aFeria = a.item.tipo === TIPO.FERIA && a.item.prec >= PREC.FERIA_MAIOR, bFeria = b.item.tipo === TIPO.FERIA && b.item.prec >= PREC.FERIA_MAIOR;
+        const aFeria = a.item.tipo === TIPO.FERIA && (a.item.prec || 0) >= PREC.FERIA_MAIOR;
+        const bFeria = b.item.tipo === TIPO.FERIA && (b.item.prec || 0) >= PREC.FERIA_MAIOR;
         if (aFeria && !bFeria) return -1; if (!aFeria && bFeria) return 1;
-        return (b.item.isPedroPaulo ? 1 : 0) - (a.item.isPedroPaulo ? 1 : 0) || b.item.prec - a.item.prec;
+        return (b.item.isPedroPaulo ? 1 : 0) - (a.item.isPedroPaulo ? 1 : 0) || (b.item.prec || 0) - (a.item.prec || 0);
     });
 
     let numCom = 1, ultimoEvangelho = null;
@@ -3113,12 +3115,9 @@ function calcularDiaLiturgico(itens) {
         if (!p.omitido) {
             p.numCom = numCom++;
             if (!ultimoEvangelho) {
-                const isDomVigFeria = (p.item.tipo === TIPO.DOMINGO) || (p.item.tipo === TIPO.FERIA && p.item.prec >= PREC.FERIA_MAIOR) || (p.item.tipo === TIPO.VIGILIA);
+                const isDomVigFeria = (p.item.tipo === TIPO.DOMINGO) || (p.item.tipo === TIPO.FERIA && (p.item.prec || 0) >= PREC.FERIA_MAIOR) || (p.item.tipo === TIPO.VIGILIA);
                 const isFestaPropria = (p.item.tipo === TIPO.FESTA && p.item.p && p.item.p.comum === COMUM.PROPRIA);
-                
-                if (isDomVigFeria || isFestaPropria) {
-                    ultimoEvangelho = p.item.t;
-                }
+                if (isDomVigFeria || isFestaPropria) { ultimoEvangelho = p.item.t; }
             }
         }
     });
