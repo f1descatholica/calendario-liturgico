@@ -1403,14 +1403,14 @@ const SANTOS_FIXOS = {
       t:"Ss. Nabor e Félix, mártires",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Sl 33. Clamaverunt justi... Rm 8,18-23 • Lc 21,9-19",
-      l:"/",
+      l:"/2025/07/ss-nabor-e-felix-martires-sl-33.html",
       p: { cor: COR.VERMELHA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_N }
   }],
   "7-13":[{
       t:"S. Anacleto, papa e mártir",
       rito:RITO.SEMIDUPLEX, prec:PREC.FESTA_SEMIDUPLEX,
       s:"Jo 21. Si díligis me... 1 Pd 5,1-4; 5,10-11 • Mt 16,13-19",
-      l:"/",
+      l:"/2025/07/s-anacleto-papa-e-martir-jo-21-si.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.SUM_PONT }
   }],
   "7-14":[{
@@ -3049,7 +3049,8 @@ function calcularDiaLiturgico(itens) {
         const aO1 = a.prec === PREC.INFRA_OCTAVAM_PRIV_1_ORDEM, bO1 = b.prec === PREC.INFRA_OCTAVAM_PRIV_1_ORDEM;
         const aI = a.prec >= PREC.FESTA_II_CLASSE, bI = b.prec >= PREC.FESTA_II_CLASSE;
         if (aO1 && bI) return -1; if (bO1 && aI) return 1;
-        if (b.prec !== a.prec) return b.prec - a.prec;
+        // BLINDAGEM: Se prec for undefined/null, assume 0 só para a conta matemática não retornar NaN e quebrar o sort. O objeto original não é alterado.
+        if (b.prec !== a.prec) return (b.prec || 0) - (a.prec || 0);
         if ((a.primaria ? 1 : 0) !== (b.primaria ? 1 : 0)) return (b.primaria ? 1 : 0) - (a.primaria ? 1 : 0);
         if ((a.dignitas || 0) !== (b.dignitas || 0)) return (b.dignitas || 0) - (a.dignitas || 0);
         if ((a.isOitava ? 1 : 0) !== (b.isOitava ? 1 : 0)) return (b.isOitava ? 1 : 0) - (a.isOitava ? 1 : 0);
