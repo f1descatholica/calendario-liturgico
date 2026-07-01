@@ -1283,7 +1283,6 @@ const SANTOS_FIXOS = {
       p: { cor: COR.VERMELHA, gloria: true, credo: true, prefacio: PREF.CRUZ, comum: COMUM.PROPRIA }
   }, {
       t:"Na oitava dos Ss. Pedro e Paulo, apóstolos",
-      isPedroPaulo:true,
       isOitava:true,
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"At 12. Nunc scio vere quia misit Dominus Angelum suum... At 12,1-11 • Mt 14,22-33",
@@ -1304,7 +1303,6 @@ const SANTOS_FIXOS = {
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.BVM, comum: COMUM.PROPRIA }
   }, {
       t:"Na oitava dos Ss. Pedro e Paulo, apóstolos",
-      isPedroPaulo:true,
       isOitava:true,
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"At 12. Nunc scio vere quia misit Dominus Angelum suum... At 12,1-11 • Mt 14,22-33",
@@ -1325,7 +1323,6 @@ const SANTOS_FIXOS = {
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.SUM_PONT }
   }, {
       t:"Na oitava dos Ss. Pedro e Paulo, apóstolos",
-      isPedroPaulo:true,
       isOitava:true,
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"At 12. Nunc scio vere quia misit Dominus Angelum suum... At 12,1-11 • Mt 14,22-33",
@@ -1334,7 +1331,6 @@ const SANTOS_FIXOS = {
   }],
   "7-4": [{
       t:"Na oitava dos Ss. Pedro e Paulo, apóstolos",
-      isPedroPaulo:true,
       isOitava:true,
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"At 12. Nunc scio vere quia misit Dominus Angelum suum... At 12,1-11 • Mt 14,22-33",
@@ -1349,7 +1345,6 @@ const SANTOS_FIXOS = {
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }, {
       t:"Na oitava dos Ss. Pedro e Paulo, apóstolos",
-      isPedroPaulo:true,
       isOitava:true,
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"At 12. Nunc scio vere quia misit Dominus Angelum suum... At 12,1-11 • Mt 14,22-33",
