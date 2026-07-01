@@ -3071,6 +3071,9 @@ function calcularDiaLiturgico(itens) {
                 if (iTipo === TIPO.OITAVA && iPrec <= PREC.INFRA_OCTAVAM) omitido = true;
             } else if (pPrec === PREC.INFRA_OCTAVAM_PRIV_1_ORDEM) {
                 if (!isFeriaMaior && iTipo !== TIPO.DOMINGO) { if (iTipo === TIPO.OITAVA || iPrec === PREC.SABADO_BVM) omitido = true; }
+            } else if (pPrec === PREC.FESTA_II_CLASSE) {
+                if (iTipo === TIPO.OITAVA && iPrec <= PREC.INFRA_OCTAVAM) omitido = true;
+                if (iPrec === PREC.SABADO_BVM) omitido = true;
             } else if (pPrec === PREC.DOMINGO_II_CLASSE) {
                 if (!isFeriaMaior && iPrec <= PREC.INFRA_OCTAVAM && iTipo !== TIPO.DOMINGO) omitido = true;
                 if (iPrec === PREC.SABADO_BVM) omitido = true;
