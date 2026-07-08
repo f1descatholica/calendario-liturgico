@@ -1374,6 +1374,19 @@ const SANTOS_FIXOS = {
       l:"/2025/07/08-julho-s-isabel-rainha-de-portugal.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.NON_VIRG }
   }],
+	  "7-9": [{
+            t: "Santa Maria Goretti, Virgem e Mártir",
+            rito: RITO.SIMPLEX,
+            prec: PREC.PRO_ALIQUIBUS_LOCIS,
+            s: "Sl 118. Loquébar de testimóniis tuis... Eclo 51,13-17 • Mt 25,1-13",
+            l: "/",
+            p: { 
+                cor: COR.VERMELHA, 
+                gloria: true, 
+                credo: false, 
+                prefacio: PREF.COMUM,
+                observacao: "Missa do Comum das Virgens e Mártires (Loquebar)" }
+        }],
   "7-10":[{
       t:"Sete Irmãos mártires, Ss. Rufina e Secunda",
       rito:RITO.SEMIDUPLEX, prec:PREC.FESTA_SEMIDUPLEX,
