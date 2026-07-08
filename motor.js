@@ -1374,9 +1374,9 @@ const SANTOS_FIXOS = {
       l:"/2025/07/08-julho-s-isabel-rainha-de-portugal.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.NON_VIRG }
   }],
-	  "7-9": [{
+  "7-9": [{
             t: "Santa Maria Goretti, Virgem e Mártir",
-            rito: RITO.SIMPLEX,
+            rito: RITO.LOCAL,
             prec: PREC.PRO_ALIQUIBUS_LOCIS,
             s: "Sl 118. Loquébar de testimóniis tuis... Eclo 51,13-17 • Mt 25,1-13",
             l: "/",
@@ -2184,14 +2184,14 @@ const SANTOS_FIXOS = {
       t:"Maternidade da Santíssima Virgem Maria",
       rito:RITO.DUPLEX_II, prec:PREC.FESTA_II_CLASSE,
       s:"Is 7. Ecce Virgo concipiet et pariet filium... Eclo 24,23-31 • Lc 2,43-51",
-      l:"/",
+      l:"/2025/10/11-out-maternidade-de-nossa-senhora.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.BVM, comum: COMUM.PROPRIA }
   }],
   "10-12":[{
       t:"Nossa Senhora da Conceição Aparecida",
       rito:RITO.LOCAL, prec:PREC.PRO_ALIQUIBUS_LOCIS,
       s:"Est 14. Recordare, Virgo Mater... Eclo 24,23-31 • Jo 2,1-11",
-      l:"/",
+      l:"/2025/10/12-out-festa-de-nossa-senhora-aparecida.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.BVM, comum: COMUM.PROPRIA }
   }],
   "10-13":[{
