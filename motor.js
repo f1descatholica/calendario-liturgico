@@ -1378,14 +1378,27 @@ const SANTOS_FIXOS = {
             t: "Santa Maria Goretti, Virgem e Mártir",
             rito: RITO.LOCAL,
             prec: PREC.PRO_ALIQUIBUS_LOCIS,
-            s: "Sl 118. Loquébar de testimóniis tuis... Eclo 51,13-17 • Mt 25,1-13",
-            l: "/",
+            s: "Sl 118. Loquébar de testimóniis tuis... Eclo 51, 1-8 e 12 • Mt 25,1-13",
+            l: "/2026/07/09-julho-santa-maria-goretti-virgem-e.html",
             p: { 
                 cor: COR.VERMELHA, 
                 gloria: true, 
                 credo: false, 
                 prefacio: PREF.COMUM,
                 observacao: "Missa do Comum das Virgens e Mártires (Loquebar)" }
+        },{
+            t: "Nossa Senhora, Rainha da Paz",
+            rito: RITO.LOCAL,
+            prec: PREC.PRO_ALIQUIBUS_LOCIS,
+            s: "Sedul. Salve, sancta parens... Eclo 24,14-16 • Lc 11,27-28",
+            l: "/2025/07/09-julho-nossa-senhora-rainha-da-paz.html",
+            p: { 
+                cor: COR.BRANCA, 
+                gloria: true, 
+                credo: false, 
+                prefacio: PREF.BVM,
+                observacao: "Missa do Comum da BVM" 
+            }
         }],
   "7-10":[{
       t:"Sete Irmãos mártires, Ss. Rufina e Secunda",
