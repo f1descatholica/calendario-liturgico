@@ -2976,7 +2976,8 @@ function prepararMotorLiturgico(anoParaCalcular) {
     const domingosPentecostes = [{n: "IV", d: 3}, {n: "V", d: 4}, {n: "VI", d: 5}, {n: "VII", d: 6}, {n: "VIII", d: 7}, {n: "IX", d: 8}, {n: "X", d: 9}, {n: "XI", d: 10}, {n: "XII", d: 11}, {n: "XIII", d: 12}, {n: "XIV", d: 13}, {n: "XV", d: 14}, {n: "XVI", d: 15}, {n: "XVII", d: 16}, {n: "XVIII", d: 17}, {n: "XIX", d: 18}, {n: "XX", d: 19}, {n: "XXI", d: 20}, {n: "XXII", d: 21}, {n: "XXIII", d: 22}, {n: "XXIV", d: 23}, {n: "XXV", d: 24}, {n: "XXVI", d: 25}, {n: "XXVII", d: 26}, {n: "XXVIII", d: 27}];
     for (const dom of domingosPentecostes) {
         const domP = dP(56 + dom.d * 7);
-        if (domP.getTime() > anoState.ultimDom.getTime() || domP.getTime() === anoState.cristoRei.getTime()) break;
+        if (domP.getTime() > anoState.ultimDom.getTime()) break;
+        if (domP.getTime() === anoState.cristoRei.getTime()) continue;
         let leituraDia = leiturasP[dom.n];
         if (dom.d >= 22 && indiceRetomada < 4) { leituraDia = leiturasRetomadasEpi[indiceRetomada]; indiceRetomada++; }
         else if (!leituraDia) leituraDia = "Cl 1,9-14 • Mt 24,15-35";
@@ -3000,6 +3001,45 @@ function prepararMotorLiturgico(anoParaCalcular) {
     addM(anoState.iiAdv, {t:"II Domingo do Advento", rito:RITO.SEMIDUPLEX, prec:PREC.DOMINGO_II_CLASSE, s:"Is 30. Populus Sion... Rm 15,4-13 • Mt 11,2-10", l:"/2025/12/07-dez-ii-domingo-do-advento.html", dom:true, p: { cor: COR.ROXA, gloria: false, credo: true, prefacio: PREF.TRINDADE }});
     addM(anoState.iiiAdv, {t:"III Domingo do Advento (Gaudete)", rito:RITO.SEMIDUPLEX, prec:PREC.DOMINGO_II_CLASSE, s:"Fl 4. Gaudete in Domino semper... Fl 4,4-7 • Jo 1,19-28", l:"/2024/12/liturgia-diaria-iii-domingo-do-advento.html", dom:true, p: { cor: COR.ROSA, gloria: false, credo: true, prefacio: PREF.TRINDADE }});
     addM(anoState.ivAdv, {t:"IV Domingo do Advento", rito:RITO.SEMIDUPLEX, prec:PREC.DOMINGO_II_CLASSE, s:"Is 45. Rorate cæli desuper... 1 Co 4,1-5 • Lc 3,1-6", l:"/2024/12/liturgia-diaria-22-dez.html", dom:true, p: { cor: COR.ROXA, gloria: false, credo: true, prefacio: PREF.TRINDADE }});
+	
+	// ==========================================
+    // GERADOR DE FÉRIAS MAIORES DO ADVENTO
+    // ==========================================
+    let cursorAdv = new Date(anoState.iAdv.getTime());
+    cursorAdv.setDate(cursorAdv.getDate() + 1);
+    const limiteAdv = new Date(anoState.ano, 11, 23).getTime(); // Limite: 23 de Dez (24 é Vigília)
+
+    while (cursorAdv.getTime() <= limiteAdv) {
+        const t = cursorAdv.getTime();
+        const ds = cursorAdv.getDay();
+        
+        // Pula Domingos e Têmporas (que têm missas próprias e já foram ou serão adicionadas)
+        if (ds !== 0 && t !== anoState.epochQuaAdv && t !== anoState.epochSexAdv && t !== anoState.epochSabAdv) {
+            let numSemana = 1;
+            if (t > anoState.ivAdv.getTime()) numSemana = 4;
+            else if (t > anoState.iiiAdv.getTime()) numSemana = 3;
+            else if (t > anoState.iiAdv.getTime()) numSemana = 2;
+            
+            const nomesDias = ["Domingo", "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira", "Sábado"];
+            const missasAdvento = {
+                1: { s: "Sl 24. Ad te levavi animam meam... Rm 13,11-14 • Lc 21,25-33", l: "/2024/12/liturgia-diaria-i-domingo-do-advento.html" },
+                2: { s: "Is 30. Populus Sion... Rm 15,4-13 • Mt 11,2-10", l: "/2025/12/07-dez-ii-domingo-do-advento.html" },
+                3: { s: "Fl 4. Gaudete in Domino semper... Fl 4,4-7 • Jo 1,19-28", l: "/2024/12/liturgia-diaria-iii-domingo-do-advento.html" },
+                4: { s: "Is 45. Rorate cæli desuper... 1 Co 4,1-5 • Lc 3,1-6", l: "/2024/12/liturgia-diaria-22-dez.html" }
+            };
+
+            addM(new Date(t), {
+                t: `${nomesDias[ds]} da ${numSemana}ª semana do Advento`,
+                prec: PREC.FERIA_MAIOR,
+                tipo: TIPO.FERIA,
+                s: missasAdvento[numSemana].s,
+                l: missasAdvento[numSemana].l,
+                p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.COMUM }
+            });
+        }
+        cursorAdv.setDate(cursorAdv.getDate() + 1);
+    }
+	
 
     if (anoState.epochQuaSet) {
         addM(new Date(anoState.epochQuaSet), {t:"Quarta-feira das Têmporas de Setembro", prec:PREC.FERIA_MAIOR, s:"Sl 80. Exsultate Deo, adjutori nostro... Am 9,13-15; Ed 8,1-10 • Mc 9,16-28", l:"/", p: { cor: COR.ROXA, gloria: false, credo: false, flectamus: true, prefacio: PREF.COMUM, observacao: "Têmporas" }});
