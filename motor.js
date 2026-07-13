@@ -1471,8 +1471,8 @@ const SANTOS_FIXOS = {
   }, {
       t:"S. Sinforosa e seus sete filhos, mártires",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
-      s:"Sl 33. Clamaverunt justi... Rm 8,18-23 • Lc 21,9-19",
-      l:"/",
+      s:"Sl 78. Intret in conspéctu tuo... Hb 11,33-39 • Lc 12,1-8",
+      l:"/2026/07/18-julho-s-sinforosa-e-seus-sete-filhos.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_N }
   }],
   "7-19":[{
@@ -1486,13 +1486,13 @@ const SANTOS_FIXOS = {
       t:"S. Jerônimo Emiliani, confessor",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Sl 36. Os justi meditabitur sapientiam... Is 58,7-11 • Mt 19,13-21",
-      l:"/",
+      l:"/2026/07/20-julho-s-jeronimo-emiliani-confessor.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }, {
       t:"S. Margarida, virgem e mártir",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Sl 118. Me exspectaverunt peccatores... Eclo 51,1-8; 12 • Mt 13,44-52",
-      l:"/",
+      l:"/2026/07/20-julho-s-margarida-virgem-e-martir.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.VIRG_MART }
   }],
   "7-21":[{
@@ -2966,7 +2966,13 @@ function prepararMotorLiturgico(anoParaCalcular) {
     addM(dP(70), {t:"3º Domingo depois de Pentecostes (na Oitava do S. Coração)", rito:RITO.SEMIDUPLEX, prec:PREC.DOMINGO_COMUM, s:"Sl 24. Réspice in me et miserére mei... 1 Pd 5,6-11 • Lc 15,1-10", l:"/2026/06/terceiro-domingo-depois-de-pentecostes.html", dom:true, p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.CORACAO }});
     addM(dP(75), {t:"Dia da Oitava do Sagrado Coração", isOitava:true, rito:RITO.DUPLEX_MAJ, prec:PREC.DIA_OITAVA_COMUM, s:"Sl 32. Cogitationes Cordis ejus... Ef 3,8-12; 14-19 • Jo 19,31-37", l:"/2025/06/27-junho-festa-do-sagrado-coracao-de.html", p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.CORACAO }});
 
-    const linksP = {"IV":"/2025/07/06-julho-iv-domingo-depois-de.html", "V":"/2025/07/13-julho-v-domingo-depois-de-pentecostes.html", "VI":"/2025/07/20-julho-vi-domingo-depois-de.html", "VII":"/2025/07/27-julho-vii-domingo-depois-de.html", "XI":"/2025/08/03-ago-xi-domingo-depois-de-pentecostes.html", "XII":"/2025/08/10-ago-xii-domingo-depois-de-pentecostes.html", "XIII":"/2025/08/17-ago-xiii-domingo-depois-de-pentecostes.html", "XIV":"/2025/08/24-ago-xiv-domingo-depois-de-pentecostes.html", "XV":"/2025/08/31-ago-xv-domingo-depois-de-pentecostes.html", "XVI":"/2025/09/28-set-xvi-domingo-depois-de-pentecostes.html", "XVII":"/2025/10/05-out-xvii-domingo-depois-de.html", "XIX":"/2025/10/19-out-xix-domingo-depois-de-pentecostes.html"};
+    const linksP = {"IV":"/2025/07/06-julho-iv-domingo-depois-de.html", "V":"/2025/07/13-julho-v-domingo-depois-de-pentecostes.html", "VI":"/2025/07/20-julho-vi-domingo-depois-de.html", "VII":"/2025/07/27-julho-vii-domingo-depois-de.html",
+    "VIII":"/2025/08/03-ago-viii-domingo-depoiis-de.html",
+    "IX":"/2026/07/ix-domingo-depois-de-pentecostes.html",
+    "X":"/2025/08/17-ago-x-domingo-de-pentecostes.html",
+	"XI":"/2025/08/03-ago-xi-domingo-depois-de-pentecostes.html", "XII":"/2025/08/10-ago-xii-domingo-depois-de-pentecostes.html", "XIII":"/2025/08/17-ago-xiii-domingo-depois-de-pentecostes.html", "XIV":"/2025/08/24-ago-xiv-domingo-depois-de-pentecostes.html", "XV":"/2025/08/31-ago-xv-domingo-depois-de-pentecostes.html", "XVI":"/2025/09/28-set-xvi-domingo-depois-de-pentecostes.html", "XVII":"/2025/10/05-out-xvii-domingo-depois-de.html",
+	"XVIII":"/2026/07/xviii-domingo-depois-de-pentecostes.html",
+	"XIX":"/2025/10/19-out-xix-domingo-depois-de-pentecostes.html"};
     const leiturasP = {"IV": "Rm 8,18-23 • Lc 5,1-11", "V": "1 Pd 3,8-15 • Mt 5,20-24", "VI": "Rm 6,3-11 • Mc 8,1-9", "VII": "Rm 6,19-23 • Mt 7,15-21", "VIII": "Rm 8,12-17 • Lc 16,1-9", "IX": "1 Co 10,6-13 • Lc 19,41-47", "X": "1 Co 12,2-11 • Lc 18,9-14", "XI": "1 Co 15,1-10 • Mc 7,31-37", "XII": "2 Co 3,4-9 • Lc 10,23-37", "XIII": "Gl 3,16-22 • Lc 17,11-19", "XIV": "Gl 5,16-24 • Mt 6,24-33", "XV": "Gl 5,25-26; 6,1-10 • Lc 7,11-16", "XVI": "Ef 3,13-21 • Lc 14,1-11", "XVII": "Ef 4,1-6 • Mt 22,34-46", "XVIII": "1 Co 1,4-8 • Mt 9,1-8", "XIX": "Ef 4,23-28 • Mt 22,1-14", "XX": "Ef 5,15-21 • Jo 4,46-53", "XXI": "Ef 6,10-17 • Mt 18,23-35", "XXII": "Fp 1,6-11 • Mt 22,15-21", "XXIII": "Fp 3,17-21; 4,1-3 • Mt 9,18-26"};
     const leiturasRetomadasEpi = ["Rm 12,16-21 • Mt 8,1-13", "Rm 13,8-10 • Mt 8,23-27", "Cl 3,12-17 • Mt 13,24-30", "1 Ts 1,2-10 • Mt 13,31-35"];
     const dom23Time = dP(56 + 22 * 7).getTime();
@@ -3302,7 +3308,8 @@ function calcularRubricas(base, t, ano, prec) {
     const prefacioBase = base.prefacio;
     let r = aplicarHerancaOitava(Object.assign({}, base), t, ano);
     const emSeptuagesima = t >= anoState.epochSeptuagesima && t < anoState.epochSabadoSanto, emCinzas = t >= anoState.epochCinzas && t < anoState.epochSabadoSanto, emPascoa = t >= anoState.epochPascoa && t < anoState.epochFimOitPent, emAdvento = t >= anoState.iAdv.getTime() && t < anoState.epochNatal;
-    r._gradual = r._gradual || (emSeptuagesima ? (r.tratoproprio ? "trato_proprio" : "trato") : (emAdvento ? "gradual" : (t === dP(48).getTime() ? "trato" : (emPascoa ? "duplo" : "aleluia"))));
+    const isFeriaOuVigilia = prec === PREC.FERIA_MAIOR || prec === PREC.FERIA_COMUM || prec === PREC.VIGILIA_COMUM || prec === PREC.VIGILIA_MAIOR || prec === PREC.FERIA_PRIVILEGIADA;
+    r._gradual = r._gradual || (emSeptuagesima ? (r.tratoproprio ? "trato_proprio" : "trato") : (emAdvento ? (isFeriaOuVigilia ? "gradual" : "aleluia") : (t === dP(48).getTime() ? "trato" : (emPascoa ? "duplo" : "aleluia"))));
     if (!PREFACIOS_PROPRIOS.has(r.prefacio) && prefacioBase === PREF.COMUM) {
         if (emCinzas) r.prefacio = PREF.QUARESMA; if (emPascoa) r.prefacio = PREF.PASCAL; if (t === anoState.epochAscensao || (t > anoState.epochAscensao && t < dP(48).getTime())) r.prefacio = PREF.ASCENSAO; if (t >= anoState.epochPentecostes && t < anoState.epochFimOitPent) r.prefacio = PREF.PENTECOSTES;
     }
