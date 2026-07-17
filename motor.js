@@ -1447,7 +1447,7 @@ const SANTOS_FIXOS = {
       s:"Sl 36. Os justi meditabitur sapientiam... Eclo 31,8-11 • Lc 12,35-40",
       l:"/2025/07/15-julho-santo-henrique-imperador-e.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.CONF_NPON }, 
-	  {
+  }, {
       t:"S. Inácio de Azevedo e Companheiros, mártires",
       rito:RITO.LOCAL, prec:PREC.PRO_ALIQUIBUS_LOCIS,
       s:"Sl 78. Intret in conspéctu tuo... Sb 3,1-8 • Lc 21,9-19",
