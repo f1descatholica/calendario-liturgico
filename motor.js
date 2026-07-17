@@ -1437,7 +1437,7 @@ const SANTOS_FIXOS = {
   "7-14":[{
       t:"S. Boaventura, bispo, confessor e doutor",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
-      s:"Eclo 15. In medio Ecclesiæ aperuit os ejus... Eclo 39,6-14 • Mt 5,13-19",
+      s:"Eclo 15. In medio Ecclesiæ aperuit os ejus... 2 Tm 4,1-8 • Mt 5,13-19",
       l:"/2025/07/s-boaventura-bispo-confessor-e-doutor.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: COMUM.DOCT }
   }],
@@ -1446,7 +1446,13 @@ const SANTOS_FIXOS = {
       rito:RITO.SEMIDUPLEX, prec:PREC.FESTA_SEMIDUPLEX,
       s:"Sl 36. Os justi meditabitur sapientiam... Eclo 31,8-11 • Lc 12,35-40",
       l:"/2025/07/15-julho-santo-henrique-imperador-e.html",
-      p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.CONF_NPON }
+      p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.CONF_NPON }, 
+	  {
+      t:"S. Inácio de Azevedo e Companheiros, mártires",
+      rito:RITO.LOCAL, prec:PREC.PRO_ALIQUIBUS_LOCIS,
+      s:"Sl 78. Intret in conspéctu tuo... Sb 3,1-8 • Lc 21,9-19",
+      l:"/2025/07/15-julho-bem-aventurados-inacio-de.html",
+      p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_N_1 }
   }],
   "7-16":[{
       t:"Nossa Senhora do Carmo",
@@ -1519,7 +1525,7 @@ const SANTOS_FIXOS = {
       t:"S. Libório, bispo e confessor",
       rito:RITO.SEMIDUPLEX, prec:PREC.FESTA_SEMIDUPLEX,
       s:"Eclo 45. Statuit ei Dominus testamentum pacis... Eclo 44,16-27; 45,3-20 • Mt 25,14-23",
-      l:"/",
+      l:"/2025/07/23-julho-sao-liborio-bispo-e-confessor.html",
       p: { cor: COR.BRANCA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.CONF_PONT }
   }],
   "7-24":[{
@@ -1532,7 +1538,7 @@ const SANTOS_FIXOS = {
       t:"S. Cristina, virgem e mártir",
       rito:RITO.SEMIDUPLEX, prec:PREC.FESTA_SEMIDUPLEX,
       s:"Sl 118. Me exspectaverunt peccatores ut perderent me... Eclo 51,1-8; 12 • Mt 13,44-52",
-      l:"/",
+      l:"/2025/07/24-julho-santa-cristina-virgem-e-martir.html",
       p: { cor: COR.VERMELHA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.VIRG_MART }
   }],
   "7-25":[{
@@ -1545,7 +1551,7 @@ const SANTOS_FIXOS = {
       t:"S. Cristóvão, mártir",
       rito:RITO.SEMIDUPLEX, prec:PREC.FESTA_SEMIDUPLEX,
       s:"Sl 20. In virtute tua Domine lætabitur justus... Tg 1,12-18 • Mt 16,24-27",
-      l:"/",
+      l:"/2025/07/25-julho-s-cristovao-martir.html",
       p: { cor: COR.VERMELHA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_1 }
   }],
   "7-26":[{
@@ -1559,7 +1565,7 @@ const SANTOS_FIXOS = {
       t:"S. Pantaleão, mártir",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Sl 20. In virtute tua Domine lætabitur justus... 2 Tm 2,8-10; 3,10-12 • Mt 10,26-32",
-      l:"/",
+      l:"/2025/07/27-julho-s-pantaleao-martir.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_1 }
   }],
   "7-28":[{
