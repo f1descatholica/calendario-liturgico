@@ -2989,7 +2989,7 @@ function prepararMotorLiturgico(anoParaCalcular) {
     for (const dom of domingosPentecostes) {
         const domP = dP(56 + dom.d * 7);
         if (domP.getTime() > anoState.ultimDom.getTime()) break;
-        if (domP.getTime() === anoState.cristoRei.getTime()) continue;
+        // Removido o pulo que apagava o domingo. Ele agora colidirá normalmente.
         let leituraDia = leiturasP[dom.n];
         if (dom.d >= 22 && indiceRetomada < 4) { leituraDia = leiturasRetomadasEpi[indiceRetomada]; indiceRetomada++; }
         else if (!leituraDia) leituraDia = "Cl 1,9-14 • Mt 24,15-35";
@@ -3165,6 +3165,7 @@ function calcularDiaLiturgico(itens) {
             } else if (pPrec >= PREC.FESTA_SEMIDUPLEX) {
                 if (iPrec === PREC.SABADO_BVM) omitido = true;
             }
+            if (pPrec >= PREC.VIGILIA_COMUM && iPrec === PREC.SABADO_BVM) omitido = true;
             if (iPrec === PREC.FERIA_COMUM) omitido = true;
             if (iPrec === PREC.VIGILIA_COMUM) {
                 if (principal.tipo === TIPO.DOMINGO || pPrec >= PREC.FESTA_I_CLASSE || pPrec === PREC.FERIA_PRIVILEGIADA || (principal.tipo === TIPO.OITAVA && pPrec >= PREC.INFRA_OCTAVAM_PRIV_3_ORDEM)) omitido = true;
@@ -3291,7 +3292,8 @@ function buscarDominanteDaSemana(ano, mesNum, dia) {
     for (let back = 1; back <= 7; back++) {
         const cursor = new Date(ano, mesNum, dia - back);
         if (cursor.getFullYear() !== ano) break; if (cursor.getDay() !== 0) continue;
-        const dom = [...(moveis[`${cursor.getMonth() + 1}-${cursor.getDate()}`] || []), ...(SANTOS_FIXOS[`${cursor.getMonth() + 1}-${cursor.getDate()}`] || [])].find(i => i.dom === true);
+        // Agora busca estritamente TIPO.DOMINGO, ignorando Festas (que usam dom:true apenas para cor)
+        const dom = [...(moveis[`${cursor.getMonth() + 1}-${cursor.getDate()}`] || []), ...(SANTOS_FIXOS[`${cursor.getMonth() + 1}-${cursor.getDate()}`] || [])].find(i => i.tipo === TIPO.DOMINGO);
         if (dom) { result = { item: dom, chaveData: `${cursor.getFullYear()}-${cursor.getMonth()}-${cursor.getDate()}` }; break; }
     }
     cacheDominante.set(keyCache, result); return result;
