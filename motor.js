@@ -1536,10 +1536,10 @@ const SANTOS_FIXOS = {
       p: { cor: COR.ROXA, gloria: false, credo: false, _gradual: "gradual", prefacio: PREF.COMUM, comum: "Missa da Vigília" }
   }, {
       t:"S. Cristina, virgem e mártir",
-      rito:RITO.SEMIDUPLEX, prec:PREC.FESTA_SEMIDUPLEX,
+      rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Sl 118. Me exspectaverunt peccatores ut perderent me... Eclo 51,1-8; 12 • Mt 13,44-52",
       l:"/2025/07/24-julho-santa-cristina-virgem-e-martir.html",
-      p: { cor: COR.VERMELHA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.VIRG_MART }
+      p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.VIRG_MART }
   }],
   "7-25":[{
       t:"S. Tiago Maior, apóstolo",
