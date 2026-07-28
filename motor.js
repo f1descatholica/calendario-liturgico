@@ -1,3 +1,7 @@
+
+
+
+
 "use strict";
 // =========================================================
 // O CÉREBRO - MOTOR LITÚRGICO GLOBAL
@@ -3230,7 +3234,33 @@ function getDiaLiturgicoCache(ano, mesNum, dia) {
     const result = calcularDiaLiturgico(itens);
     result._cor = (result.principal && result.principal.p && result.principal.p.cor) ? result.principal.p.cor : obterCorTempo(t, mesNum, dia);
     result._t = t;
+    
+    // PREVENÇÃO DE LOOP: Salvar no cache ANTES de procurar o passado
     cacheDias.set(keyCache, result); 
+
+    // MÁQUINA DE ESTADO: INJEÇÃO DE MISSA RESUMPTA (Opção para dias livres)
+    if (ds > 0 && (dia - ds) > 0 && result.principal && result.principal.prec <= PREC.SABADO_BVM) {
+        let isFirstFree = true;
+        const prevSunday = getDiaLiturgicoCache(ano, mesNum, dia - ds);
+        if (prevSunday.principal && prevSunday.principal.tipo !== TIPO.DOMINGO) {
+            const domingoImpedido = [...prevSunday.perdedores.map(p => p.item), prevSunday.principal].find(i => i && i.tipo === TIPO.DOMINGO);
+            if (domingoImpedido) {
+                // Checa se algum dia anterior nesta mesma semana já roubou a Resumpta
+                for (let i = 1; i < ds; i++) {
+                    const checkDay = getDiaLiturgicoCache(ano, mesNum, dia - ds + i);
+                    if (checkDay.principal && checkDay.principal.prec <= PREC.SABADO_BVM) {
+                        isFirstFree = false; break;
+                    }
+                }
+                if (isFirstFree) {
+                    const rubResumpta = calcularRubricas(domingoImpedido.p, t, ano, domingoImpedido.prec);
+                    rubResumpta.gloria = false; rubResumpta.credo = false; // Resumpta de meio de semana perde Glória e Credo
+                    result.missaResumpta = { item: domingoImpedido, rubricas: rubResumpta };
+                }
+            }
+        }
+    }
+
 	if (ds === 0 && result.principal && result.principal.p) result.principal.p.credo = true; return result;
 }
 
