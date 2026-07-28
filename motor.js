@@ -1572,24 +1572,12 @@ const SANTOS_FIXOS = {
       l:"/2025/07/27-julho-s-pantaleao-martir.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_1 }
   }],
-  "7-28":[{
-      t:"Ss. Nazário e Celso, mártires",
+"7-28": [{
+      t:"Ss. Nazário e Celso, Mm., S. Vítor I, Papa e M., e S. Inocêncio I, Papa e Conf.",
       rito:RITO.SEMIDUPLEX, prec:PREC.FESTA_SEMIDUPLEX,
       s:"Sl 78. Intret in conspectu tuo Domine... Sb 10,17-20 • Lc 21,9-19",
       l:"/2025/07/28-julho-ss-nazario-e-celso-martires-s.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
-  }, {
-      t:"S. Vítor I, papa e mártir",
-      rito:RITO.SEMIDUPLEX, prec:PREC.FESTA_SEMIDUPLEX,
-      s:"Jo 21. Si díligis me... 1 Pd 5,1-4; 10-11 • Mt 16,13-19",
-      l:"/",
-      p: { cor: COR.VERMELHA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.SUM_PONT }
-  }, {
-      t:"S. Inocêncio I, papa e confessor",
-      rito:RITO.SEMIDUPLEX, prec:PREC.FESTA_SEMIDUPLEX,
-      s:"Jo 21. Si díligis me... 1 Pd 5,1-4; 10-11 • Mt 16,13-19",
-      l:"/",
-      p: { cor: COR.BRANCA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.SUM_PONT }
   }],
   "7-29":[{
       t:"S. Marta, virgem",
