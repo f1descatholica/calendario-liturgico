@@ -688,7 +688,7 @@ const SANTOS_FIXOS = {
       rito: RITO.SIMPLEX, prec: PREC.FESTA_SIMPLEX,
       s: "[Na Quaresma] Eclo 44. Sapiéntiam... Sb 5,16-20 • Lc 6,17-23 | [No T. Pascal] Sl 144. Sancti tui... Sb 5,1-5 • Jo 15,1-7",
       l: "/2026/04/14-abril-ss-tiburcio-valeriano-e-maximo.html",
-      p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
+      p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_N_2 }
   }],
   "4-17":[{
       t: "S. Aniceto, papa e mártir",
@@ -2031,7 +2031,7 @@ const SANTOS_FIXOS = {
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Eclo 44. Sapientiam sanctorum... Sb 5,16-20 • Lc 6,17-23",
       l:"/2025/09/20-set-s-eustaquio-e-companheiros.html",
-      p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
+      p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_N_2 }
   }, {
       t:"Vigília de S. Mateus, apóstolo e evang.",
       rito:null, prec:PREC.VIGILIA_COMUM,
