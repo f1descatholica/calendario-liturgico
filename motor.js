@@ -677,18 +677,18 @@ const SANTOS_FIXOS = {
       l: "/2026/04/13-abril-s-hermenegildo-martir.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.PASCAL, comum: COMUM.MART_1_TP, orProprias: true }
   }],
-  "4-14":[{
+"4-14":[{
       t: "S. Justino, mártir",
       rito: RITO.DUPLEX, prec: PREC.FESTA_DUPLEX,
       s: "Sl 118. Narravérunt mihi iníqui fabulatiónes... 1 Co 1,18-25; 1,30 • Lc 12,2-8",
       l: "/2026/04/14-abril-s-justino-martir.html",
-      p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.PASCAL, comum: COMUM.PROPRIA, orProprias: true }
+      p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA, orProprias: true }
   }, {
       t: "Ss. Tibúrcio, Valeriano e Máximo, mártires",
       rito: RITO.SIMPLEX, prec: PREC.FESTA_SIMPLEX,
-      s: "Sl 144. Sancti tui, Dómine, benedícent te... 1 Pd 1,3-7 • Jo 15,1-7",
+      s: "[Na Quaresma] Eclo 44. Sapiéntiam... Sb 5,16-20 • Lc 6,17-23 | [No T. Pascal] Sl 144. Sancti tui... Sb 5,1-5 • Jo 15,1-7",
       l: "/2026/04/14-abril-ss-tiburcio-valeriano-e-maximo.html",
-      p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.PASCAL, comum: COMUM.MART_N_TP }
+      p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
   "4-17":[{
       t: "S. Aniceto, papa e mártir",
@@ -1587,10 +1587,10 @@ const SANTOS_FIXOS = {
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }, {
       t:"Ss. Félix II, Simplício, Faustino e Beatriz, mártires",
-      rito:RITO.SEMIDUPLEX, prec:PREC.FESTA_SEMIDUPLEX,
-      s:"Sl 36. Salus autem justorum a Domino... Hb 10,32-38 • Lc 12,1-8",
-      l:"/",
-      p: { cor: COR.VERMELHA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_N }
+      rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
+      s:"Eclo 44. Sapientiam sanctorum... Sb 5,16-20 • Lc 6,17-23",
+      l:"/2026/07/29-julho-santos-felix-ii-simplicio.html",
+      p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_N_2 }
   }],
   "7-30":[{
       t:"Ss. Abdon e Sennen, mártires",
@@ -1695,7 +1695,7 @@ const SANTOS_FIXOS = {
   "8-11":[{
       t:"Ss. Tibúrcio e Susana, mártires",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
-      s:"Sl 36. Salus autem justorum a Domino... Hb 11,33-39 • Lc 12,1-8",
+      s:"Sl 36. Salus autem justorum a Domino... Hb 10,32-38 • Lc 12,1-8",
       l:"/2025/08/11-ago-ss-tiburcio-e-susana-martires.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_N }
   }],
@@ -2029,8 +2029,8 @@ const SANTOS_FIXOS = {
   "9-20":[{
       t:"Ss. Eustáquio e companheiros, mártires",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
-      s:"Sl 33. Clamaverunt justi... Hb 11,33-39 • Lc 6,17-23",
-      l:"/",
+      s:"Eclo 44. Sapientiam sanctorum... Sb 5,16-20 • Lc 6,17-23",
+      l:"/2025/09/20-set-s-eustaquio-e-companheiros.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }, {
       t:"Vigília de S. Mateus, apóstolo e evang.",
