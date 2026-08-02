@@ -1634,13 +1634,13 @@ const SANTOS_FIXOS = {
       t:"S. Afonso Maria de Ligório, bispo, confessor e doutor",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Lc 4. Spiritus Domini super me... 2 Tm 4,1-8 • Lc 10,1-9",
-      l:"2025/08/02-ago-s-afonso-maria-de-ligorio-bispo.html",
+      l:"/2025/08/02-ago-s-afonso-maria-de-ligorio-bispo.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }, {
       t:"S. Estêvão I, papa e mártir",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Jo 21. Si díligis me... 1 Pd 5,1-4; 5,10-11 • Mt 16,13-19",
-      l:"/2026/05/27-maio-sao-joao-i-papa-e-martir-o-bom.html",
+      l:"/2026/08/02-ago-s-estevao-i-papa-e-martir-rocha.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.SUM_PONT }
   }],
   "8-3": [{
