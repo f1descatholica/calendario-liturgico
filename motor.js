@@ -1616,19 +1616,38 @@ const SANTOS_FIXOS = {
       s:"At 12. Nunc scio vere, quia misit Dominus Angelum suum... At 12,1-11 • Mt 16,13-19",
       l:"/2025/08/01-ago-s-pedro-apostolo-as-correntes.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.APOSTOLOS, comum: COMUM.PROPRIA }
+  }, {
+      t:"S. Paulo Apóstolo",
+      isPedroPaulo:true,
+      rito:null, prec:PREC.COMEMORACAO_FIXA,
+      s:"Comemoração especial",
+      l:"",
+      p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.APOSTOLOS, comum: "Comemoração especial" }
+  }, {
+      t:"Santos Macabeus, mártires",
+      rito:null, prec:PREC.COMEMORACAO_FIXA,
+      s:"Sl 33. Clamavérunt justi, et Dóminus exaudívit eos... Hb 11,33-39 • Mt 10,16-22",
+      l:"/2026/08/01-ago-os-sete-irmaos-macabeus.html",
+      p: { cor: COR.VERMELHA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_N }
   }],
   "8-2": [{
       t:"S. Afonso Maria de Ligório, bispo, confessor e doutor",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Lc 4. Spiritus Domini super me... 2 Tm 4,1-8 • Lc 10,1-9",
-      l:"/2025/08/02-ago-s-afonso-maria-de-ligorio.html",
+      l:"2025/08/02-ago-s-afonso-maria-de-ligorio-bispo.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
+  } {
+      t:"S. Estêvão I, papa e mártir",
+      rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
+      s:"Jo 21. Si díligis me... 1 Pd 5,1-4; 5,10-11 • Mt 16,13-19",
+      l:"/2026/05/27-maio-sao-joao-i-papa-e-martir-o-bom.html",
+      p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.SUM_PONT }
   }],
   "8-3": [{
       t:"Invenção de S. Estêvão, protomártir",
       rito:RITO.SEMIDUPLEX, prec:PREC.FESTA_SEMIDUPLEX,
       s:"Sl 118. Sederunt principes... At 6,8-10; 7,54-59 • Mt 23,34-39",
-      l:"/",
+      l:"/2026/07/03-ago-invencao-das-reliquias-de-santo.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
   "8-4": [{
