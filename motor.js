@@ -1636,7 +1636,7 @@ const SANTOS_FIXOS = {
       s:"Lc 4. Spiritus Domini super me... 2 Tm 4,1-8 • Lc 10,1-9",
       l:"2025/08/02-ago-s-afonso-maria-de-ligorio-bispo.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
-  } {
+  }, {
       t:"S. Estêvão I, papa e mártir",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Jo 21. Si díligis me... 1 Pd 5,1-4; 5,10-11 • Mt 16,13-19",
