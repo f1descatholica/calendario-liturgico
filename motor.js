@@ -1570,7 +1570,7 @@ const SANTOS_FIXOS = {
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Sl 20. In virtute tua Domine lætabitur justus... 2 Tm 2,8-10; 3,10-12 • Mt 10,26-32",
       l:"/2025/07/27-julho-s-pantaleao-martir.html",
-      p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_1 }
+      p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_4 }
   }],
 "7-28": [{
       t:"Ss. Nazário e Celso, Mm., S. Vítor I, Papa e M., e S. Inocêncio I, Papa e Conf.",
@@ -1644,7 +1644,7 @@ const SANTOS_FIXOS = {
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.SUM_PONT }
   }],
   "8-3": [{
-      t:"Invenção de S. Estêvão, protomártir",
+      t:"Invenção (encontro das relíquias) de S. Estêvão, protomártir",
       rito:RITO.SEMIDUPLEX, prec:PREC.FESTA_SEMIDUPLEX,
       s:"Sl 118. Sederunt principes... At 6,8-10; 7,54-59 • Mt 23,34-39",
       l:"/2026/07/03-ago-invencao-das-reliquias-de-santo.html",
@@ -1666,10 +1666,16 @@ const SANTOS_FIXOS = {
   }],
   "8-6": [{
       t:"Transfiguração de Nosso Senhor Jesus Cristo",
-      rito:RITO.DUPLEX_II, prec:PREC.FESTA_II_CLASSE,
+      rito:RITO.DUPLEX_MAJ, prec:PREC.FESTA_DUPLEX_MAJ,
       s:"Sl 96. Illuxerunt coruscationes tuæ... 2 Pd 1,16-19 • Mt 17,1-9",
       l:"/2025/08/06-ago-transfiguracao-de-nosso-senhor.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.NATAL, comum: COMUM.PROPRIA }
+  }, {
+      t:"Ss. Xisto II, papa, Felicíssimo e Agapito, mártires",
+      rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
+      s:"Eclo 44. Sapientiam sanctorum... Sb 5,16-20 • Lc 6,17-23",
+      l:"/2025/08/06-ago-ss-xisto-ii-papa-felicissimo-e_0900200832.html",
+      p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_N_2 }
   }],
   "8-7": [{
       t:"S. Caetano, confessor",
@@ -1677,6 +1683,12 @@ const SANTOS_FIXOS = {
       s:"Sl 36. Os justi meditabitur sapientiam... Eclo 31,8-11 • Mt 6,24-33",
       l:"/2025/08/07-ago-s-caetano-confessor.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
+  }, {
+      t:"S. Donato, bispo e mártir",
+      rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
+      s:"Dn 3. Sacerdótes Dei... Tg 1, 2-12 • Mc 13, 33-37",
+      l:"/2025/08/07-ago-s-donato-bispo-e-martir.html",
+      p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
   "8-8": [{
       t:"Ss. Ciríaco, Largo e Esmaragdo, mártires",
@@ -1701,8 +1713,8 @@ const SANTOS_FIXOS = {
       t:"S. Romão, mártir",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Sl 63. Lætabitur justus in Domino... 2 Tm 2,8-10; 3,10-12 • Mt 10,26-32",
-      l:"/",
-      p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_1 }
+      l:"/2025/08/9-ago-s.html",
+      p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_4 }
   }],
   "8-10":[{
       t:"S. Lourenço, mártir (com Oitava Simples)",
