@@ -1746,6 +1746,12 @@ const SANTOS_FIXOS = {
       s:"Sl 44. Vultum tuum deprecabuntur omnes divites plebis... Eclo 24,23-31 • Lc 11,27-28",
       l:"/2025/08/14-ago-vigilia-de-nossa-senhora-da.html",
       p: { cor: COR.ROXA, gloria: false, credo: false, _gradual: "gradual", prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
+    }, {
+      t:"S. Eusébio, confessor",
+      rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
+      s:"Sl 36. Os justi meditábitur sapiéntiam... Eclo 31,8-11 • Lc 12,35-40",
+      l:"/2026/08/14-ago-sao-eusebio-confessor-coragem.html",
+      p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.CONF_NPON }
   }],
   "8-15":[{
       t:"Assunção da Bem-Aventurada Virgem Maria (com Oitava)",
@@ -1776,8 +1782,8 @@ const SANTOS_FIXOS = {
   }, {
       t:"Oitava de S. Lourenço",
       rito:RITO.SIMPLEX, prec:PREC.INFRA_OCTAVAM,
-      s:"Sl 95. Confessio et pulchritudo... 2 Co 9,6-10 • Jo 12,24-26",
-      l:"/",
+      s:"Sl 16. Probásti, Dómine, cor meum... 2 Co 9,6-10 • Jo 12,24-26",
+      l:"/2026/08/17-agosto-oitava-de-sao-lourenco.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: "da Festa" }
   }, {
       t:"Na Oitava da Assunção de Nossa Senhora",
@@ -1796,7 +1802,7 @@ const SANTOS_FIXOS = {
       t:"S. Agapito, mártir",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Sl 20. Lætabitur justus... 2 Tm 2,8-10; 3,10-12 • Mt 10,26-32",
-      l:"/",
+      l:"/2026/08/18-agosto-santo-agapito-martir.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_1 }
   }],
   "8-19":[{
