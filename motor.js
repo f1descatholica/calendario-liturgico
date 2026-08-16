@@ -1777,7 +1777,7 @@ const SANTOS_FIXOS = {
       t:"S. Jacinto, confessor",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Sl 36. Os justi meditabitur sapientiam... Eclo 31,8-11 • Lc 12,35-40",
-      l:"/2025/08/17-ago-s-jacinto-confessor.html",
+      l:"/2025/08/17-agosto-sao-jacinto-confessor-tocha.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.BVM, comum: COMUM.CONF_NPON }
   }, {
       t:"Oitava de S. Lourenço",
@@ -1860,7 +1860,7 @@ const SANTOS_FIXOS = {
       t:"Ss. Timóteo, Hipólito e Sinforiano, mártires",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Sl 36. Salus autem justorum a Domino... Hb 10,32-38 • Lc 12,1-8",
-      l:"/",
+      l:"/2025/08/22-agosto-ss-timoteo-hipolito-e.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_N }
   }],
   "8-23":[{
