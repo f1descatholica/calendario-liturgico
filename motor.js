@@ -1913,16 +1913,22 @@ const SANTOS_FIXOS = {
   }, {
       t:"S. Hermes, mártir",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
-      s:"Sl 63. Protexisti me Deus a conventu malignantium... Sb 5,1-5 • Lc 14,26-33",
-      l:"/",
+      s:"Sl 63. Lætabitur justus in Domino... Sb 10,10-14 • Lc 14,26-33",
+      l:"/2026/08/28-agosto-s.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_1 }
   }],
   "8-29":[{
-      t:"Degolação de S. João Batista",
+      t:"Decapitação de S. João Batista",
       rito:RITO.DUPLEX_MAJ, prec:PREC.FESTA_DUPLEX_MAJ,
       s:"Sl 118. Loquebar de testimoniis tuis in conspectu regum... Jr 1,17-19 • Mc 6,17-29",
       l:"/2025/08/29-ago-degola-de-s-joao-batista.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
+  }, {
+      t:"Santa Sabina, mártir",
+      rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
+      s:"Sl 118. Me exspectaverunt peccatores... Eclo 51,1-8; 51,12 • Mt 13,44-52",
+      l:"/2026/08/29-agosto-santa-sabina-martir-perola.html",
+      p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.NON_VIRG }
   }],
   "8-30":[{
       t:"S. Rosa de Lima, virgem",
@@ -1949,10 +1955,10 @@ const SANTOS_FIXOS = {
       l:"/2025/09/01-set-s-egidio-abade.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.ABBATIS }
   }, {
-      t:"Os Doze Santos Irmãos Mártires",
+      t:"Os Doze Santos Irmãos, Mártires",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Sl 33. Clamaverunt justi... Rm 8,18-23 • Lc 21,9-19",
-      l:"/",
+      l:"/2026/08/1-setembro-os-doze-santos-irmaos.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_N }
   }],
   "9-2": [{
