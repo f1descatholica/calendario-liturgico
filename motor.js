@@ -1930,18 +1930,24 @@ const SANTOS_FIXOS = {
       l:"/2026/08/29-agosto-santa-sabina-martir-perola.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.NON_VIRG }
   }],
-  "8-30":[{
+"8-30":[{
       t:"S. Rosa de Lima, virgem",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Sl 44. Dilexisti justitiam, et odisti iniquitatem... 2 Co 10,17-18; 11,1-2 • Mt 25,1-13",
       l:"/2025/08/30-de-ago-santa-rosa-de-lima-virgem.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.VIRG_1 }
+  }, {
+      t:"Santos Félix e Adaucto, mártires",
+      rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
+      s:"Eclo 44. Sapiéntiam Sanctórum narrent pópuli... Sb 10,17-20 • Lc 10,16-20",
+      l:"/2026/08/30-agosto-santos-felix-e-adaucto.html",
+      p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: "Missa Própria" }
   }],
   "8-31":[{
       t:"S. Raimundo Nonato, confessor",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Sl 36. Os justi meditabitur sapientiam... Eclo 31,8-11 • Lc 12,35-40",
-      l:"/2025/08/31-ago-s-raimundo-nonato-confessor.html",
+      l:"/2026/08/3108-s-raimundo-nonato-confessor.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.CONF_NPON }
   }],
 
@@ -1979,7 +1985,7 @@ const SANTOS_FIXOS = {
       t:"S. Lourenço Justiniano, bispo e confessor",
       rito:RITO.SEMIDUPLEX, prec:PREC.FESTA_SEMIDUPLEX,
       s:"Eclo 45. Statuit ei Dominus testamentum pacis... Eclo 44,16-27; 45,3-20 • Mt 25,14-23",
-      l:"/",
+      l:"/2025/09/05-ago-s-lourenco-justiniani-bispo-e.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.CONF_PONT }
   }],
   "9-8": [{
