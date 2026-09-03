@@ -1,6 +1,6 @@
 "use strict";
 // =========================================================
-// O CÉREBRO - MOTOR LITÚRGICO GLOBAL
+// O CÉREBRO - MOTOR LITÚRGICO GLOBAL github
 // =========================================================
 
 const anoState = { ano: new Date().getFullYear() };
@@ -1974,12 +1974,12 @@ const SANTOS_FIXOS = {
       l:"/2025/09/02-set-s-estevao-rei-confessor.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.CONF_NPON }
   }],
-  "9-3": [{
+"9-3": [{
       t:"S. Pio X, papa e confessor",
-      rito:RITO.DUPLEX_MAJ, prec:PREC.FESTA_DUPLEX_MAJ,
+      rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Jo 21. Si diligis me, Simon Petre, pasce agnos meos... 1 Ts 2,2-8 • Jo 21,15-17",
       l:"/2025/09/03-set-s-pio-x-papa-e-confessor.html",
-      p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
+      p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: COMUM.SUM_PONT }
   }],
   "9-5": [{
       t:"S. Lourenço Justiniano, bispo e confessor",
