@@ -1977,9 +1977,9 @@ const SANTOS_FIXOS = {
 "9-3": [{
       t:"S. Pio X, papa e confessor",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
-      s:"Jo 21. Si diligis me, Simon Petre, pasce agnos meos... 1 Ts 2,2-8 • Jo 21,15-17",
+      s:"Sl 88. Extuli electum de populo... 1 Ts 2,2-8 • Jo 21,15-17",
       l:"/2025/09/03-set-s-pio-x-papa-e-confessor.html",
-      p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: COMUM.SUM_PONT }
+      p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: "Missa Própria" }
   }],
   "9-5": [{
       t:"S. Lourenço Justiniano, bispo e confessor",
