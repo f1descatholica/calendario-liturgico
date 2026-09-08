@@ -1994,12 +1994,24 @@ const SANTOS_FIXOS = {
       s:"Sedul. Salve, sancta parens... Pr 8,22-35 • Mt 1,1-16",
       l:"/2025/09/08-set-natividade-de-nossa-senhora.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.BVM, comum: COMUM.PROPRIA }
+  }, {
+      t:"S. Adriano, mártir",
+      rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
+      s:"Sl 20. In virtúte tua... 2 Tm 2,8-10; 3,10-12 • Mt 10,26-32",
+      l:"/2026/09/8-setembro-sao-adriano-martir.html",
+      p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_1 }
   }],
   "9-9": [{
+      t:"S. Pedro Claver, confessor",
+      rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
+      s:"Sl 36. Os justi meditábitur sapiéntiam... Eclo 31,8-11 • Lc 12,35-40",
+      l:"/2025/09/09-de-setembro-s-pedro-claver-confessor.html",
+      p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.CONF_NPON_1 }
+  }, {
       t:"S. Gorgônio, mártir",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
-      s:"Sl 63. Lætabitur justus in Domino... Tg 1,12-18 • Lc 14,26-33",
-      l:"/2025/09/09-de-setembro-s-pedro-claver-confessor.html",
+      s:"Sl 63. Lætábitur justus in Dómino... 2 Tm 2,8-10; 3,10-12 • Mt 10,26-32",
+      l:"/2026/09/9-setembro-sao-gorgonio-martir.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_1 }
   }],
   "9-10":[{
