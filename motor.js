@@ -1,3 +1,5 @@
+
+
 "use strict";
 // =========================================================
 // O CÉREBRO - MOTOR LITÚRGICO GLOBAL github
@@ -1771,7 +1773,13 @@ const SANTOS_FIXOS = {
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"Ap 12. Signum magnum apparuit in cælo... Jt 13,22-25; 15,10 • Lc 1,41-50",
       l:"/2025/08/15-ago-assuncao-de-nossa-senhora.html",
-      p: { cor: COR.BRANCA, gloria: false, credo: false, prefacio: PREF.BVM, comum: "da Festa" }
+      p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.BVM, comum: "da Festa" }
+  }, {
+      t:"S. Roque, confessor",
+      rito:RITO.LOCAL, prec:PREC.PRO_ALIQUIBUS_LOCIS,
+      s:"Sl 91. Justus ut palma florébit... 1 Co 4,9-14 • Lc 12,35-40",
+      l:"/",
+      p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.BVM, comum: COMUM.CONF_NPON_2 }
   }],
   "8-17":[{
       t:"S. Jacinto, confessor",
@@ -2042,18 +2050,25 @@ const SANTOS_FIXOS = {
       l:"/2025/09/14-set-exaltacao-da-santa-cruz.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: true, prefacio: PREF.CRUZ, comum: COMUM.PROPRIA }
   }],
-  "9-15":[{
+"9-15":[{
       t:"As Sete Dores de Nossa Senhora",
       rito:RITO.DUPLEX_II, prec:PREC.FESTA_II_CLASSE,
       s:"Jo 19. Stabant juxta crucem Jesu... Jt 13,22-25 • Jo 19,25-27",
       l:"/2025/09/15-set-as-sete-dores-de-nossa-senhora.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, sequencia: SEQ.STABAT, prefacio: PREF.BVM, comum: COMUM.PROPRIA, observacao: "BVM na Transfixão" }
   }, {
-      t:"Oitava da Natividade de Nossa Senhora",
-      rito:RITO.SIMPLEX, prec:PREC.INFRA_OCTAVAM,
+      t:"Dia da Oitava da Natividade de Nossa Senhora",
+      isOitava: true,
+      rito:RITO.DUPLEX_MAJ, prec:PREC.DIA_OITAVA_COMUM,
       s:"Sedul. Salve, sancta parens... Pr 8,22-35 • Mt 1,1-16",
-      l:"/",
-      p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.BVM, comum: "da Festa" }
+      l:"/2025/09/08-set-natividade-de-nossa-senhora.html",
+      p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.BVM, comum: "da Festa" }
+  }, {
+      t:"S. Nicomedes, mártir",
+      rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
+      s:"Sl 20. In virtúte tua... 2 Tm 2,8-10; 3,10-12 • Mt 10,26-32",
+      l:"/2026/09/15-set-sao-nicomedes-martir.html",
+      p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_1 }
   }],
   "9-16":[{
       t:"Ss. Cornélio e Cipriano, mártires",
