@@ -1,5 +1,4 @@
 
-
 "use strict";
 // =========================================================
 // O CÉREBRO - MOTOR LITÚRGICO GLOBAL github
@@ -2070,12 +2069,18 @@ const SANTOS_FIXOS = {
       l:"/2026/09/15-set-sao-nicomedes-martir.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_1 }
   }],
-  "9-16":[{
+"9-16":[{
       t:"Ss. Cornélio e Cipriano, mártires",
       rito:RITO.SEMIDUPLEX, prec:PREC.FESTA_SEMIDUPLEX,
       s:"Sl 78. Intret in conspectu tuo... Sb 3,1-8 • Lc 21,9-19",
       l:"/2025/09/16-set-s-cornelio-papa-e-s-cipriano.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_N_PONT }
+  }, {
+      t:"Santas Eufêmia, Lúcia e S. Geminiano, mártires",
+      rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
+      s:"Sl 78. Intret in conspéctu tuo... Sb 3,1-8 • Lc 6,17-23",
+      l:"/2026/09/16-set-sta-eufemia-lucia-e-geminiano.html",
+      p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_N_1 }
   }],
   "9-17":[{
       t:"Impressão dos Estigmas de S. Francisco de Assis",
