@@ -1,4 +1,3 @@
-
 "use strict";
 // =========================================================
 // O CÉREBRO - MOTOR LITÚRGICO GLOBAL github
@@ -2102,6 +2101,12 @@ const SANTOS_FIXOS = {
       s:"Sl 36. Salus autem justorum a Domino... Hb 10,32-38 • Mt 24,3-13",
       l:"/2025/09/19-set-s-januario-bispo-e-seus.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_N }
+  }, {
+      t:"Nossa Senhora de La Salette",
+      rito:RITO.LOCAL, prec:PREC.PRO_ALIQUIBUS_LOCIS,
+      s:"Jr 18. Recordáre, Virgo Mater... 2 Co 1,3-5 • Jo 19,25-27",
+      l:"/2025/09/19-set-nossa-senhora-de-la-salette.html",
+      p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.BVM, comum: "Missa Própria", observacao: "BVM na Aparição" }
   }],
   "9-20":[{
       t:"Ss. Eustáquio e companheiros, mártires",
