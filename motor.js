@@ -2118,14 +2118,14 @@ const SANTOS_FIXOS = {
       t:"Vigília de S. Mateus, apóstolo e evang.",
       rito:null, prec:PREC.VIGILIA_COMUM,
       s:"Sl 51. Ego autem sicut oliva... Ez 1,10-14 • Mt 9,9-13",
-      l:"/",
+      l:"/2025/09/21-set-s-mateus-apostolo-e-evangelista.html",
       p: { cor: COR.ROXA, gloria: false, credo: false, _gradual: "gradual", prefacio: PREF.COMUM, comum: "Missa da Vigília" }
   }],
   "9-21":[{
       t:"S. Mateus, apóstolo e evangelista",
       rito:RITO.DUPLEX_II, prec:PREC.FESTA_II_CLASSE,
       s:"Sl 138. Mihi autem nimis honorati sunt amici tui, Deus... Ez 1,10-14 • Mt 9,9-13",
-      l:"/",
+      l:"/2025/09/21-set-s-mateus-apostolo-e-evangelista.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: true, prefacio: PREF.APOSTOLOS, comum: COMUM.PROPRIA }
   }],
   
@@ -2134,7 +2134,7 @@ const SANTOS_FIXOS = {
       t:"S. Tomás de Vilanova, bispo e confessor",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Eclo 45. Statuit ei Dominus testamentum pacis... Eclo 44,16-27; 45,3-20 • Mt 25,14-23",
-      l:"/",
+      l:"/2025/09/22-set-s-tomas-de-vilanova-bispo-e.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.CONF_PONT }
   }, {
       t:"S. Maurício e companheiros, mártires",
