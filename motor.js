@@ -2143,12 +2143,18 @@ const SANTOS_FIXOS = {
       l:"/2025/09/22-set-s-mauricio-e-companheiros.html",
       p: { cor: COR.VERMELHA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_N }
   }],
-  "9-23":[{
+"9-23":[{
       t:"S. Lino, papa e mártir",
       rito:RITO.SEMIDUPLEX, prec:PREC.FESTA_SEMIDUPLEX,
       s:"Jo 21. Si diligis me, Simon Petre, pasce agnos meos... 1 Pd 5,1-4; 5,10-11 • Mt 16,13-19",
       l:"/2025/09/23-set-s-lino-papa-e-martir.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.SUM_PONT }
+  }, {
+      t:"Santa Tecla, virgem e mártir",
+      rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
+      s:"Sl 118. Loquébar de testimóniis tuis... Eclo 51,1-8; 51,12 • Mt 25,1-13",
+      l:"/",
+      p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.VIRG_MART_1 }
   }],
   "9-24":[{
       t:"Nossa Senhora das Mercês",
