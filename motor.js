@@ -2153,7 +2153,7 @@ const SANTOS_FIXOS = {
       t:"Santa Tecla, virgem e mártir",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Sl 118. Loquébar de testimóniis tuis... Eclo 51,1-8; 51,12 • Mt 25,1-13",
-      l:"/",
+      l:"/2025/09/23-set-s-tecla-virgem-e-martir.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.VIRG_MART_1 }
   }],
   "9-24":[{
