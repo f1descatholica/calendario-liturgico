@@ -4,26 +4,6 @@
 // O CÉREBRO - MOTOR LITÚRGICO GLOBAL github
 // =========================================================
 
-// --- INÍCIO: SISTEMA DE LINKS DINÂMICOS ---
-let linksDinamicos = {};
-async function inicializarLinksDinamicos() {
-    try {
-        const url = `links_dinamicos.json?t=${Date.now()}`;
-        const resposta = await fetch(url);
-        if (resposta.ok) { linksDinamicos = await resposta.json(); }
-    } catch (e) { console.warn("Aviso: links_dinamicos não carregado."); }
-}
-inicializarLinksDinamicos();
-
-function obterLinkSeguro(item, ano, mesNum, dia) {
-    const hoje = new Date(); hoje.setHours(0, 0, 0, 0);
-    const dataSanto = new Date(ano, mesNum, dia);
-    const chaveData = `${ano}-${mesNum + 1}-${dia}`;
-    if (dataSanto > hoje) return item.l;
-    return linksDinamicos[chaveData] || item.l;
-}
-// --- FIM: SISTEMA DE LINKS DINÂMICOS ---
-
 const anoState = { ano: new Date().getFullYear() };
 function calcularPascoa(ano) {
     const a = ano % 19, b = Math.floor(ano / 100), c = ano % 100;
