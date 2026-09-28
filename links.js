@@ -1,4 +1,4 @@
 "use strict";
 const LINKS = {
-  "santo-domingos": "/2026/09/27-de-setembro-xviii-domingo-depois-de.html"
+  "santo-domingos": "/2025/08/04-ago-s-domingos-confessor.html"
 };
