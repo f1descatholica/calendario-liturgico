@@ -937,6 +937,13 @@ const SANTOS_FIXOS = {
       s:"Sl 102. Benedícite Dóminum omnes Angeli ejus... Ap 1,1-5 • Mt 18,1-10",
       l:"/2025/05/08-maio-aparicao-de-sao-miguel-arcanjo.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
+  }, {
+      id: "nossa-senhora-medianeira-maio",
+      t: "Nossa Senhora Medianeira de todas as Graças",
+      rito: RITO.LOCAL, prec: PREC.PRO_ALIQUIBUS_LOCIS,
+      s: "Hb 4. Adeámus cum fidúcia ad thronum grátiæ... Is 55,1-5 • Jo 19,25-27",
+      l: "",
+      p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.BVM, comum: COMUM.PROPRIA }
   }],
   "5-9": [{
       id:"s-gregorio-nazianzeno",
@@ -2229,7 +2236,7 @@ const SANTOS_FIXOS = {
       t:"S. Egídio, abade",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Sl 36. Os justi meditabitur sapientiam... Eclo 45,1-6 • Mt 19,27-29",
-      l:"/2025/09/01-set-s-egidio-abade.html",
+      l:"/2026/09/01-setembro-santo-egidio-abade-santa.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.ABBATIS }
   }, {
       id:"doze-santos-irmaos-martires",
@@ -2509,6 +2516,13 @@ const SANTOS_FIXOS = {
       s:"Eclo 45. Statuit ei Dominus testamentum pacis... Eclo 44,16-27; 45,3-20 • Lc 12,35-40",
       l:"/2025/10/01-out-s-remigio-bispo-e-confessor.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.CONF_PONT }
+  }, {
+      id: "nossa-senhora-medianeira-outubro",
+      t: "Nossa Senhora Medianeira de todas as Graças",
+      rito: RITO.LOCAL, prec: PREC.PRO_ALIQUIBUS_LOCIS,
+      s: "Hb 4. Adeámus cum fidúcia ad thronum grátiæ... Is 55,1-5 • Jo 19,25-27",
+      l: "/2026/10/nossa-senhora-medianeira-de-todas-as.html",
+      p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.BVM, comum: COMUM.PROPRIA }
   }],
   "10-2": [{
       id:"santos-anjos-guarda",
@@ -3473,7 +3487,7 @@ function prepararMotorLiturgico(anoParaCalcular) {
     "IX":"/2026/07/ix-domingo-depois-de-pentecostes.html",
     "X":"/2025/08/17-ago-x-domingo-de-pentecostes.html",
 	"XI":"/2025/08/24-ago-xi-domingo-depois-de-pentecostes.html", "XII":"/2025/08/31-ago-xii-domingo-depois-de-pentecostes.html", "XIII":"/2025/09/07-set-xiii-domingo-depois-de.html", "XIV":"/2025/08/xiv-domingo-depois-de-pentecostes.html", "XV":"/2025/09/21-set-xv-domingo-depois-de-pentecostes.html", "XVI":"/2025/09/28-set-xvi-domingo-depois-de-pentecostes.html", "XVII":"/2025/10/05-out-xvii-domingo-depois-de.html",
-	"XVIII":"/2025/08/xviii-domingo-depois-de-pentecostes.html",
+	"XVIII":"/2026/09/27-de-setembro-xviii-domingo-depois-de.html",
 	"XIX":"/2025/10/19-out-xix-domingo-depois-de-pentecostes.html"};
     const leiturasP = {"IV": "Rm 8,18-23 • Lc 5,1-11", "V": "1 Pd 3,8-15 • Mt 5,20-24", "VI": "Rm 6,3-11 • Mc 8,1-9", "VII": "Rm 6,19-23 • Mt 7,15-21", "VIII": "Rm 8,12-17 • Lc 16,1-9", "IX": "1 Co 10,6-13 • Lc 19,41-47", "X": "1 Co 12,2-11 • Lc 18,9-14", "XI": "1 Co 15,1-10 • Mc 7,31-37", "XII": "2 Co 3,4-9 • Lc 10,23-37", "XIII": "Gl 3,16-22 • Lc 17,11-19", "XIV": "Gl 5,16-24 • Mt 6,24-33", "XV": "Gl 5,25-26; 6,1-10 • Lc 7,11-16", "XVI": "Ef 3,13-21 • Lc 14,1-11", "XVII": "Ef 4,1-6 • Mt 22,34-46", "XVIII": "1 Co 1,4-8 • Mt 9,1-8", "XIX": "Ef 4,23-28 • Mt 22,1-14", "XX": "Ef 5,15-21 • Jo 4,46-53", "XXI": "Ef 6,10-17 • Mt 18,23-35", "XXII": "Fp 1,6-11 • Mt 22,15-21", "XXIII": "Fp 3,17-21; 4,1-3 • Mt 9,18-26"};
     const leiturasRetomadasEpi = ["Rm 12,16-21 • Mt 8,1-13", "Rm 13,8-10 • Mt 8,23-27", "Cl 3,12-17 • Mt 13,24-30", "1 Ts 1,2-10 • Mt 13,31-35"];
