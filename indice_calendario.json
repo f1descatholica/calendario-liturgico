@@ -1,4 +1,7 @@
 [
+  { "id": "nossa-senhora-medianeira-maio", "t": "Nossa Senhora Medianeira de todas as Graças", "data": "5-8" },
+  { "id": "nossa-senhora-medianeira-outubro", "t": "Nossa Senhora Medianeira de todas as Graças", "data": "10-1" },
+  
   {"id": "circuncisao-do-senhor", "t": "Circuncisão de Nosso Senhor e Oitava do Natal", "data": "1-1"},
   {"id": "oitava-santo-estevao", "t": "Oitava de S. Estêvão, protomártir", "data": "1-2"},
   {"id": "oitava-sao-joao-evangelista", "t": "Oitava de S. João, apóstolo e evang.", "data": "1-3"},
