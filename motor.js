@@ -117,7 +117,7 @@ const SANTOS_FIXOS = {
       t:"S. Telésforo, papa e mártir",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Jo 21. Si díligis me... 1 Pd 5,1-4; 5,10-11 • Mt 16,13-19",
-      l:"/",
+      l:"",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.NATAL, comum: COMUM.SUM_PONT }
   }],
   "1-6": [{
@@ -172,7 +172,7 @@ const SANTOS_FIXOS = {
       t:"S. Higino, papa e mártir",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Jo 21. Si díligis me... 1 Pd 5,1-4; 5,10-11 • Mt 16,13-19",
-      l:"/",
+      l:"",
       p: { cor: COR.VERMELHA, gloria: true, credo: true, prefacio: PREF.EPIFANIA, comum: COMUM.SUM_PONT }
   }],
   "1-12":[{
@@ -203,7 +203,7 @@ const SANTOS_FIXOS = {
       t:"S. Félix, presbítero e mártir",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Sl 20. In virtúte tua... 2 Tm 2,8-10; 3,10-12 • Mt 10,26-32",
-      l:"/",
+      l:"",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_1_2 }
   }],
   "1-15":[{
@@ -218,7 +218,7 @@ const SANTOS_FIXOS = {
       t:"S. Mauro, abade",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Sl 36. Os justi meditábitur sapiéntiam... Eclo 45,1-6 • Mt 19,27-29",
-      l:"/",
+      l:"",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.ABBATIS }
   }],
   "1-16":[{
@@ -272,7 +272,7 @@ const SANTOS_FIXOS = {
       t:"S. Canuto, rei e mártir",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Sl 20. In virtúte tua... Sb 10,10-14 • Mt 10,34-39",
-      l:"/",
+      l:"",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_1_2 }
   }],
   "1-20":[{
@@ -311,7 +311,7 @@ const SANTOS_FIXOS = {
       t:"S. Emerenciana, virgem e mártir",
       rito:null, prec:PREC.COMEMORACAO_FIXA,
       s:"Sl 118. Me exspectavérunt peccatóres... Eclo 51,1-8; 51,12 • Mt 13,44-52",
-      l:"/",
+      l:"",
       p: { cor: COR.VERMELHA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.VIRG_MART }
   }],
   "1-24":[{
@@ -366,7 +366,7 @@ const SANTOS_FIXOS = {
       t:"S. Inês, virgem e mártir (segunda vez)",
       rito:null, prec:PREC.COMEMORACAO_FIXA,
       s:"Sl 118. Vultum tuum deprecabuntur... 2 Co 10,17-18; 11,1-2 • Mt 25,1-13",
-      l:"/",
+      l:"",
       p: { cor: COR.VERMELHA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
   "1-29":[{
@@ -559,7 +559,7 @@ const SANTOS_FIXOS = {
       t:"Vigília de S. Matias, apóstolo",
       rito:null, prec:PREC.VIGILIA_COMUM,
       s:"Sl 51. Ego autem sicut oliva fructifera... Eclo 44,25-27; 45,2-4; 45,6-9 • Jo 15,12-16",
-      l:"/",
+      l:"",
       p: { cor: COR.ROXA, gloria: false, credo: false, _gradual: "gradual", prefacio: PREF.COMUM, comum: "Missa da Vigília" }
   }],
   "2-24":[{
@@ -594,7 +594,7 @@ const SANTOS_FIXOS = {
       t:"S. Lúcio I, papa e mártir",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Jo 21. Si díligis me... 1 Pd 5,1-4; 5,10-11 • Mt 16,13-19",
-      l:"/",
+      l:"",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.SUM_PONT }
   }],
   "3-6": [{
@@ -988,7 +988,7 @@ const SANTOS_FIXOS = {
       t:"Nossa Senhora do Rosário de Fátima",
       rito:RITO.LOCAL, prec:PREC.PRO_ALIQUIBUS_LOCIS,
       s:"Sedul. Salve, sancta parens... Eclo 24,14-16 • Lc 11,27-28",
-      l:"/",
+      l:"",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.BVM, comum: COMUM.PROPRIA }
   }],
   "5-14":[{
@@ -1059,7 +1059,7 @@ const SANTOS_FIXOS = {
       t:"Santa Rita de Cássia, viúva",
       rito:RITO.LOCAL, prec:PREC.PRO_ALIQUIBUS_LOCIS,
       s:"Sl 118. Cognovi Domine quia æquitas judicia tua... Pr 31,10-31 • Mt 13,44-52",
-      l:"/",
+      l:"",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.NON_VIRG }
   }],
   "5-25":[{
@@ -1067,14 +1067,14 @@ const SANTOS_FIXOS = {
       t:"S. Gregório VII, papa e confessor",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Jo 21. Si díligis me... 1 Pd 5,1-4; 5,10-11 • Mt 24,42-47",
-      l:"/",
+      l:"",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.SUM_PONT }
   }, {
       id:"s-urbano-i",
       t:"S. Urbano I, papa e mártir",
       rito:RITO.SEMIDUPLEX, prec:PREC.FESTA_SEMIDUPLEX,
       s:"Jo 21. Si díligis me... 1 Pd 5,1-4; 5,10-11 • Mt 16,13-19",
-      l:"/",
+      l:"",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.SUM_PONT }
   }],
   "5-26":[{
@@ -1089,7 +1089,7 @@ const SANTOS_FIXOS = {
       t:"S. Eleutério, papa e mártir",
       rito:RITO.SEMIDUPLEX, prec:PREC.FESTA_SEMIDUPLEX,
       s:"Jo 21. Si díligis me... 1 Pd 5,1-4; 5,10-11 • Mt 16,13-19",
-      l:"/",
+      l:"",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.SUM_PONT }
   }],
   "5-27":[{
@@ -1128,7 +1128,7 @@ const SANTOS_FIXOS = {
       t:"S. Félix I, papa e mártir",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Jo 21. Si díligis me... Sb 5,1-5 • Jo 15,1-7",
-      l:"/",
+      l:"",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.SUM_PONT }
   }, {
       id:"santa-joana-darc",
@@ -1142,7 +1142,7 @@ const SANTOS_FIXOS = {
       t:"S. Fernando III, rei e confessor",
       rito:RITO.LOCAL, prec:PREC.PRO_ALIQUIBUS_LOCIS,
       s:"Sl 36. Os justi meditabitur sapientiam... Sb 10,10-14 • Lc 19,12-26",
-      l:"/",
+      l:"",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.CONF_NPON }
   }],
 "5-31":[{
@@ -1158,7 +1158,7 @@ const SANTOS_FIXOS = {
       t:"S. Petronila, virgem",
       rito:RITO.SEMIDUPLEX, prec:PREC.FESTA_SEMIDUPLEX,
       s:"Sl 44. Vultum tuum deprecabuntur omnes divites plebis... 2 Co 10,17-18; 11,1-2 • Mt 25,1-13",
-      l:"/",
+      l:"",
       p: { cor: COR.BRANCA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.VIRG_1 }
   }],
 
@@ -1170,7 +1170,7 @@ const SANTOS_FIXOS = {
       t:"Santa Ângela Merici, virgem",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Sl 44. Dilexisti justitiam et odisti iniquitatem... 2 Co 10,17-18; 11,1-2 • Mt 25,1-13",
-      l:"/",
+      l:"",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.VIRG_1 }
   }],
   "6-2": [{
@@ -2020,7 +2020,7 @@ const SANTOS_FIXOS = {
       t:"S. Roque, confessor",
       rito:RITO.LOCAL, prec:PREC.PRO_ALIQUIBUS_LOCIS,
       s:"Sl 91. Justus ut palma florébit... 1 Co 4,9-14 • Lc 12,35-40",
-      l:"/",
+      l:"",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.BVM, comum: COMUM.CONF_NPON_2 }
   }],
   "8-17":[{
@@ -2139,7 +2139,7 @@ const SANTOS_FIXOS = {
       t:"Vigília de S. Bartolomeu, apóstolo",
       rito:null, prec:PREC.VIGILIA_COMUM,
       s:"Sl 51. Ego autem sicut oliva... Eclo 44,25-27; 45,2-4; 6-9 • Jo 15,12-16",
-      l:"/",
+      l:"",
       p: { cor: COR.ROXA, gloria: false, credo: false, _gradual: "gradual", prefacio: PREF.COMUM, comum: "Missa da Vigília" }
   }],
   "8-24":[{
@@ -2529,7 +2529,7 @@ const SANTOS_FIXOS = {
       t:"Santos Anjos da Guarda",
       rito:RITO.DUPLEX_MAJ, prec:PREC.FESTA_DUPLEX_MAJ,
       s:"Sl 102. Benedicite Dominum omnes Angeli ejus... Ex 23,20-23 • Mt 18,1-10",
-      l:"/",
+      l:"/2025/10/02-out-os-santos-anjos-da-guarda.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
   "10-3": [{
@@ -2537,7 +2537,7 @@ const SANTOS_FIXOS = {
       t:"S. Teresa do Menino Jesus, virgem",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Sl 44. Vultum tuum deprecabuntur... Is 66,12-14 • Mt 18,1-4",
-      l:"/",
+      l:"/2025/10/03-out-s-teresa-do-menino-jesus-virgem.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
   "10-4": [{
@@ -2545,7 +2545,7 @@ const SANTOS_FIXOS = {
       t:"S. Francisco de Assis, confessor",
       rito:RITO.DUPLEX_MAJ, prec:PREC.FESTA_DUPLEX_MAJ,
       s:"Gl 6. Mihi autem absit gloriari... Gl 6,14-18 • Mt 11,25-30",
-      l:"/",
+      l:"/2025/10/4-out-s-francisco-de-assis-confessor.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
   "10-5": [{
@@ -2553,7 +2553,7 @@ const SANTOS_FIXOS = {
       t:"Ss. Plácido e companheiros, mártires",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Sl 36. Salus autem justorum a Domino... Rm 8,18-23 • Lc 12,1-8",
-      l:"/",
+      l:"",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_N }
   }],
   "10-6": [{
@@ -2592,7 +2592,7 @@ const SANTOS_FIXOS = {
       t:"Ss. Dionísio, Rústico e Eleutério, mártires",
       rito:RITO.SEMIDUPLEX, prec:PREC.FESTA_SEMIDUPLEX,
       s:"Sl 78. Intret in conspectu tuo Domine... 2 Co 6,4-10 • Lc 12,1-8",
-      l:"/",
+      l:"/2025/10/9-de-outubro-s-dionisio-bispo-s-rustico.html",
       p: { cor: COR.VERMELHA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_N }
   }],
   "10-10":[{
@@ -2600,7 +2600,7 @@ const SANTOS_FIXOS = {
       t:"S. Francisco de Borja, confessor",
       rito:RITO.SEMIDUPLEX, prec:PREC.FESTA_SEMIDUPLEX,
       s:"Sl 36. Os justi meditabitur sapientiam... Eclo 45,1-6 • Mt 19,27-29",
-      l:"/",
+      l:"/2025/10/10-out-s-francisco-de-borgia-confessor.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.CONF_NPON }
   }],
   "10-11":[{
@@ -2672,7 +2672,7 @@ const SANTOS_FIXOS = {
       t:"S. Pedro de Alcântara, confessor",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Sl 36. Os justi meditabitur sapientiam... Fl 3,7-12 • Lc 12,32-34",
-      l:"/",
+      l:"/2025/10/19-out-s-pedro-de-alcantara-confessor.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
   "10-20":[{
@@ -2685,17 +2685,17 @@ const SANTOS_FIXOS = {
   }],
   "10-21":[{
       id:"s-hilariao-abade",
-      t:"S. Hilarião, abade",
+      t:"S. Hilário, abade",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Sl 36. Os justi meditabitur sapientiam... Eclo 31,8-11 • Lc 12,35-40",
-      l:"/",
+      l:"/2025/10/21-out-s-hilariao-abade.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.ABBATIS }
   }, {
       id:"santa-ursula-companheiras",
       t:"S. Úrsula e companheiras, mártires",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Sl 44. Vultum tuum deprecabuntur... 1 Co 7,25-34 • Mt 25,1-13",
-      l:"/",
+      l:"",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: "Communi plur. Virg. et Mart." }
   }],
   "10-24":[{
@@ -2711,7 +2711,7 @@ const SANTOS_FIXOS = {
       t:"Ss. Crisanto e Daria, mártires",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Sl 78. Intret in conspectu tuo Domine... 2 Co 6,4-10 • Lc 11,47-51",
-      l:"/",
+      l:"/2025/10/25-out-s-crisanto-e-s-daria-martires.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_N }
   }],
   "10-26":[{
@@ -2719,7 +2719,7 @@ const SANTOS_FIXOS = {
       t:"S. Evaristo, papa e mártir",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Jo 21. Si díligis me... 1 Pd 5,1-4; 5,10-11 • Mt 16,13-19",
-      l:"/",
+      l:"",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.SUM_PONT }
   }],
   "10-27":[{
@@ -2727,7 +2727,7 @@ const SANTOS_FIXOS = {
       t:"Vigília de Ss. Simão e Judas Tadeu, apóstolos",
       rito:null, prec:PREC.VIGILIA_COMUM,
       s:"Sl 78. Intret in conspectu tuo Domine... 1 Co 4,9-14 • Jo 15,1-7",
-      l:"/",
+      l:"",
       p: { cor: COR.ROXA, gloria: false, credo: false, _gradual: "gradual", prefacio: PREF.COMUM, comum: "Missa da Vigília" }
   }],
   "10-28":[{
@@ -2743,7 +2743,7 @@ const SANTOS_FIXOS = {
       t:"Vigília de Todos os Santos",
       rito:null, prec:PREC.VIGILIA_COMUM,
       s:"Sap 3. Judicant sancti gentes et dominantur populis... Ap 5,11-14 • Lc 6,17-23",
-      l:"/",
+      l:"/2025/10/31-out-vigilia-de-todos-os-santos.html",
       p: { cor: COR.ROXA, gloria: false, credo: false, _gradual: "gradual", prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
 
@@ -2771,7 +2771,7 @@ const SANTOS_FIXOS = {
       t:"Na Oitava de Todos os Santos",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"Liturgia. Gaudeamus omnes in Domino... Ap 7,2-12 • Mt 5,1-12",
-      l:"/",
+      l:"",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: "da Festa" }
   }],
   "11-4": [{
@@ -2787,7 +2787,7 @@ const SANTOS_FIXOS = {
       t:"Na Oitava de Todos os Santos",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"Liturgia. Gaudeamus omnes in Domino... Ap 7,2-12 • Mt 5,1-12",
-      l:"/",
+      l:"",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: "da Festa" }
   }],
   "11-6": [{
@@ -2795,7 +2795,7 @@ const SANTOS_FIXOS = {
       t:"Na Oitava de Todos os Santos",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"Liturgia. Gaudeamus omnes in Domino... Ap 7,2-12 • Mt 5,1-12",
-      l:"/",
+      l:"",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: "da Festa" }
   }, {
       id:"s-leonardo-limousin",
@@ -2810,7 +2810,7 @@ const SANTOS_FIXOS = {
       t:"Na Oitava de Todos os Santos",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"Liturgia. Gaudeamus omnes in Domino... Ap 7,2-12 • Mt 5,1-12",
-      l:"/",
+      l:"",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: "da Festa" }
   }],
   "11-8": [{
@@ -2841,7 +2841,7 @@ const SANTOS_FIXOS = {
       t:"S. Teodoro, mártir",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Sl 63. Lætabitur justus in Domino... 2 Tm 2,8-10; 3,10-12 • Mt 10,26-32",
-      l:"/",
+      l:"",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_1 }
   }],
   "11-10":[{
@@ -2953,14 +2953,14 @@ const SANTOS_FIXOS = {
       t:"S. Clemente I, papa e mártir",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Jo 21. Si díligis me... Fl 3,17-21; 4,1-3 • Mt 25,14-23",
-      l:"/",
+      l:"",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }, {
       id:"santa-felicidade-martir",
       t:"S. Felicidade, mártir",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Sl 36. Salus autem justorum a Domino... Pr 31,10-31 • Mt 12,46-50",
-      l:"/",
+      l:"",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_1 }
   }],
   "11-24":[{
@@ -2975,7 +2975,7 @@ const SANTOS_FIXOS = {
       t:"S. Crisógono, mártir",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Sl 63. Lætabitur justus in Domino... 2 Tm 2,8-10; 3,10-12 • Mt 10,26-32",
-      l:"/",
+      l:"",
       p: { cor: COR.VERMELHA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_1 }
   }],
   "11-25":[{
@@ -2998,7 +2998,7 @@ const SANTOS_FIXOS = {
       t:"S. Pedro de Alexandria, bispo e mártir",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Jo 21. Si díligis me... 1 Pd 5,1-4; 10-11 • Mt 16,13-19",
-      l:"/",
+      l:"",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_1_PONT }
   }],
   "11-29":[{
@@ -3013,7 +3013,7 @@ const SANTOS_FIXOS = {
       t:"S. Saturnino, mártir",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Sl 20. In virtute tua Domine lætabitur justus... Sb 10,10-14 • Mt 10,34-39",
-      l:"/",
+      l:"",
       p: { cor: COR.VERMELHA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_1 }
   }],
   "11-30":[{
@@ -3021,7 +3021,7 @@ const SANTOS_FIXOS = {
       t:"Santo André, apóstolo",
       rito:RITO.DUPLEX_II, prec:PREC.FESTA_II_CLASSE,
       s:"Mt 4. Dominus secus mare Galilææ... Rm 10,10-18 • Mt 4,18-22",
-      l:"/",
+      l:"",
       p: { cor: COR.VERMELHA, gloria: true, credo: true, prefacio: PREF.APOSTOLOS, comum: COMUM.PROPRIA }
   }],
 
@@ -3080,7 +3080,7 @@ const SANTOS_FIXOS = {
       t:"Vigília da Imaculada Conceição",
       prec:PREC.VIGILIA_COMUM,
       s:"Pr 8. Dominus possedit me... Pr 8,22-35 • Mt 1,1-16",
-      l:"/",
+      l:"",
       p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
   "12-8": [{
@@ -3111,7 +3111,7 @@ const SANTOS_FIXOS = {
       t:"S. Melquíades, papa e mártir",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Jo 21. Si díligis me... 1 Pd 5,1-4; 5,10-11 • Mt 16,13-19",
-      l:"/",
+      l:"",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.SUM_PONT }
   }],
   "12-11":[{
@@ -3134,7 +3134,7 @@ const SANTOS_FIXOS = {
       t:"Nossa Senhora de Guadalupe",
       rito:RITO.LOCAL, prec:PREC.PRO_ALIQUIBUS_LOCIS,
       s:"Ap 12. Signum magnum apparuit in cælo... Eclo 24,23-31 • Lc 1,39-47",
-      l:"/",
+      l:"",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.BVM, comum: COMUM.PROPRIA }
   }],
   "12-13":[{
@@ -3183,7 +3183,7 @@ const SANTOS_FIXOS = {
       t:"Vigília de S. Tomé, apóstolo",
       rito:null, prec:PREC.VIGILIA_COMUM,
       s:"Sl 51. Ego autem sicut oliva... Ef 2,19-22 • Jo 14,1-7",
-      l:"/",
+      l:"",
       p: { cor: COR.ROXA, gloria: false, credo: false, _gradual: "gradual", prefacio: PREF.COMUM, comum: "Missa da Vigília" }
   }],
   "12-21":[{
@@ -3222,7 +3222,7 @@ const SANTOS_FIXOS = {
       t:"Na Oitava do Natal",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM_PRIV_3_ORDEM,
       s:"Is 9. Puer natus est nobis... Hb 1,1-12 • Jo 1,1-14",
-      l:"/",
+      l:"",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.NATAL, communicantes: "natal" }
   }],
   "12-27":[{
@@ -3237,7 +3237,7 @@ const SANTOS_FIXOS = {
       t:"Na Oitava do Natal",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM_PRIV_3_ORDEM,
       s:"Is 9. Puer natus est nobis... Hb 1,1-12 • Jo 1,1-14",
-      l:"/",
+      l:"",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.NATAL, communicantes: "natal" }
   }],
 "12-28":[{
@@ -3253,7 +3253,7 @@ const SANTOS_FIXOS = {
       t:"Na Oitava do Natal",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM_PRIV_3_ORDEM,
       s:"Is 9. Puer natus est nobis... Hb 1,1-12 • Jo 1,1-14",
-      l:"/",
+      l:"",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.NATAL, communicantes: "natal" }
   }],
   "12-29":[{
@@ -3268,7 +3268,7 @@ const SANTOS_FIXOS = {
       t:"Na Oitava do Natal",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM_PRIV_3_ORDEM,
       s:"Is 9. Puer natus est nobis... Hb 1,1-12 • Jo 1,1-14",
-      l:"/",
+      l:"",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.NATAL, communicantes: "natal" }
   }],
   "12-30":[{
@@ -3291,7 +3291,7 @@ const SANTOS_FIXOS = {
       t:"Na Oitava do Natal",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM_PRIV_3_ORDEM,
       s:"Is 9. Puer natus est nobis... Hb 1,1-12 • Jo 1,1-14",
-      l:"/",
+      l:"",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.NATAL, communicantes: "natal" }
   }],
 };
@@ -3390,15 +3390,15 @@ function prepararMotorLiturgico(anoParaCalcular) {
     addM(dP(-63),{id:"dom-septuagesima", t:"Domingo da Septuagésima", rito:RITO.SEMIDUPLEX, prec:PREC.DOMINGO_II_CLASSE, s:"Sl 17. Circumdederunt me gemitus mortis... 1 Co 9,24-27; 10,1-5 • Mt 20,1-16", l:"/2025/02/liturgia-diaria-16-fev-domingo-da.html", dom:true, p: { cor: COR.ROXA, gloria: false, credo: true, prefacio: PREF.TRINDADE }});
     addM(dP(-56),{id:"dom-sexagesima", t:"Domingo da Sexagésima", rito:RITO.SEMIDUPLEX, prec:PREC.DOMINGO_II_CLASSE, s:"Sl 43. Exsúrge, quare obdórmis, Dómine?... 2 Co 11,19-33; 12,1-9 • Lc 8,4-15", l:"/2025/02/liturgia-diaria-23-fev-domingo-da.html", dom:true, p: { cor: COR.ROXA, gloria: false, credo: true, prefacio: PREF.TRINDADE }});
     addM(dP(-49),{id:"dom-quinquagesima", t:"Domingo da Quinquagésima", rito:RITO.SEMIDUPLEX, prec:PREC.DOMINGO_II_CLASSE, s:"Sl 30. Esto mihi in Deum protectórem... 1 Co 13,1-13 • Lc 18,31-43", l:"/2025/03/liturgia-diaria-02-mar-domingo-da.html", dom:true, p: { cor: COR.ROXA, gloria: false, credo: true, prefacio: PREF.TRINDADE }});
-    addM(dP(-48),{id:"feria-seg-quinquagesima", t:"Segunda-feira da Quinquagésima", prec:PREC.FERIA_COMUM, s:"Sl 30. Esto mihi in Deum protectórem... 1 Co 13,1-13 • Lc 18,31-43", l:"/", p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.COMUM }});
-    addM(dP(-47),{id:"feria-ter-quinquagesima", t:"Terça-feira da Quinquagésima", prec:PREC.FERIA_COMUM, s:"Sl 30. Esto mihi in Deum protectórem... 1 Co 13,1-13 • Lc 18,31-43", l:"/", p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.COMUM }});
+    addM(dP(-48),{id:"feria-seg-quinquagesima", t:"Segunda-feira da Quinquagésima", prec:PREC.FERIA_COMUM, s:"Sl 30. Esto mihi in Deum protectórem... 1 Co 13,1-13 • Lc 18,31-43", l:"", p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.COMUM }});
+    addM(dP(-47),{id:"feria-ter-quinquagesima", t:"Terça-feira da Quinquagésima", prec:PREC.FERIA_COMUM, s:"Sl 30. Esto mihi in Deum protectórem... 1 Co 13,1-13 • Lc 18,31-43", l:"", p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.COMUM }});
     addM(dP(-46),{id:"quarta-cinzas", t:"Quarta-feira de Cinzas", prec:PREC.FERIA_PRIVILEGIADA, s:"Sb 11. Miseréris ómnium, Dómine... Jl 2,12-19 • Mt 6,16-21", l:"/2025/03/liturgia-diaria-05-mar-quarta-feira-de.html", p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.QUARESMA, observacao: "Imposição das Cinzas" }});
     addM(dP(-45),{id:"quinta-pos-cinzas", t:"Quinta-feira depois das Cinzas", prec:PREC.FERIA_MAIOR, s:"Sl 54. Dum clamárem ad Dóminum... Is 38,1-6 • Mt 8,5-13", l:"/2025/03/liturgia-diaria-06-mar-quinta-feira.html", p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.QUARESMA }});
     addM(dP(-44),{id:"sexta-pos-cinzas", t:"Sexta-feira depois das Cinzas", prec:PREC.FERIA_MAIOR, s:"Sl 29. Audívit Dóminus, et misértus est mihi... Is 58,1-9 • Mt 5,43-48; 6,1-6",l:"/2025/03/liturgia-diaria-07-mar-sexta-feira-da-3.html", p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.QUARESMA }});
     addM(dP(-43),{id:"sabado-pos-cinzas", t:"Sábado depois das Cinzas", prec:PREC.FERIA_MAIOR, s:"Sl 26. Exáudi, Dómine, vocem meam... Is 58,9-14 • Mc 6,47-56", l:"/2025/03/liturgia-diaria-08-mar-sabado-depois.html", p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.QUARESMA }});
     addM(dP(-42),{id:"dom-quaresma-1", t:"I Domingo da Quaresma", rito:RITO.SEMIDUPLEX, prec:PREC.DOMINGO_I_CLASSE, s:"Sl 90. Invocábit me, et ego exáudiam eum... 2 Co 6,1-10 • Mt 4,1-11", l:"/2025/03/liturgia-diaria-09032025-i-domingo-da.html", dom:true, p: { cor: COR.ROXA, gloria: false, credo: true, prefacio: PREF.QUARESMA }});
-    addM(dP(-41),{id:"feria-quaresma-1-seg", t:"Segunda-feira da 1ª sem. Quaresma", prec:PREC.FERIA_MAIOR, s:"Sl 122. Sicut óculi servórum... Ez 34,11-16 • Mt 25,31-46", l:"/", p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.QUARESMA }});
-    addM(dP(-40),{id:"feria-quaresma-1-ter", t:"Terça-feira da 1ª sem. Quaresma", prec:PREC.FERIA_MAIOR, s:"Sl 89. Dómine, refúgium factus es nobis... Is 55,6-11 • Mt 21,10-17", l:"/", p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.QUARESMA }});
+    addM(dP(-41),{id:"feria-quaresma-1-seg", t:"Segunda-feira da 1ª sem. Quaresma", prec:PREC.FERIA_MAIOR, s:"Sl 122. Sicut óculi servórum... Ez 34,11-16 • Mt 25,31-46", l:"", p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.QUARESMA }});
+    addM(dP(-40),{id:"feria-quaresma-1-ter", t:"Terça-feira da 1ª sem. Quaresma", prec:PREC.FERIA_MAIOR, s:"Sl 89. Dómine, refúgium factus es nobis... Is 55,6-11 • Mt 21,10-17", l:"", p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.QUARESMA }});
     addM(dP(-39),{id:"temporas-quaresma-qua", t:"Quarta-feira das Têmporas da Quaresma", prec:PREC.FERIA_MAIOR, s:"Sl 24. Reminíscere miseratiónum tuárum... Ex 24,12-18 | 3 Rs 19,3-8 • Mt 12,38-50", l:"/2025/03/liturgia-diaria-12-mar-quarta-feira-das.html", p: { cor: COR.ROXA, gloria: false, credo: false, flectamus: true, prefacio: PREF.QUARESMA, observacao: "Têmporas" }});
     addM(dP(-38),{id:"feria-quaresma-1-qui", t:"Quinta-feira da 1ª sem. Quaresma", prec:PREC.FERIA_MAIOR, s:"Sl 95. Conféssio et pulchritúdo... Ez 18,1-9 • Mt 15,21-28", l:"/2025/03/liturgia-diaria-13-mar-quinta-feira-da.html", p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.QUARESMA }});
     addM(dP(-37),{id:"temporas-quaresma-sex", t:"Sexta-feira das Têmporas da Quaresma", prec:PREC.FERIA_MAIOR, s:"Sl 24. De necessitátibus meis éripe me... Ez 18,20-28 • Jo 5,1-15", l:"/2025/03/liturgia-diaria-14-mar-sexta-feira-das.html", p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.QUARESMA, observacao: "Têmporas" }});
@@ -3412,7 +3412,7 @@ function prepararMotorLiturgico(anoParaCalcular) {
     addM(dP(-29),{id:"feria-quaresma-2-sab", t:"Sábado da 2ª sem. Quaresma", prec:PREC.FERIA_MAIOR, s:"Sl 18. Lex Dómini irreprehensíbilis... Gn 27,6-40 • Lc 15,11-32", l:"/2025/03/22-mar-sabado-da-2-semana-da-quaresma.html", p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.QUARESMA }});
     addM(dP(-28),{id:"dom-quaresma-3", t:"III Domingo da Quaresma", rito:RITO.SEMIDUPLEX, prec:PREC.DOMINGO_I_CLASSE, s:"Sl 24. Oculi mei semper ad Dóminum... Ef 5,1-9 • Lc 11,14-28", l:"/2025/03/23-mar-ii-domingo-da-quaresma.html", dom:true, p: { cor: COR.ROXA, gloria: false, credo: true, prefacio: PREF.QUARESMA }});
     addM(dP(-27),{id:"feria-quaresma-3-seg", t:"Segunda-feira da 3ª sem. Quaresma", prec:PREC.FERIA_MAIOR, s:"Sl 55. In Deo laudábo verbum... 4 Rs 5,1-15 • Lc 4,23-30", l:"/2025/03/24-mar-segunda-feira-da-3-semana-da.html", p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.QUARESMA }});
-    addM(dP(-26),{id:"feria-quaresma-3-ter", t:"Terça-feira da 3ª sem. Quaresma", prec:PREC.FERIA_MAIOR, s:"Sl 16. Ego clamávi... 4 Rs 4,1-7 • Mt 18,15-22", l:"/", p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.QUARESMA }});
+    addM(dP(-26),{id:"feria-quaresma-3-ter", t:"Terça-feira da 3ª sem. Quaresma", prec:PREC.FERIA_MAIOR, s:"Sl 16. Ego clamávi... 4 Rs 4,1-7 • Mt 18,15-22", l:"", p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.QUARESMA }});
     addM(dP(-25),{id:"feria-quaresma-3-qua", t:"Quarta-feira da 3ª sem. Quaresma", prec:PREC.FERIA_MAIOR, s:"Sl 30. Ego autem in Dómino sperávi... Ex 20,12-24 • Mt 15,1-20", l:"/2025/03/26-mar-quarta-feira-da-3-semana-da.html", p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.QUARESMA }});
     addM(dP(-24),{id:"feria-quaresma-3-qui", t:"Quinta-feira da 3ª sem. Quaresma", prec:PREC.FERIA_MAIOR, s:"Sl 77. Salus pópuli ego sum... Jr 7,1-7 • Lc 4,38-44", l:"/2025/03/27-mar-quinta-feira-da-3-semana-da.html", p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.QUARESMA }});
     addM(dP(-23),{id:"feria-quaresma-3-sex", t:"Sexta-feira da 3ª sem. Quaresma", prec:PREC.FERIA_MAIOR, s:"Sl 85. Fac mecum, Dómine, signum in bonum... Nm 20,1-3; 20,6-13 • Jo 4,5-42", l:"/2025/03/28-mar-sexta-feira-da-3-semana-da.html", p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.QUARESMA }});
@@ -3453,8 +3453,8 @@ function prepararMotorLiturgico(anoParaCalcular) {
     const leiturasDP = {2:"1 Pd 2,21-25 • Jo 10,11-16", 3:"1 Pd 2,11-19 • Jo 16,16-22", 4:"Tg 1,17-21 • Jo 16,5-14", 5:"Tg 1,22-27 • Jo 16,23-30"};
     for (let i = 2; i <= 5; i++) addM(dP(i * 7), {id:`dom-pos-pascoa-${i}`, t:`${nomesDP[i]} Domingo depois da Páscoa`, rito:RITO.SEMIDUPLEX, prec:PREC.DOMINGO_COMUM, s:introitDP[i] + "... " + leiturasDP[i], l:linksDP[i], dom:true, p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.PASCAL }});
     addM(dP(17), {id:"patrocinio-jose", t:"Patrocínio de S. José (com Oitava)", rito:RITO.DUPLEX_I, prec:PREC.FESTA_I_CLASSE, dom:true, s:"Sl 32. Adjutor, et protector noster est Dominus... Gn 49,22-26 • Lc 3,21-23", l:"/2026/04/patrocinio-de-s-jose-protecao-universal.html", p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.SAO_JOSE }});
-    [18,19,20,21,22,23].forEach(n => addM(dP(n), {id:`oitava-jose-${n}`, t:"Na Oitava do Patrocínio de S. José", rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM, s:"Sl 32. Adjutor, et protector noster est Dominus... Gn 49,22-26 • Lc 3,21-23", l:"/", p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.SAO_JOSE }}));
-    addM(dP(24), {id:"oitava-jose-dia-8", t:"Dia Oitavo do Patrocínio de S. José", isOitava:true, rito:RITO.DUPLEX_MAJ, prec:PREC.DIA_OITAVA_COMUM, s:"Sl 32. Adjutor, et protector noster est Dominus... Gn 49,22-26 • Lc 3,21-23", l:"/", p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.SAO_JOSE }});
+    [18,19,20,21,22,23].forEach(n => addM(dP(n), {id:`oitava-jose-${n}`, t:"Na Oitava do Patrocínio de S. José", rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM, s:"Sl 32. Adjutor, et protector noster est Dominus... Gn 49,22-26 • Lc 3,21-23", l:"", p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.SAO_JOSE }}));
+    addM(dP(24), {id:"oitava-jose-dia-8", t:"Dia Oitavo do Patrocínio de S. José", isOitava:true, rito:RITO.DUPLEX_MAJ, prec:PREC.DIA_OITAVA_COMUM, s:"Sl 32. Adjutor, et protector noster est Dominus... Gn 49,22-26 • Lc 3,21-23", l:"", p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.SAO_JOSE }});
     addM(dP(36), {id:"rogacoes-seg", t:"Litanias Menores (Rogações)", isLitania: true, prec:PREC.FERIA_MAIOR, s:"Sl 17. Exaudivit de templo sancto suo... Tg 5,16-20 • Lc 11,5-13", l:"/2026/05/litanias-menores-dias-de-rogacoes.html", p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.PASCAL, communicantes: "pascal", observacao: "Litanias na Procissão" }});
     addM(dP(37), {id:"rogacoes-ter", t:"Litanias Menores (Rogações)", isLitania: true, prec:PREC.FERIA_MAIOR, s:"Sl 17. Exaudivit de templo sancto suo... Tg 5,16-20 • Lc 11,5-13", l:"/2026/05/litanias-menores-dias-de-rogacoes.html", p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.PASCAL, communicantes: "pascal", observacao: "Litanias na Procissão" }});
     addM(dP(38), {id:"vigilia-ascensao", t:"Vigília da Ascensão", isVigAscensao: true, rito:RITO.SEMIDUPLEX, prec:PREC.VIGILIA_COMUM, s:"Is 48. Vocem jucunditatis annuntiate... Ef 4,7-13 • Jo 17,1-11", l:"/2025/05/28-maio-vigilia-da-ascensao-de-nosso.html", p: { cor: COR.BRANCA, gloria: false, credo: false, prefacio: PREF.PASCAL, communicantes: "pascal" }});
@@ -3565,9 +3565,9 @@ function prepararMotorLiturgico(anoParaCalcular) {
 	
 
     if (anoState.epochQuaSet) {
-        addM(new Date(anoState.epochQuaSet), {id:"temporas-setembro-qua", t:"Quarta-feira das Têmporas de Setembro", prec:PREC.FERIA_MAIOR, s:"Sl 80. Exsultate Deo, adjutori nostro... Am 9,13-15; Ed 8,1-10 • Mc 9,16-28", l:"/", p: { cor: COR.ROXA, gloria: false, credo: false, flectamus: true, prefacio: PREF.COMUM, observacao: "Têmporas" }});
-        addM(new Date(anoState.epochSexSet), {id:"temporas-setembro-sex", t:"Sexta-feira das Têmporas de Setembro", prec:PREC.FERIA_MAIOR, s:"Sl 104. Lætetur cor quærentium Dominum... Os 14,2-10 • Lc 7,36-50", l:"/", p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.COMUM, observacao: "Têmporas" }});
-        addM(new Date(anoState.epochSabSet), {id:"temporas-setembro-sab", t:"Sábado das Têmporas de Setembro", prec:PREC.FERIA_MAIOR, s:"Sl 94. Venite, adoremus Deum... Lv 23,26-32; Hb 9,2-12 • Lc 13,6-17", l:"/", p: { cor: COR.ROXA, gloria: false, credo: false, flectamus: true, prefacio: PREF.COMUM, observacao: "Têmporas · 6 Lições" }});
+        addM(new Date(anoState.epochQuaSet), {id:"temporas-setembro-qua", t:"Quarta-feira das Têmporas de Setembro", prec:PREC.FERIA_MAIOR, s:"Sl 80. Exsultate Deo, adjutori nostro... Am 9,13-15; Ed 8,1-10 • Mc 9,16-28", l:"", p: { cor: COR.ROXA, gloria: false, credo: false, flectamus: true, prefacio: PREF.COMUM, observacao: "Têmporas" }});
+        addM(new Date(anoState.epochSexSet), {id:"temporas-setembro-sex", t:"Sexta-feira das Têmporas de Setembro", prec:PREC.FERIA_MAIOR, s:"Sl 104. Lætetur cor quærentium Dominum... Os 14,2-10 • Lc 7,36-50", l:"", p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.COMUM, observacao: "Têmporas" }});
+        addM(new Date(anoState.epochSabSet), {id:"temporas-setembro-sab", t:"Sábado das Têmporas de Setembro", prec:PREC.FERIA_MAIOR, s:"Sl 94. Venite, adoremus Deum... Lv 23,26-32; Hb 9,2-12 • Lc 13,6-17", l:"", p: { cor: COR.ROXA, gloria: false, credo: false, flectamus: true, prefacio: PREF.COMUM, observacao: "Têmporas · 6 Lições" }});
     }
     addM(new Date(anoState.epochQuaAdv), {id:"temporas-advento-qua", t:"Quarta-feira das Têmporas do Advento", prec:PREC.FERIA_MAIOR, s:"Is 45. Rorate cæli desuper... Is 7,10-15 • Lc 1,26-38", l:"/2025/12/17-dez-quarta-feira-das-temporas-do.html", p: { cor: COR.ROXA, gloria: false, credo: false, flectamus: true, prefacio: PREF.COMUM, observacao: "Têmporas" }});
     addM(new Date(anoState.epochSexAdv), {id:"temporas-advento-sex", t:"Sexta-feira das Têmporas do Advento", prec:PREC.FERIA_MAIOR, s:"Sl 118. Prope es tu, Domine... Is 11,1-5 • Lc 1,39-47", l:"/2025/12/19-dez-sexta-feira-das-temporas-do.html", p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.COMUM, observacao: "Têmporas" }});
