@@ -6,5 +6,6 @@ const LINKS = {
   "dedicacao-s-miguel-arcanjo": "/2026/09/29-set-dedicacao-de-s-miguel-arcanjo.html",
   "s-jeronimo": "/2026/09/30-set-s-jeronimo-presbitero-confessor.html",
   "s-remigio": "/2026/10/01-out-s-remigio-bispo-e-confessor.html",
-  "santos-anjos-guarda": "/2026/10/02-out-os-santos-anjos-da-guarda.html"
+  "santos-anjos-guarda": "/2026/10/02-out-os-santos-anjos-da-guarda.html",
+  "dom-epifania-4": "/2026/01/iv-domingo-depois-da-epifania.html"
 };
