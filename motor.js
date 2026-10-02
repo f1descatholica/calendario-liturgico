@@ -3514,8 +3514,9 @@ function prepararMotorLiturgico(anoParaCalcular) {
     const numRomanoEpi = {2:"II", 3:"III", 4:"IV", 5:"V", 6:"VI"};
     const introitosEpi = {2: "Sl 65. Omnis terra adoret te, Deus", 3: "Sl 96. Adorate Deum, omnes Angeli ejus", 4: "Sl 96. Adorate Deum, omnes Angeli ejus", 5: "Sl 96. Adorate Deum, omnes Angeli ejus", 6: "Sl 96. Adorate Deum, omnes Angeli ejus"};
     const leiturasEpi = {2: "Rm 12,6-16 • Jo 2,1-11", 3: "Rm 12,16-21 • Mt 8,1-13", 4: "Rm 13,8-10 • Mt 8,23-27", 5: "Cl 3,12-17 • Mt 13,24-30", 6: "1 Ts 1,2-10 • Mt 13,31-35"};
+    // linksEpi duplicado foi removido daqui; ele agora lê do objeto único acima
     while (domAtualEpi < anoState.epochSeptuagesima && numDomEpi <= 6) {
-        addM(new Date(domAtualEpi), {id:`dom-epifania-${numDomEpi}`, t: `${numRomanoEpi[numDomEpi]} Domingo depois da Epifania`, rito: RITO.SEMIDUPLEX, prec: PREC.DOMINGO_COMUM, s: introitosEpi[numDomEpi] + "... " + leiturasEpi[numDomEpi], l: "/", dom: true, p: { cor: COR.VERDE, gloria: true, credo: true, prefacio: PREF.TRINDADE }});
+        addM(new Date(domAtualEpi), {id:`dom-epifania-${numDomEpi}`, t: `${numRomanoEpi[numDomEpi]} Domingo depois da Epifania`, rito: RITO.SEMIDUPLEX, prec: PREC.DOMINGO_COMUM, s: introitosEpi[numDomEpi] + "... " + leiturasEpi[numDomEpi], l: linksEpi[numDomEpi] || "/", dom: true, p: { cor: COR.VERDE, gloria: true, credo: true, prefacio: PREF.TRINDADE }});
         domAtualEpi.setDate(domAtualEpi.getDate() + 7); numDomEpi++;
     }
 
@@ -3831,9 +3832,42 @@ function ehPreceito(t, ano, mes, dia) {
     if (t === anoState.epochAscensao || t === anoState.epochCorpus) return true; return false;
 }
 
+// =========================================================
+// TABELA ÚNICA DE LINKS DA EPIFANIA (1 a 6)
+// =========================================================
+const linksEpi = {
+    1: "/", // I Domingo (In excelso throno)
+    2: "/2025/01/liturgia-diaria-19-jan-ii-domingo.html",
+    3: "/2025/01/liturgia-diaria-26-jan-iii-domingo.html",
+    4: "/2026/01/iv-domingo-depois-da-epifania.html",
+    5: "/",
+    6: "/"
+};
+
+const missaIDomEpifania = {
+    id: "dom-epifania-1",
+    t: "I Domingo depois da Epifania",
+    tipo: TIPO.DOMINGO,
+    s: "Sl 99. In excélso throno vidi sedére virum... Rm 12,1-5 • Lc 2,42-52",
+    l: linksEpi[1] || "/",
+    p: { cor: COR.VERDE, gloria: false, credo: false, prefacio: PREF.COMUM }
+};
+
 function buscarDominanteDaSemana(ano, mesNum, dia) {
     const keyCache = `${ano}-${mesNum + 1}-${dia}`;
     if (cacheDominante.has(keyCache)) return cacheDominante.get(keyCache);
+
+    // REGRA LITÚRGICA: Férias entre o fim da Oitava (14/jan) e o II Domingo retomam o I Domingo (In excelso throno)
+    if (mesNum === 0 && dia >= 14) {
+        let dII = new Date(ano, 0, 14);
+        while (dII.getDay() !== 0) dII.setDate(dII.getDate() + 1);
+        if (dia < dII.getDate()) {
+            const res = { item: missaIDomEpifania };
+            cacheDominante.set(keyCache, res);
+            return res;
+        }
+    }
+
     const keyProprio = `${mesNum + 1}-${dia}`, oitavaLocal = [...(moveis[keyProprio] || []), ...(SANTOS_FIXOS[keyProprio] || [])].find(i => i.prec === PREC.INFRA_OCTAVAM_PRIV_2_ORDEM || i.prec === PREC.INFRA_OCTAVAM_PRIV_3_ORDEM);
     if (oitavaLocal) { const res = { item: oitavaLocal }; cacheDominante.set(keyCache, res); return res; }
     let result = null;
