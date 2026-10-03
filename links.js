@@ -7,5 +7,6 @@ const LINKS = {
   "s-jeronimo": "/2026/09/30-set-s-jeronimo-presbitero-confessor.html",
   "s-remigio": "/2026/10/01-out-s-remigio-bispo-e-confessor.html",
   "santos-anjos-guarda": "/2026/10/02-out-os-santos-anjos-da-guarda.html",
-  "santa-teresa-menino-jesus": "/2026/10/santa-teresa-do-menino-jesus-virgem.html"
+  "santa-teresa-menino-jesus": "/2026/10/santa-teresa-do-menino-jesus-virgem.html",
+  "dom-pentecostes-XIX": "/2026/10/xix-domingo-depois-de-pentecostes.html"
 };
