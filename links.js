@@ -9,5 +9,6 @@ const LINKS = {
   "santos-anjos-guarda": "/2026/10/02-out-os-santos-anjos-da-guarda.html",
   "santa-teresa-menino-jesus": "/2026/10/santa-teresa-do-menino-jesus-virgem.html",
   "dom-pentecostes-XIX": "/2026/10/xix-domingo-depois-de-pentecostes.html",
-  "s-francisco-de-assis": "/2026/10/4-out-s-francisco-de-assis-confessor.html"
+  "s-francisco-de-assis": "/2026/10/4-out-s-francisco-de-assis-confessor.html",
+  "ss-placido-companheiros": "/2026/10/ss-placido-e-companheiros-martires-5-out.html"
 };
