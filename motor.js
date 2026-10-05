@@ -2424,8 +2424,6 @@ const SANTOS_FIXOS = {
       l:"/2025/09/21-set-s-mateus-apostolo-e-evangelista.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: true, prefacio: PREF.APOSTOLOS, comum: COMUM.PROPRIA }
   }],
-  
-  
   "9-22":[{
       id:"s-tomas-vilanova",
       t:"S. Tomás de Vilanova, bispo e confessor",
@@ -2441,7 +2439,7 @@ const SANTOS_FIXOS = {
       l:"/2025/09/22-set-s-mauricio-e-companheiros.html",
       p: { cor: COR.VERMELHA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_N }
   }],
-"9-23":[{
+  "9-23":[{
       id:"s-lino-papa",
       t:"S. Lino, papa e mártir",
       rito:RITO.SEMIDUPLEX, prec:PREC.FESTA_SEMIDUPLEX,
@@ -2461,7 +2459,7 @@ const SANTOS_FIXOS = {
       t:"Nossa Senhora das Mercês",
       rito:RITO.DUPLEX_MAJ, prec:PREC.FESTA_DUPLEX_MAJ,
       s:"Sedul. Salve, sancta parens... Eclo 24,14-16 • Lc 11,27-28",
-      l:"/2025/09/24-set-nossa-senhora-das-merces-nossa.html",
+      l:"/2026/09/nossa-senhora-das-merces-libertadora_0503426170.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.BVM, comum: COMUM.PROPRIA }
   }],
   "9-26":[{
@@ -2469,7 +2467,7 @@ const SANTOS_FIXOS = {
       t:"Ss. Cipriano e Justina, mártires",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Sl 36. Salus autem justorum a Domino... Hb 10,32-38 • Mt 10,28-33",
-      l:"/2025/09/26-set-s-cipriano-martir-e-s-justina.html",
+      l:"/2026/09/santos-cipriano-e-justina-martires.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_N }
   }],
   "9-27":[{
@@ -2485,7 +2483,7 @@ const SANTOS_FIXOS = {
       t:"S. Venceslau, duque e mártir",
       rito:RITO.SEMIDUPLEX, prec:PREC.FESTA_SEMIDUPLEX,
       s:"Sl 20. In virtute tua, Domine, lætabitur justus... Sb 10,10-14 • Mt 10,34-39",
-      l:"/2025/09/28-set-s-venceslau-duque-e-martir.html",
+      l:"/2026/09/28-set-s-venceslau-martir_0351859393.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
   "9-29":[{
@@ -2494,7 +2492,7 @@ const SANTOS_FIXOS = {
       t:"Dedicação de S. Miguel Arcanjo",
       rito:RITO.DUPLEX_I, prec:PREC.FESTA_I_CLASSE,
       s:"Sl 102. Benedicite Dominum, omnes Angeli ejus... Ap 1,1-5 • Mt 18,1-10",
-      l:"/2025/09/29-set-dedicacao-de-s-miguel-arcanjo.html",
+      l:"/2026/09/29-set-dedicacao-de-s-miguel-arcanjo.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
   "9-30":[{
@@ -2502,7 +2500,7 @@ const SANTOS_FIXOS = {
       t:"S. Jerônimo, presbítero, confessor e doutor",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Eclo 15. In medio Ecclesiæ aperuit os ejus... 2 Tm 4,1-8 • Mt 5,13-19",
-      l:"/2025/09/30-set-s-jeronimo-presbitero-confessor.html",
+      l:"/2026/09/30-set-s-jeronimo-presbitero-confessor.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: COMUM.DOCT }
   }],
 
@@ -2514,7 +2512,7 @@ const SANTOS_FIXOS = {
       t:"S. Remígio, bispo e confessor",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Eclo 45. Statuit ei Dominus testamentum pacis... Eclo 44,16-27; 45,3-20 • Lc 12,35-40",
-      l:"/2025/10/01-out-s-remigio-bispo-e-confessor.html",
+      l:"/2026/10/01-out-s-remigio-bispo-e-confessor.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.CONF_PONT }
   }, {
       id: "nossa-senhora-medianeira-outubro",
@@ -2529,7 +2527,7 @@ const SANTOS_FIXOS = {
       t:"Santos Anjos da Guarda",
       rito:RITO.DUPLEX_MAJ, prec:PREC.FESTA_DUPLEX_MAJ,
       s:"Sl 102. Benedicite Dominum omnes Angeli ejus... Ex 23,20-23 • Mt 18,1-10",
-      l:"/2025/10/02-out-os-santos-anjos-da-guarda.html",
+      l:"/2026/10/02-out-os-santos-anjos-da-guarda.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
   "10-3": [{
@@ -2537,23 +2535,23 @@ const SANTOS_FIXOS = {
       t:"S. Teresa do Menino Jesus, virgem",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Sl 44. Vultum tuum deprecabuntur... Is 66,12-14 • Mt 18,1-4",
-      l:"/2025/10/03-out-s-teresa-do-menino-jesus-virgem.html",
+      l:"/2026/10/santa-teresa-do-menino-jesus-virgem.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
   "10-4": [{
-      id:"s-francisco-assis",
+      id:"s-francisco-de-assis",
       t:"S. Francisco de Assis, confessor",
       rito:RITO.DUPLEX_MAJ, prec:PREC.FESTA_DUPLEX_MAJ,
       s:"Gl 6. Mihi autem absit gloriari... Gl 6,14-18 • Mt 11,25-30",
-      l:"/2025/10/4-out-s-francisco-de-assis-confessor.html",
+      l:"/2026/10/4-out-s-francisco-de-assis-confessor.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
   "10-5": [{
       id:"ss-placido-companheiros",
       t:"Ss. Plácido e companheiros, mártires",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
-      s:"Sl 36. Salus autem justorum a Domino... Rm 8,18-23 • Lc 12,1-8",
-      l:"",
+      s:"Sl 36. Salus autem justorum a Domino... Hb 10,32-38 • Lc 12,1-8",
+      l:"/2026/10/ss-placido-e-companheiros-martires-5-out.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_N }
   }],
   "10-6": [{
@@ -2561,7 +2559,7 @@ const SANTOS_FIXOS = {
       t:"S. Bruno, confessor",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Sl 36. Os justi meditabitur sapientiam... Eclo 31,8-11 • Lc 12,35-40",
-      l:"/2025/10/06-out-s-bruno-confessor.html",
+      l:"/2026/10/06-out-s-bruno-confessor.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.CONF_NPON }
   }],
   "10-7": [{
@@ -3488,7 +3486,7 @@ function prepararMotorLiturgico(anoParaCalcular) {
     "X":"/2025/08/17-ago-x-domingo-de-pentecostes.html",
 	"XI":"/2025/08/24-ago-xi-domingo-depois-de-pentecostes.html", "XII":"/2025/08/31-ago-xii-domingo-depois-de-pentecostes.html", "XIII":"/2025/09/07-set-xiii-domingo-depois-de.html", "XIV":"/2025/08/xiv-domingo-depois-de-pentecostes.html", "XV":"/2025/09/21-set-xv-domingo-depois-de-pentecostes.html", "XVI":"/2025/09/28-set-xvi-domingo-depois-de-pentecostes.html", "XVII":"/2025/10/05-out-xvii-domingo-depois-de.html",
 	"XVIII":"/2026/09/27-de-setembro-xviii-domingo-depois-de.html",
-	"XIX":"/2025/10/19-out-xix-domingo-depois-de-pentecostes.html"};
+	"XIX":"/2026/10/xix-domingo-depois-de-pentecostes.html"};
     const leiturasP = {"IV": "Rm 8,18-23 • Lc 5,1-11", "V": "1 Pd 3,8-15 • Mt 5,20-24", "VI": "Rm 6,3-11 • Mc 8,1-9", "VII": "Rm 6,19-23 • Mt 7,15-21", "VIII": "Rm 8,12-17 • Lc 16,1-9", "IX": "1 Co 10,6-13 • Lc 19,41-47", "X": "1 Co 12,2-11 • Lc 18,9-14", "XI": "1 Co 15,1-10 • Mc 7,31-37", "XII": "2 Co 3,4-9 • Lc 10,23-37", "XIII": "Gl 3,16-22 • Lc 17,11-19", "XIV": "Gl 5,16-24 • Mt 6,24-33", "XV": "Gl 5,25-26; 6,1-10 • Lc 7,11-16", "XVI": "Ef 3,13-21 • Lc 14,1-11", "XVII": "Ef 4,1-6 • Mt 22,34-46", "XVIII": "1 Co 1,4-8 • Mt 9,1-8", "XIX": "Ef 4,23-28 • Mt 22,1-14", "XX": "Ef 5,15-21 • Jo 4,46-53", "XXI": "Ef 6,10-17 • Mt 18,23-35", "XXII": "Fp 1,6-11 • Mt 22,15-21", "XXIII": "Fp 3,17-21; 4,1-3 • Mt 9,18-26"};
     const leiturasRetomadasEpi = ["Rm 12,16-21 • Mt 8,1-13", "Rm 13,8-10 • Mt 8,23-27", "Cl 3,12-17 • Mt 13,24-30", "1 Ts 1,2-10 • Mt 13,31-35"];
     const dom23Time = dP(56 + 22 * 7).getTime();
@@ -3836,11 +3834,11 @@ function ehPreceito(t, ano, mes, dia) {
 // TABELA ÚNICA DE LINKS DA EPIFANIA (1 a 6)
 // =========================================================
 const linksEpi = {
-    1: "/", // I Domingo (In excelso throno)
+    1: "/2025/01/liturgia-diaria-10-jan-quinto-dia-na.html",
     2: "/2025/01/liturgia-diaria-19-jan-ii-domingo.html",
     3: "/2025/01/liturgia-diaria-26-jan-iii-domingo.html",
     4: "/2026/01/iv-domingo-depois-da-epifania.html",
-    5: "/",
+    5: "/2025/02/liturgia-diaria-09-fev-v-domingo-depois.html",
     6: "/"
 };
 
