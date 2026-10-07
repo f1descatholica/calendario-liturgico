@@ -2567,8 +2567,22 @@ const SANTOS_FIXOS = {
       t:"Nossa Senhora do Rosário",
       rito:RITO.DUPLEX_II, prec:PREC.FESTA_II_CLASSE,
       s:"Sl 44. Gaudeamus omnes in Domino... Pr 8,22-24; 32-35 • Lc 1,26-38",
-      l:"/2025/10/07-out-nossa-senhora-do-santo-rosario.html",
+      l:"/2026/10/07-out-nossa-senhora-do-santo-rosario.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.BVM, comum: COMUM.PROPRIA }
+  }, {
+      id:"s-marcos-papa",
+      t:"S. Marcos, papa e confessor",
+      rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
+      s:"Jo 21. Si diligis me... 1 Pd 5,1-4; 5,10-11 • Mt 16,13-19",
+      l:"/2026/10/7-out-sao-marcos-i-papa-e-confessor.html",
+      p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.SUM_PONT }
+  }, {
+      id:"ss-sergio-baco-marcelo-apuleio",
+      t:"Ss. Sérgio, Baco, Marcelo e Apuleio, mártires",
+      rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
+      s:"Sl 78. Posuerunt mortalia servorum tuorum... Sb 3,1-8 • Lc 21,9-19",
+      l:"/2026/10/santos-sergio-baco-marcelo-e-apuleio.html",
+      p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_N }
   }],
   "10-8": [{
       id:"santa-brigida",
