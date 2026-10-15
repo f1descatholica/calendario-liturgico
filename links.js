@@ -9,5 +9,6 @@ const LINKS = {
   "nossa-senhora-aparecida": "/2026/10/12-out-festa-de-nossa-senhora-aparecida.html",
   "s-eduardo-rei": "/2026/10/13-out-s-eduardo-rei-e-confessor.html",
   "s-calisto-i": "/2026/10/14-out-s-calisto-i-papa-e-martir.html",
-  "santa-teresa-avila": "/2026/10/15-out-s-teresa-virgem.html"
+  "santa-teresa-avila": "/2026/10/15-out-s-teresa-virgem.html",
+  "santa-edwiges": "/2026/10/16-out-s-hedviges-virgem.html"
 };
