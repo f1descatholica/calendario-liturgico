@@ -11,5 +11,6 @@ const LINKS = {
   "s-calisto-i": "/2026/10/14-out-s-calisto-i-papa-e-martir.html",
   "santa-teresa-avila": "/2026/10/15-out-s-teresa-virgem.html",
   "santa-edwiges": "/2026/10/16-out-s-hedviges-virgem.html",
-  "santa-margarida-maria-alacoque": "/2026/10/17-out-s-margarida-maria-alacoque-virgem.html"
+  "santa-margarida-maria-alacoque": "/2026/10/17-out-s-margarida-maria-alacoque-virgem.html",
+  "s-lucas-evangelista": "/2026/10/18-out-s-lucas-evangelista.html"
 };
