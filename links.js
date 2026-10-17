@@ -12,5 +12,6 @@ const LINKS = {
   "santa-teresa-avila": "/2026/10/15-out-s-teresa-virgem.html",
   "santa-edwiges": "/2026/10/16-out-s-hedviges-virgem.html",
   "santa-margarida-maria-alacoque": "/2026/10/17-out-s-margarida-maria-alacoque-virgem.html",
-  "s-lucas-evangelista": "/2026/10/18-out-s-lucas-evangelista.html"
+  "s-lucas-evangelista": "/2026/10/18-out-s-lucas-evangelista.html",
+  "dom-pentecostes-XXI": "/2026/11/xxi-domingo-depois-de-pentecostes.html"
 };
