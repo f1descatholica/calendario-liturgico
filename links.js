@@ -14,5 +14,6 @@ const LINKS = {
   "santa-margarida-maria-alacoque": "/2026/10/17-out-s-margarida-maria-alacoque-virgem.html",
   "s-lucas-evangelista": "/2026/10/18-out-s-lucas-evangelista.html",
   "dom-pentecostes-XXI": "/2026/11/xxi-domingo-depois-de-pentecostes.html",
-  "s-pedro-alcantara": "/2026/10/19-out-s-pedro-de-alcantara-confessor.html"
+  "s-pedro-alcantara": "/2026/10/19-out-s-pedro-de-alcantara-confessor.html",
+  "s-joao-cancio": "/2026/10/20-out-s-joao-cancio-confessor.html"
 };
