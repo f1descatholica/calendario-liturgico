@@ -2580,7 +2580,7 @@ const SANTOS_FIXOS = {
       id:"ss-sergio-baco-marcelo-apuleio",
       t:"Ss. Sérgio, Baco, Marcelo e Apuleio, mártires",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
-      s:"Sl 78. Posuerunt mortalia servorum tuorum... Sb 3,1-8 • Lc 21,9-19",
+      s:"Eclo 44. Sapientiam sanctorum narrant populi... Sb 5,16-20 • Lc 6,17-23",
       l:"/2026/10/santos-sergio-baco-marcelo-e-apuleio.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_N }
   }],
@@ -2589,22 +2589,22 @@ const SANTOS_FIXOS = {
       t:"S. Brígida, viúva",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Sl 118. Cognovi Domine quia aequitas judicia tua... 1 Tm 5,3-10 • Mt 13,44-52",
-      l:"/2025/10/08-out-s-brigida-viuva.html",
-      p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
+      l:"/2026/10/08-out-s-brigida-viuva.html",
+      p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.NON_VIRG, orProprias: true }
   }],
   "10-9": [{
       id:"s-joao-leonardo",
       t:"S. João Leonardo, confessor",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"2 Cor 4. Inluxit in cordibus nostris... 2 Co 4,1-6; 15-18 • Lc 10,1-9",
-      l:"/2025/10/09-out-s-joao-leonardi-confessor.html",
+      l:"/2026/10/09-out-s-joao-leonardi-confessor.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }, {
       id:"ss-dionisio-rustico-eleuterio",
       t:"Ss. Dionísio, Rústico e Eleutério, mártires",
       rito:RITO.SEMIDUPLEX, prec:PREC.FESTA_SEMIDUPLEX,
       s:"Sl 78. Intret in conspectu tuo Domine... 2 Co 6,4-10 • Lc 12,1-8",
-      l:"/2025/10/9-de-outubro-s-dionisio-bispo-s-rustico.html",
+      l:"/2026/10/09-out-s-dionisio-bispo-s-rustico-e-s_01550483856.html",
       p: { cor: COR.VERMELHA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_N }
   }],
   "10-10":[{
@@ -2612,7 +2612,7 @@ const SANTOS_FIXOS = {
       t:"S. Francisco de Borja, confessor",
       rito:RITO.SEMIDUPLEX, prec:PREC.FESTA_SEMIDUPLEX,
       s:"Sl 36. Os justi meditabitur sapientiam... Eclo 45,1-6 • Mt 19,27-29",
-      l:"/2025/10/10-out-s-francisco-de-borgia-confessor.html",
+      l:"/2026/10/10-out-s-francisco-de-borgia-confessor.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.CONF_NPON }
   }],
   "10-11":[{
@@ -2620,7 +2620,7 @@ const SANTOS_FIXOS = {
       t:"Maternidade da Santíssima Virgem Maria",
       rito:RITO.DUPLEX_II, prec:PREC.FESTA_II_CLASSE,
       s:"Is 7. Ecce Virgo concipiet et pariet filium... Eclo 24,23-31 • Lc 2,43-51",
-      l:"/2025/10/11-out-maternidade-de-nossa-senhora.html",
+      l:"/2026/10/11-out-maternidade-de-nossa-senhora_0406438818.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.BVM, comum: COMUM.PROPRIA }
   }],
   "10-12":[{
@@ -2628,7 +2628,7 @@ const SANTOS_FIXOS = {
       t:"Nossa Senhora da Conceição Aparecida",
       rito:RITO.LOCAL, prec:PREC.PRO_ALIQUIBUS_LOCIS,
       s:"Est 14. Recordare, Virgo Mater... Eclo 24,23-31 • Jo 2,1-11",
-      l:"/2025/10/12-out-festa-de-nossa-senhora-aparecida.html",
+      l:"/2026/10/12-out-festa-de-nossa-senhora-aparecida.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.BVM, comum: COMUM.PROPRIA }
   }],
   "10-13":[{
@@ -2636,7 +2636,7 @@ const SANTOS_FIXOS = {
       t:"S. Eduardo, rei e confessor",
       rito:RITO.SEMIDUPLEX, prec:PREC.FESTA_SEMIDUPLEX,
       s:"Sl 36. Os justi meditabitur sapientiam... Eclo 31,8-11 • Lc 12,35-40",
-      l:"/2025/10/13-out-s-eduardo-rei-e-confessor.html",
+      l:"/2026/10/13-out-s-eduardo-rei-e-confessor.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.CONF_NPON }
   }],
   "10-14":[{
@@ -2644,7 +2644,7 @@ const SANTOS_FIXOS = {
       t:"S. Calisto I, papa e mártir",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Jo 21. Si diligis me Simon Petre... 1 Pd 5,1-4; 10-11 • Mt 16,13-19",
-      l:"/2025/10/14-out-s-calisto-i-papa-e-martir.html",
+      l:"/2026/10/14-out-s-calisto-i-papa-e-martir.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.SUM_PONT }
   }],
   "10-15":[{
@@ -2652,7 +2652,7 @@ const SANTOS_FIXOS = {
       t:"S. Teresa de Ávila, virgem",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Sl 44. Dilexisti justitiam et odisti iniquitatem... 2 Co 10,17-18; 11,1-2 • Mt 25,1-13",
-      l:"/2025/10/15-out-s-teresa-virgem.html",
+      l:"/2026/10/15-out-s-teresa-virgem.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
   "10-16":[{
@@ -2660,15 +2660,15 @@ const SANTOS_FIXOS = {
       t:"S. Edwiges, viúva",
       rito:RITO.SEMIDUPLEX, prec:PREC.FESTA_SEMIDUPLEX,
       s:"Sl 118. Cognovi Domine quia aequitas judicia tua... Pr 31,10-31 • Mt 13,44-52",
-      l:"/2025/10/16-out-s-hedviges-virgem.html",
-      p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.NON_VIRG }
+      l:"/2026/10/16-out-s-hedviges-virgem.html",
+      p: { cor: COR.BRANCA, orProprias: true, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.NON_VIRG }
   }],
   "10-17":[{
       id:"santa-margarida-maria-alacoque",
       t:"S. Margarida Maria Alacoque, virgem",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Cant 2. Sub umbra illius quem desideraveram... Ef 3,8-9; 14-19 • Mt 11,25-30",
-      l:"/2025/10/17-out-s-margarida-maria-alacoque-virgem.html",
+      l:"/2026/10/17-out-s-margarida-maria-alacoque-virgem.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
   "10-18":[{
@@ -2676,7 +2676,7 @@ const SANTOS_FIXOS = {
       t:"S. Lucas, evangelista",
       rito:RITO.DUPLEX_II, prec:PREC.FESTA_II_CLASSE,
       s:"Sl 138. Mihi autem nimis honorati sunt amici tui Deus... 2 Co 8,16-24 • Lc 10,1-9",
-      l:"/2025/10/18-out-s-lucas-evangelista.html",
+      l:"/2026/10/18-out-s-lucas-evangelista.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: true, prefacio: PREF.APOSTOLOS, comum: COMUM.PROPRIA }
   }],
   "10-19":[{
@@ -2684,7 +2684,7 @@ const SANTOS_FIXOS = {
       t:"S. Pedro de Alcântara, confessor",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Sl 36. Os justi meditabitur sapientiam... Fl 3,7-12 • Lc 12,32-34",
-      l:"/2025/10/19-out-s-pedro-de-alcantara-confessor.html",
+      l:"/2026/10/19-out-s-pedro-de-alcantara-confessor.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
   "10-20":[{
@@ -2692,23 +2692,23 @@ const SANTOS_FIXOS = {
       t:"S. João Câncio, confessor",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Eclo 18. Miseratio hominis circa proximum suum... Tg 2,12-17 • Lc 12,35-40",
-      l:"/2025/10/20-out-s-joao-cancio-confessor.html",
+      l:"/2026/10/20-out-s-joao-cancio-confessor.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
   "10-21":[{
       id:"s-hilariao-abade",
-      t:"S. Hilário, abade",
+      t:"S. Hilarião, abade",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Sl 36. Os justi meditabitur sapientiam... Eclo 31,8-11 • Lc 12,35-40",
-      l:"/2025/10/21-out-s-hilariao-abade.html",
+      l:"/2026/10/21-out-s-hilario-abade.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.ABBATIS }
   }, {
       id:"santa-ursula-companheiras",
-      t:"S. Úrsula e companheiras, mártires",
+      t:"Ss. Úrsula e companheiras, virgens e mártires",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
-      s:"Sl 44. Vultum tuum deprecabuntur... 1 Co 7,25-34 • Mt 25,1-13",
-      l:"",
-      p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: "Communi plur. Virg. et Mart." }
+      s:"Sl 118. Loquebar de testimoniis tuis... Eclo 51,1-8 • Mt 25,1-13",
+      l:"/2026/10/santas-ursula-e-companheiras.html",
+      p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.VIRG_MART_1, orProprias: true }
   }],
   "10-24":[{
       id:"s-rafael-arcanjo",
@@ -3911,7 +3911,7 @@ function calcularRubricas(base, t, ano, prec) {
     let r = aplicarHerancaOitava(Object.assign({}, base), t, ano);
     const emSeptuagesima = t >= anoState.epochSeptuagesima && t < anoState.epochSabadoSanto, emCinzas = t >= anoState.epochCinzas && t < anoState.epochSabadoSanto, emPascoa = t >= anoState.epochPascoa && t < anoState.epochFimOitPent, emAdvento = t >= anoState.iAdv.getTime() && t < anoState.epochNatal;
     const isFeriaOuVigilia = prec === PREC.FERIA_MAIOR || prec === PREC.FERIA_COMUM || prec === PREC.VIGILIA_COMUM || prec === PREC.VIGILIA_MAIOR || prec === PREC.FERIA_PRIVILEGIADA;
-    r._gradual = r._gradual || (emSeptuagesima ? (r.tratoproprio ? "trato_proprio" : "trato") : (emAdvento ? (isFeriaOuVigilia ? "gradual" : "aleluia") : (t === dP(48).getTime() ? "trato" : (emPascoa ? "duplo" : "aleluia"))));
+    r._gradual = r._gradual || (emSeptuagesima ? (r.tratoproprio ? "trato_proprio" : "trato") : (emAdvento ? (isFeriaOuVigilia ? "gradual" : "aleluia") : (t === dP(48).getTime() ? "trato" : (emPascoa ? "duplo" : "gradual"))));
     if (!PREFACIOS_PROPRIOS.has(r.prefacio) && prefacioBase === PREF.COMUM) {
         if (emCinzas) r.prefacio = PREF.QUARESMA; if (emPascoa) r.prefacio = PREF.PASCAL; if (t === anoState.epochAscensao || (t > anoState.epochAscensao && t < dP(48).getTime())) r.prefacio = PREF.ASCENSAO; if (t >= anoState.epochPentecostes && t < anoState.epochFimOitPent) r.prefacio = PREF.PENTECOSTES;
     }
