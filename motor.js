@@ -2731,7 +2731,7 @@ const SANTOS_FIXOS = {
       t:"S. Evaristo, papa e mártir",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Jo 21. Si díligis me... 1 Pd 5,1-4; 5,10-11 • Mt 16,13-19",
-      l:"",
+      l:"/2026/10/evaristo-papa-e-martir-26-out.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.SUM_PONT }
   }],
   "10-27":[{
@@ -3494,13 +3494,25 @@ function prepararMotorLiturgico(anoParaCalcular) {
     addM(dP(70), {id:"dom-oitava-coracao", t:"3º Domingo depois de Pentecostes (na Oitava do S. Coração)", rito:RITO.SEMIDUPLEX, prec:PREC.DOMINGO_COMUM, s:"Sl 24. Réspice in me et miserére mei... 1 Pd 5,6-11 • Lc 15,1-10", l:"/2026/06/terceiro-domingo-depois-de-pentecostes.html", dom:true, p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.CORACAO }});
     addM(dP(75), {id:"oitava-coracao-dia-8", t:"Dia da Oitava do Sagrado Coração", isOitava:true, rito:RITO.DUPLEX_MAJ, prec:PREC.DIA_OITAVA_COMUM, s:"Sl 32. Cogitationes Cordis ejus... Ef 3,8-12; 14-19 • Jo 19,31-37", l:"/2025/06/27-junho-festa-do-sagrado-coracao-de.html", p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.CORACAO }});
 
+    // =========================================================
+    // [PENTECOSTES LINKS] - LINKS DOS DOMINGOS PÓS-PENTECOSTES
+    // =========================================================
+	
     const linksP = {"IV":"/2025/07/06-julho-iv-domingo-depois-de.html", "V":"/2025/07/13-julho-v-domingo-depois-de-pentecostes.html", "VI":"/2025/07/20-julho-vi-domingo-depois-de.html", "VII":"/2025/07/27-julho-vii-domingo-depois-de.html",
     "VIII":"/2025/08/03-ago-viii-domingo-depoiis-de.html",
     "IX":"/2026/07/ix-domingo-depois-de-pentecostes.html",
     "X":"/2025/08/17-ago-x-domingo-de-pentecostes.html",
 	"XI":"/2025/08/24-ago-xi-domingo-depois-de-pentecostes.html", "XII":"/2025/08/31-ago-xii-domingo-depois-de-pentecostes.html", "XIII":"/2025/09/07-set-xiii-domingo-depois-de.html", "XIV":"/2025/08/xiv-domingo-depois-de-pentecostes.html", "XV":"/2025/09/21-set-xv-domingo-depois-de-pentecostes.html", "XVI":"/2025/09/28-set-xvi-domingo-depois-de-pentecostes.html", "XVII":"/2025/10/05-out-xvii-domingo-depois-de.html",
-	"XVIII":"/2026/09/27-de-setembro-xviii-domingo-depois-de.html",
-	"XIX":"/2026/10/xix-domingo-depois-de-pentecostes.html"};
+    "XVIII":"/2026/09/27-de-setembro-xviii-domingo-depois-de.html",
+	"XIX":"/2026/10/xix-domingo-depois-de-pentecostes.html",
+	"XX":"/2026/10/xx-domingo-depois-de-pentecostes.html", 
+    "XXI":"/2026/11/xxi-domingo-depois-de-pentecostes.html",
+    "XXII":"/2026/10/xxii-domingo-depois-de-pentecostes.html",
+    "XXIII":"/2026/11/xxiii-domingo-depois-de-pentecostes.html",
+    "XXIV":""
+	};
+	
+	
     const leiturasP = {"IV": "Rm 8,18-23 • Lc 5,1-11", "V": "1 Pd 3,8-15 • Mt 5,20-24", "VI": "Rm 6,3-11 • Mc 8,1-9", "VII": "Rm 6,19-23 • Mt 7,15-21", "VIII": "Rm 8,12-17 • Lc 16,1-9", "IX": "1 Co 10,6-13 • Lc 19,41-47", "X": "1 Co 12,2-11 • Lc 18,9-14", "XI": "1 Co 15,1-10 • Mc 7,31-37", "XII": "2 Co 3,4-9 • Lc 10,23-37", "XIII": "Gl 3,16-22 • Lc 17,11-19", "XIV": "Gl 5,16-24 • Mt 6,24-33", "XV": "Gl 5,25-26; 6,1-10 • Lc 7,11-16", "XVI": "Ef 3,13-21 • Lc 14,1-11", "XVII": "Ef 4,1-6 • Mt 22,34-46", "XVIII": "1 Co 1,4-8 • Mt 9,1-8", "XIX": "Ef 4,23-28 • Mt 22,1-14", "XX": "Ef 5,15-21 • Jo 4,46-53", "XXI": "Ef 6,10-17 • Mt 18,23-35", "XXII": "Fp 1,6-11 • Mt 22,15-21", "XXIII": "Fp 3,17-21; 4,1-3 • Mt 9,18-26"};
     const leiturasRetomadasEpi = ["Rm 12,16-21 • Mt 8,1-13", "Rm 13,8-10 • Mt 8,23-27", "Cl 3,12-17 • Mt 13,24-30", "1 Ts 1,2-10 • Mt 13,31-35"];
     const dom23Time = dP(56 + 22 * 7).getTime();
