@@ -2710,12 +2710,20 @@ const SANTOS_FIXOS = {
       l:"/2026/10/santas-ursula-e-companheiras.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.VIRG_MART_1, orProprias: true }
   }],
+  "10-23": [{
+      id: "s-antonio-maria-claret",
+      t: "S. Antônio Maria Claret, bispo e confessor",
+      rito: RITO.LOCAL, prec: PREC.PRO_ALIQUIBUS_LOCIS,
+      s: "Sl 39. Annuntiavi justitiam tuam in ecclesia magna... 2 Co 5,14-20 • Lc 10,1-9",
+      l: "/2025/10/23-out-s-antonio-maria-claret-bispo-e.html",
+      p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
+  }],
   "10-24":[{
       id:"s-rafael-arcanjo",
       t:"S. Rafael Arcanjo",
       rito:RITO.DUPLEX_MAJ, prec:PREC.FESTA_DUPLEX_MAJ,
       s:"Sl 102. Benedicite Dominum omnes Angeli ejus... Tb 12,7-15 • Jo 5,1-15",
-      l:"/2025/10/24-out-s-rafael-arcanjo.html",
+      l:"/2026/10/24-out-s-rafael-arcanjo.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
   "10-25":[{
@@ -2723,7 +2731,7 @@ const SANTOS_FIXOS = {
       t:"Ss. Crisanto e Daria, mártires",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Sl 78. Intret in conspectu tuo Domine... 2 Co 6,4-10 • Lc 11,47-51",
-      l:"/2025/10/25-out-s-crisanto-e-s-daria-martires.html",
+      l:"/2026/10/25-out-s-crisanto-e-s-daria-martires.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_N }
   }],
   "10-26":[{
@@ -2739,7 +2747,7 @@ const SANTOS_FIXOS = {
       t:"Vigília de Ss. Simão e Judas Tadeu, apóstolos",
       rito:null, prec:PREC.VIGILIA_COMUM,
       s:"Sl 78. Intret in conspectu tuo Domine... 1 Co 4,9-14 • Jo 15,1-7",
-      l:"",
+      l:"/2026/10/27-octobris-in-vigilia-s-simao-e-s.html",
       p: { cor: COR.ROXA, gloria: false, credo: false, _gradual: "gradual", prefacio: PREF.COMUM, comum: "Missa da Vigília" }
   }],
   "10-28":[{
@@ -2747,7 +2755,7 @@ const SANTOS_FIXOS = {
       t:"S. Simão e S. Judas Tadeu, apóstolos",
       rito:RITO.DUPLEX_II, prec:PREC.FESTA_II_CLASSE,
       s:"Sl 138. Mihi autem nimis honorati sunt amici tui Deus... Ef 4,7-13 • Jo 15,17-25",
-      l:"/2025/10/28-out-s-simao-e-s-judas-tadeu-apostolos.html",
+      l:"/2026/10/28-out-s-simao-e-s-judas-tadeu-apostolos.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: true, prefacio: PREF.APOSTOLOS, comum: COMUM.PROPRIA }
   }],
   "10-31":[{
