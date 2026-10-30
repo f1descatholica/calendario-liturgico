@@ -1,3 +1,4 @@
+
 "use strict";
 // =========================================================
 // O CÉREBRO - MOTOR LITÚRGICO GLOBAL github
@@ -2791,7 +2792,7 @@ const SANTOS_FIXOS = {
       t:"Na Oitava de Todos os Santos",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"Liturgia. Gaudeamus omnes in Domino... Ap 7,2-12 • Mt 5,1-12",
-      l:"",
+      l:"/2025/11/01-nov-festa-de-todos-os-santos.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: "da Festa" }
   }],
   "11-4": [{
@@ -2801,13 +2802,27 @@ const SANTOS_FIXOS = {
       s:"Eclo 45. Statuit ei Dominus testamentum pacis... Eclo 44,16-27; 45,3-20 • Mt 25,14-23",
       l:"/2025/11/04-nov-s-carlos-borromeu-bispo-e.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: COMUM.CONF_PONT }
+  }, {
+      id:"oitava-todos-os-santos-4",
+      t:"Na Oitava de Todos os Santos",
+      rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
+      s:"Ap 7. Gaudeamus omnes in Domino... Ap 7,2-12 • Mt 5,1-12",
+      l:"/2025/11/01-nov-festa-de-todos-os-santos.html",
+      p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: "da Festa" }
+  }, {
+      id:"ss-vital-agricola",
+      t:"Ss. Vital e Agrícola, mártires",
+      rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
+      s:"Eclo 44. Sapientiam sanctorum narrant populi... Hb 10,32-38 • Mt 16,24-27",
+      l:"/2026/10/4-nov-santos-vital-e-agricola-martires.html",
+      p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_N_1 }
   }],
   "11-5": [{
       id:"na-oitava-todos-santos-2",
       t:"Na Oitava de Todos os Santos",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"Liturgia. Gaudeamus omnes in Domino... Ap 7,2-12 • Mt 5,1-12",
-      l:"",
+      l:"/2025/11/01-nov-festa-de-todos-os-santos.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: "da Festa" }
   }],
   "11-6": [{
@@ -2815,7 +2830,7 @@ const SANTOS_FIXOS = {
       t:"Na Oitava de Todos os Santos",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"Liturgia. Gaudeamus omnes in Domino... Ap 7,2-12 • Mt 5,1-12",
-      l:"",
+      l:"/2025/11/01-nov-festa-de-todos-os-santos.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: "da Festa" }
   }, {
       id:"s-leonardo-limousin",
@@ -2830,7 +2845,7 @@ const SANTOS_FIXOS = {
       t:"Na Oitava de Todos os Santos",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"Liturgia. Gaudeamus omnes in Domino... Ap 7,2-12 • Mt 5,1-12",
-      l:"",
+      l:"/2025/11/01-nov-festa-de-todos-os-santos.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: "da Festa" }
   }],
   "11-8": [{
@@ -2839,7 +2854,7 @@ const SANTOS_FIXOS = {
       isOitava:true,
       rito:RITO.DUPLEX_MAJ, prec:PREC.DIA_OITAVA_COMUM,
       s:"Liturgia. Gaudeamus omnes in Domino... Ap 7,2-12 • Mt 5,1-12",
-      l:"/2025/11/08-nov-ss-quatro-coroados-martires.html",
+      l:"/2025/11/01-nov-festa-de-todos-os-santos.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: "da Festa" }
   }, {
       id:"ss-quatro-coroados",
