@@ -2775,7 +2775,7 @@ const SANTOS_FIXOS = {
       t:"Festa de Todos os Santos (com Oitava)",
       rito:RITO.DUPLEX_I, prec:PREC.FESTA_I_CLASSE,
       s:"Liturgia. Gaudeamus omnes in Domino... Ap 7,2-12 • Mt 5,1-12",
-      l:"/2025/11/01-nov-festa-de-todos-os-S.s.html",
+      l:"/2025/11/01-nov-festa-de-todos-os-santos.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
   "11-2": [{
@@ -3777,7 +3777,7 @@ function getDiaLiturgicoCache(ano, mesNum, dia) {
     const emCorpus = t >= anoState.epochCorpus && t <= anoState.epochFimCorpus;
     const emCoracao = t >= anoState.epochCoracao && t <= anoState.epochFimCoracao;
     if (ds === 6 && !emTempoEspecial && !emPentec && !emAscensao && !emCorpus && !emCoracao) {
-		if (!itens.some(i => i.prec >= PREC.INFRA_OCTAVAM)) {
+		if (!itens.some(i => i.prec >= PREC.VIGILIA_COMUM)) {
             const bvmInfo = obterSabadoBVM(t, mesNum, dia);
             itens.unshift({ t: "Sábado de Nossa Senhora", rito: RITO.SIMPLEX, prec: PREC.SABADO_BVM, tipo: TIPO.SABADO_BVM, s: bvmInfo.s, l: bvmInfo.l, p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.BVM, comum: COMUM.BVM } });
         }
