@@ -1,4 +1,3 @@
-
 "use strict";
 // =========================================================
 // O CÉREBRO - MOTOR LITÚRGICO GLOBAL github
@@ -2776,7 +2775,7 @@ const SANTOS_FIXOS = {
       t:"Festa de Todos os Santos (com Oitava)",
       rito:RITO.DUPLEX_I, prec:PREC.FESTA_I_CLASSE,
       s:"Liturgia. Gaudeamus omnes in Domino... Ap 7,2-12 • Mt 5,1-12",
-      l:"/2025/11/01-nov-festa-de-todos-os-santos.html",
+      l:"/2026/11/01-nov-festa-de-todos-os-santos.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
   "11-2": [{
@@ -2784,7 +2783,7 @@ const SANTOS_FIXOS = {
       t:"Comemoração de Todos os Fiéis Defuntos",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"4 Esd 2. Requiem æternam dona eis Domine... 1 Co 15,51-57 • Jo 5,25-29",
-      l:"/2025/11/02-nov-dia-de-finados.html",
+      l:"/2026/11/03-nov-dia-de-finados.html",
       p: { cor: COR.PRETA, gloria: false, credo: false, sequencia: SEQ.DIES_IRAE, prefacio: PREF.DEFUNTOS, comum: COMUM.PROPRIA, observacao: "3 Missas permitidas" }
   }],
   "11-3": [{
@@ -2792,7 +2791,7 @@ const SANTOS_FIXOS = {
       t:"Na Oitava de Todos os Santos",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"Liturgia. Gaudeamus omnes in Domino... Ap 7,2-12 • Mt 5,1-12",
-      l:"/2025/11/01-nov-festa-de-todos-os-santos.html",
+      l:"/2026/11/01-nov-festa-de-todos-os-santos.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: "da Festa" }
   }],
   "11-4": [{
@@ -2807,7 +2806,7 @@ const SANTOS_FIXOS = {
       t:"Na Oitava de Todos os Santos",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"Ap 7. Gaudeamus omnes in Domino... Ap 7,2-12 • Mt 5,1-12",
-      l:"/2025/11/01-nov-festa-de-todos-os-santos.html",
+      l:"/2026/11/01-nov-festa-de-todos-os-santos.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: "da Festa" }
   }, {
       id:"ss-vital-agricola",
@@ -2822,7 +2821,7 @@ const SANTOS_FIXOS = {
       t:"Na Oitava de Todos os Santos",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"Liturgia. Gaudeamus omnes in Domino... Ap 7,2-12 • Mt 5,1-12",
-      l:"/2025/11/01-nov-festa-de-todos-os-santos.html",
+      l:"/2026/11/01-nov-festa-de-todos-os-santos.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: "da Festa" }
   }],
   "11-6": [{
@@ -2830,7 +2829,7 @@ const SANTOS_FIXOS = {
       t:"Na Oitava de Todos os Santos",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"Liturgia. Gaudeamus omnes in Domino... Ap 7,2-12 • Mt 5,1-12",
-      l:"/2025/11/01-nov-festa-de-todos-os-santos.html",
+      l:"/2026/11/01-nov-festa-de-todos-os-santos.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: "da Festa" }
   }, {
       id:"s-leonardo-limousin",
@@ -2845,7 +2844,7 @@ const SANTOS_FIXOS = {
       t:"Na Oitava de Todos os Santos",
       rito:RITO.SEMIDUPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"Liturgia. Gaudeamus omnes in Domino... Ap 7,2-12 • Mt 5,1-12",
-      l:"/2025/11/01-nov-festa-de-todos-os-santos.html",
+      l:"/2026/11/01-nov-festa-de-todos-os-santos.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: "da Festa" }
   }],
   "11-8": [{
@@ -2854,7 +2853,7 @@ const SANTOS_FIXOS = {
       isOitava:true,
       rito:RITO.DUPLEX_MAJ, prec:PREC.DIA_OITAVA_COMUM,
       s:"Liturgia. Gaudeamus omnes in Domino... Ap 7,2-12 • Mt 5,1-12",
-      l:"/2025/11/01-nov-festa-de-todos-os-santos.html",
+      l:"/2026/11/01-nov-festa-de-todos-os-santos.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: "da Festa" }
   }, {
       id:"ss-quatro-coroados",
@@ -3532,7 +3531,7 @@ function prepararMotorLiturgico(anoParaCalcular) {
     "XXI":"/2026/11/xxi-domingo-depois-de-pentecostes.html",
     "XXII":"/2026/10/xxii-domingo-depois-de-pentecostes.html",
     "XXIII":"/2026/11/xxiii-domingo-depois-de-pentecostes.html",
-    "XXIV":""
+    "XXIV":"/2025/11/xxiv-domingo-depois-de-pentecostes.html"
 	};
 	
 	
