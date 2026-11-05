@@ -4,5 +4,6 @@ const LINKS = {
   "todos-os-santos": "/2026/11/01-nov-festa-de-todos-os-santos.html",
   "quarta-cinzas": "/2026/11/03-nov-dia-de-finados.html",
   "s-carlos-borromeu": "/2026/11/04-nov-s-carlos-borromeu-bispo-e.html",
-  "s-leonardo-limousin": "/2026/11/06-nov-s-leonardo-de-limousin-confessor.html"
+  "s-leonardo-limousin": "/2026/11/06-nov-s-leonardo-de-limousin-confessor.html",
+  "ss-quatro-coroados": "/2026/11/08-nov-ss-quatro-coroados-martires.html"
 };
