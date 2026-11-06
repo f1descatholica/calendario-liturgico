@@ -86,7 +86,7 @@ const SANTOS_FIXOS = {
       t:"Oitava de S. Estêvão, protomártir",
       rito:RITO.SIMPLEX, prec:PREC.INFRA_OCTAVAM,
       s:"Sl 118. Sedérunt príncipes... At 6,8-10; 7,54-59 • Mt 23,34-39",
-      l:"/2025/01/liturgia-diaria-02-jan-oitava-de-S..html",
+      l:"/2025/01/liturgia-diaria-02-jan-oitava-de-santo.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.NATAL, communicantes: "natal", comum: COMUM.PROPRIA }
   }],
   "1-3": [{
@@ -2763,7 +2763,7 @@ const SANTOS_FIXOS = {
       t:"Vigília de Todos os Santos",
       rito:null, prec:PREC.VIGILIA_COMUM,
       s:"Sap 3. Judicant sancti gentes et dominantur populis... Ap 5,11-14 • Lc 6,17-23",
-      l:"/2025/10/31-out-vigilia-de-todos-os-santos.html",
+      l:"/2026/10/31-out-vigilia-de-todos-os-santos.html",
       p: { cor: COR.ROXA, gloria: false, credo: false, _gradual: "gradual", prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
 
@@ -2799,7 +2799,7 @@ const SANTOS_FIXOS = {
       t:"S. Carlos Borromeu, bispo e confessor",
       rito:RITO.DUPLEX_MAJ, prec:PREC.FESTA_DUPLEX_MAJ,
       s:"Eclo 45. Statuit ei Dominus testamentum pacis... Eclo 44,16-27; 45,3-20 • Mt 25,14-23",
-      l:"/2025/11/04-nov-s-carlos-borromeu-bispo-e.html",
+      l:"/2026/11/04-nov-s-carlos-borromeu-bispo-e.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: COMUM.CONF_PONT }
   }, {
       id:"oitava-todos-os-santos-4",
@@ -2834,10 +2834,10 @@ const SANTOS_FIXOS = {
   }, {
       id:"s-leonardo-limousin",
       t:"S. Leonardo de Limousin, confessor",
-      rito:RITO.SEMIDUPLEX, prec:PREC.FESTA_SEMIDUPLEX,
+      rito:RITO.LOCAL, prec:PREC.PRO_ALIQUIBUS_LOCIS,
       s:"Sl 36. Os justi meditabitur sapientiam... Eclo 31,8-11 • Lc 12,35-40",
-      l:"/2025/11/06-out-s-leonardo-de-limousin-confessor.html",
-      p: { cor: COR.BRANCA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.CONF_NPON }
+      l:"/2026/11/06-nov-s-leonardo-de-limousin-confessor.html",
+      p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.CONF_NPON }
   }],
   "11-7": [{
       id:"na-oitava-todos-santos-4",
