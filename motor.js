@@ -2875,7 +2875,7 @@ const SANTOS_FIXOS = {
       t:"S. Teodoro, mártir",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Sl 63. Lætabitur justus in Domino... 2 Tm 2,8-10; 3,10-12 • Mt 10,26-32",
-      l:"",
+      l:"/2026/11/sao-teodoro-martir-9-de-novembro.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_1 }
   }],
   "11-10":[{
@@ -3464,7 +3464,7 @@ function prepararMotorLiturgico(anoParaCalcular) {
     addM(dP(-11),{id:"feria-paixao-qua", t:"Quarta-feira da sem. da Paixão", prec:PREC.FERIA_MAIOR, s:"Sl 17. Liberátor meus de géntibus iracúndis... Lv 19,1-2; 19,11-19; 19,25 • Jo 10,22-38", l:"/2025/04/quarta-feira-da-semana-da-paixao.html", p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.CRUZ }});
     addM(dP(-10),{id:"feria-paixao-qui", t:"Quinta-feira da sem. da Paixão", prec:PREC.FERIA_MAIOR, s:"Dn 3. Omnia quæ fecísti nobis, Dómine... Dn 3,25; 34-45 • Lc 7,36-50", l:"/2025/04/quinta-feira-da-semana-da-paixao.html", p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.CRUZ }});
     addM(dP(-9), {id:"feria-paixao-sex", t:"Sexta-feira da sem. da Paixão", prec:PREC.FERIA_MAIOR, s:"Sl 30. Miserére mihi, Dómine, quóniam tríbulor... Jr 17,13-18 • Jo 11,47-54", l:"/2025/04/sexta-feira-da-semana-da-paixao.html", p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.CRUZ }});
-    addM(dP(-9), {id:"dores-maria", t:"As Sete Dores de Nossa Senhora", rito:RITO.DUPLEX_MAJ, prec:PREC.FESTA_DUPLEX_MAJ, s:"Jo 19. Stabant juxta crucem Jesu... Jt 13,22-25 • Jo 19,25-27", l:"/festas-moveis/sexta-feira-das-dores-de-maria.html", p: { cor: COR.BRANCA, gloria: true, credo: true, sequencia: SEQ.STABAT, prefacio: PREF.BVM, observacao: "BVM na Transfixão" }});
+    addM(dP(-9), {id:"dores-maria", t:"As Sete Dores de Nossa Senhora", rito:RITO.DUPLEX_MAJ, prec:PREC.FESTA_DUPLEX_MAJ, s:"Jo 19. Stabant juxta crucem Jesu... Jt 13,22-25 • Jo 19,25-27", l:"/2025/09/15-set-as-sete-dores-de-nossa-senhora.html", p: { cor: COR.BRANCA, gloria: true, credo: true, sequencia: SEQ.STABAT, prefacio: PREF.BVM, observacao: "BVM na Transfixão" }});
     addM(dP(-8), {id:"feria-paixao-sab", t:"Sábado da sem. da Paixão", prec:PREC.FERIA_MAIOR, s:"Sl 30. Miserére mihi, Dómine, quóniam tríbulor... Jr 18,18-23 • Jo 12,10-36", l:"/2025/04/sabado-da-semana-da-paixao.html", p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.CRUZ }});
     addM(dP(-7), {id:"dom-ramos", t:"Domingo de Ramos e II da Paixão", rito:RITO.SEMIDUPLEX, prec:PREC.DOMINGO_I_CLASSE, s:"Sl 21. Dómine, ne longe fácias auxílium tuum... Fl 2,5-11 • Mt 26,36-75; 27,1-60", l:"/2025/04/ii-domingo-da-paixao-domingo-de-ramos.html", dom:true, p: { cor: COR.ROXA, gloria: false, credo: true, prefacio: PREF.CRUZ, observacao: "Bênção dos Ramos e Procissão" }});
     addM(dP(-6), {id:"semana-santa-seg", t:"Segunda-feira Santa", prec:PREC.FERIA_PRIVILEGIADA, s:"Sl 34. Iúdica, Dómine, nocéntes me... Is 50,5-10 • Jo 12,1-9", l:"/2025/04/segunda-feira-santa.html", p: { cor: COR.ROXA, gloria: false, credo: false, prefacio: PREF.CRUZ }});
