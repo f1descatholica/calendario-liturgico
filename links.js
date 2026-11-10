@@ -12,5 +12,9 @@ const LINKS = {
   "dedicacao-basilica-latrao": {
     "url": "/2026/11/09-nov-dedicacao-da-basilica-do-ssmo.html",
     "liberar_em": "2026-11-09"
+  },
+  "s-andre-avelino": {
+    "url": "/2026/11/10-nov-s-andre-avelino-confessor.html",
+    "liberar_em": "2026-11-10"
   }
 };
