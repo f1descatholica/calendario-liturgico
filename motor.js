@@ -2885,6 +2885,13 @@ const SANTOS_FIXOS = {
       s:"Sl 36. Os justi meditabitur sapientiam... Eclo 31,8-11 • Lc 12,35-40",
       l:"/2025/11/10-nov-s-andre-avelino-confessor.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.CONF_NPON }
+  }, {
+      id: "ss-trifonio-respicio-ninfa",
+      t: "Ss. Trifônio, Respício e Ninfa, mártires",
+      rito: RITO.SIMPLEX, prec: PREC.FESTA_SIMPLEX,
+      s: "Sl 33. Clamavérunt justi... Rm 8,18-23 • Lc 12,1-8",
+      l: "/2026/11/sao-trifonio-e-companheiros-martires-10.html",
+      p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_N, orProprias: true }
   }],
   "11-11":[{
       id:"s-martinho-tours",
@@ -2893,6 +2900,13 @@ const SANTOS_FIXOS = {
       s:"Eclo 45. Statuit ei Dominus testamentum pacis... Eclo 44,16-27; 45,3-20 • Lc 11,33-36",
       l:"/2025/11/11-nov-s-martinho-bispo-e-confessor.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
+  }, {
+      id: "s-menas-martir",
+      t: "S. Menas, mártir",
+      rito: RITO.SIMPLEX, prec: PREC.FESTA_SIMPLEX,
+      s: "Sl 63. Lætábitur justus in Dómino... 2 Tm 2,8-10; 3,10-12 • Mt 10,26-32",
+      l: "/",
+      p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_1_2, orProprias: true }
   }],
   "11-12":[{
       id:"s-martinho-i-papa",
