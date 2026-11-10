@@ -16,5 +16,9 @@ const LINKS = {
   "s-andre-avelino": {
     "url": "/2026/11/10-nov-s-andre-avelino-confessor.html",
     "liberar_em": "2026-11-10"
+  },
+  "s-martinho-tours": {
+    "url": "/2026/11/11-nov-s-martinho-de-tours-bispo-e.html",
+    "liberar_em": "2026-11-11"
   }
 };
