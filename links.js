@@ -20,5 +20,9 @@ const LINKS = {
   "s-martinho-tours": {
     "url": "/2026/11/11-nov-s-martinho-de-tours-bispo-e.html",
     "liberar_em": "2026-11-11"
+  },
+  "s-martinho-i-papa": {
+    "url": "/2026/11/12-nov-s-martinho-i-papa-e-martir.html",
+    "liberar_em": "2026-11-12"
   }
 };
