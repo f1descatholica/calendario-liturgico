@@ -24,5 +24,9 @@ const LINKS = {
   "s-martinho-i-papa": {
     "url": "/2026/11/12-nov-s-martinho-i-papa-e-martir.html",
     "liberar_em": "2026-11-12"
+  },
+  "s-diogo": {
+    "url": "/2026/11/13-nov-s-diogo-confessor.html",
+    "liberar_em": "2026-11-13"
   }
 };
