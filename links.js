@@ -28,5 +28,9 @@ const LINKS = {
   "s-diogo": {
     "url": "/2026/11/13-nov-s-diogo-confessor.html",
     "liberar_em": "2026-11-13"
+  },
+  "s-josafa": {
+    "url": "/2026/11/14-nov-s-josafa-bispo-e-martir.html",
+    "liberar_em": "2026-11-14"
   }
 };
