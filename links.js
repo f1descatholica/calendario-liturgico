@@ -32,5 +32,9 @@ const LINKS = {
   "s-josafa": {
     "url": "/2026/11/14-nov-s-josafa-bispo-e-martir.html",
     "liberar_em": "2026-11-14"
+  },
+  "santo-alberto-magno": {
+    "url": "/2026/11/15-nov-s-alberto-magno-bispo-confessor.html",
+    "liberar_em": "2026-11-15"
   }
 };
