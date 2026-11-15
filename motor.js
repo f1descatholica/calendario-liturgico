@@ -3550,6 +3550,7 @@ function prepararMotorLiturgico(anoParaCalcular) {
 	
 	
     const leiturasP = {"IV": "Rm 8,18-23 • Lc 5,1-11", "V": "1 Pd 3,8-15 • Mt 5,20-24", "VI": "Rm 6,3-11 • Mc 8,1-9", "VII": "Rm 6,19-23 • Mt 7,15-21", "VIII": "Rm 8,12-17 • Lc 16,1-9", "IX": "1 Co 10,6-13 • Lc 19,41-47", "X": "1 Co 12,2-11 • Lc 18,9-14", "XI": "1 Co 15,1-10 • Mc 7,31-37", "XII": "2 Co 3,4-9 • Lc 10,23-37", "XIII": "Gl 3,16-22 • Lc 17,11-19", "XIV": "Gl 5,16-24 • Mt 6,24-33", "XV": "Gl 5,25-26; 6,1-10 • Lc 7,11-16", "XVI": "Ef 3,13-21 • Lc 14,1-11", "XVII": "Ef 4,1-6 • Mt 22,34-46", "XVIII": "1 Co 1,4-8 • Mt 9,1-8", "XIX": "Ef 4,23-28 • Mt 22,1-14", "XX": "Ef 5,15-21 • Jo 4,46-53", "XXI": "Ef 6,10-17 • Mt 18,23-35", "XXII": "Fp 1,6-11 • Mt 22,15-21", "XXIII": "Fp 3,17-21; 4,1-3 • Mt 9,18-26"};
+    const nomesEpiRetomada = ["III", "IV", "V", "VI"];
     const leiturasRetomadasEpi = ["Rm 12,16-21 • Mt 8,1-13", "Rm 13,8-10 • Mt 8,23-27", "Cl 3,12-17 • Mt 13,24-30", "1 Ts 1,2-10 • Mt 13,31-35"];
     const dom23Time = dP(56 + 22 * 7).getTime();
     const qtdDomingosRetomados = Math.max(0, Math.floor((anoState.ultimDom.getTime() - dom23Time) / (7 * 86400000)) - 1);
@@ -3558,12 +3559,35 @@ function prepararMotorLiturgico(anoParaCalcular) {
     const domingosPentecostes = [{n: "IV", d: 3}, {n: "V", d: 4}, {n: "VI", d: 5}, {n: "VII", d: 6}, {n: "VIII", d: 7}, {n: "IX", d: 8}, {n: "X", d: 9}, {n: "XI", d: 10}, {n: "XII", d: 11}, {n: "XIII", d: 12}, {n: "XIV", d: 13}, {n: "XV", d: 14}, {n: "XVI", d: 15}, {n: "XVII", d: 16}, {n: "XVIII", d: 17}, {n: "XIX", d: 18}, {n: "XX", d: 19}, {n: "XXI", d: 20}, {n: "XXII", d: 21}, {n: "XXIII", d: 22}, {n: "XXIV", d: 23}, {n: "XXV", d: 24}, {n: "XXVI", d: 25}, {n: "XXVII", d: 26}, {n: "XXVIII", d: 27}];
     for (const dom of domingosPentecostes) {
         const domP = dP(56 + dom.d * 7);
-        if (domP.getTime() > anoState.ultimDom.getTime()) break;
-        // Removido o pulo que apagava o domingo. Ele agora colidirá normalmente.
+        const tDom = domP.getTime();
+        if (tDom > anoState.ultimDom.getTime()) break;
+
+        const ehUltimoDom = (tDom === anoState.ultimDom.getTime());
+        let tituloDom = `${dom.n} Domingo depois de Pentecostes`;
         let leituraDia = leiturasP[dom.n];
-        if (dom.d >= 22 && indiceRetomada < 4) { leituraDia = leiturasRetomadasEpi[indiceRetomada]; indiceRetomada++; }
-        else if (!leituraDia) leituraDia = "Cl 1,9-14 • Mt 24,15-35";
-        addM(domP, {id:`dom-pentecostes-${dom.n}`, t:`${dom.n} Domingo depois de Pentecostes`, rito:RITO.SEMIDUPLEX, prec:PREC.DOMINGO_COMUM, s:(introitosPentecostesMap[dom.n] || "") + "... " + leituraDia, l:linksP[dom.n] || "/", dom:true, p: { cor: COR.VERDE, gloria: true, credo: true, prefacio: PREF.TRINDADE }});
+        let introitDia = introitosPentecostesMap[dom.n] || "Jr 29. Dicit Dóminus: Ego cógito cogitatiónes pacis";
+
+        if (ehUltimoDom) {
+            tituloDom = "XXIV e Último Domingo depois de Pentecostes";
+            leituraDia = "Cl 1,9-14 • Mt 24,15-35";
+            introitDia = "Jr 29. Dicit Dóminus: Ego cógito cogitatiónes pacis";
+        } else if (dom.d > 22 && indiceRetomada < 4) {
+            tituloDom = `${dom.n} Domingo depois de Pentecostes (${nomesEpiRetomada[indiceRetomada]} da Epifania)`;
+            leituraDia = leiturasRetomadasEpi[indiceRetomada];
+            introitDia = "Jr 29. Dicit Dóminus: Ego cógito cogitatiónes pacis";
+            indiceRetomada++;
+        }
+
+        addM(domP, {
+            id: `dom-pentecostes-${dom.n}`, 
+            t: tituloDom, 
+            rito: RITO.SEMIDUPLEX, 
+            prec: PREC.DOMINGO_COMUM, 
+            s: introitDia + "... " + leituraDia, 
+            l: linksP[dom.n] || "/", 
+            dom: true, 
+            p: { cor: COR.VERDE, gloria: true, credo: true, prefacio: PREF.TRINDADE }
+        });
     }
 
     addM(anoState.cristoRei, {id:"cristo-rei", t:"Festa do Cristo Rei", rito:RITO.DUPLEX_I, prec:PREC.FESTA_I_CLASSE, dom:true, s:"Ap 5. Dignus est Agnus qui occisus est... Cl 1,12-20 • Jo 18,33-37", l:"/2025/10/26-out-festa-de-cristo-rei.html", p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.CRISTO_REI }});
