@@ -40,5 +40,9 @@ const LINKS = {
   "santa-gertrudes": {
     "url": "/2026/11/16-nov-s-gertrudes-virgem.html",
     "liberar_em": "2026-11-16"
+  },
+  "s-gregorio-taumaturgo": {
+    "url": "/2026/11/17-nov-s-gregorio-taumaturgo-bispo-e.html",
+    "liberar_em": "2026-11-17"
   }
 };
