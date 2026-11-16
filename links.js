@@ -36,5 +36,9 @@ const LINKS = {
   "santo-alberto-magno": {
     "url": "/2026/11/15-nov-s-alberto-magno-bispo-confessor.html",
     "liberar_em": "2026-11-15"
+  },
+  "santa-gertrudes": {
+    "url": "/2026/11/16-nov-s-gertrudes-virgem.html",
+    "liberar_em": "2026-11-16"
   }
 };
