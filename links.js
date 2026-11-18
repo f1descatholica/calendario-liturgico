@@ -44,5 +44,9 @@ const LINKS = {
   "s-gregorio-taumaturgo": {
     "url": "/2026/11/17-nov-s-gregorio-taumaturgo-bispo-e.html",
     "liberar_em": "2026-11-17"
+  },
+  "dedicacao-basilicas-pedro-paulo": {
+    "url": "/2026/11/18-nov-dedicacao-das-basilicas-de-s.html",
+    "liberar_em": "2026-11-18"
   }
 };
