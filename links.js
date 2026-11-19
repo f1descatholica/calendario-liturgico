@@ -48,5 +48,9 @@ const LINKS = {
   "dedicacao-basilicas-pedro-paulo": {
     "url": "/2026/11/18-nov-dedicacao-das-basilicas-de-s.html",
     "liberar_em": "2026-11-18"
+  },
+  "santa-isabel-hungria": {
+    "url": "/2026/11/19-nov-s-isabel-da-hungria-viuva.html",
+    "liberar_em": "2026-11-19"
   }
 };
