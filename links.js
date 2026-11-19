@@ -52,5 +52,9 @@ const LINKS = {
   "santa-isabel-hungria": {
     "url": "/2026/11/19-nov-s-isabel-da-hungria-viuva.html",
     "liberar_em": "2026-11-19"
+  },
+  "s-felix-valois": {
+    "url": "/2026/11/20-nov-s-felix-de-valois-confessor.html",
+    "liberar_em": "2026-11-20"
   }
 };
