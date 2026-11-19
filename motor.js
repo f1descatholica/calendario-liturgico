@@ -1,3 +1,4 @@
+
 "use strict";
 // =========================================================
 // O CÉREBRO - MOTOR LITÚRGICO GLOBAL github
@@ -2970,7 +2971,14 @@ const SANTOS_FIXOS = {
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Sl 118. Cognovi Domine quia æquitas judicia tua... Pr 31,10-31 • Mt 13,44-52",
       l:"/2025/11/19-nov-s-isabel-da-hungria-viuva.html",
-      p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
+      p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA },
+	 }, {
+      id: "s-ponciano-papa",
+      t: "S. Ponciano, papa e mártir",
+      rito: RITO.SIMPLEX, prec: PREC.FESTA_SIMPLEX,
+      s: "Jo 21. Si díligis me... 1 Pd 5,1-4; 5,10-11 • Mt 16,13-19",
+      l: "/2026/11/s-pontiano-papa-et-martyre-19-nov.html",
+      p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.SUM_PONT, orProprias: true }
   }],
   "11-20":[{
       id:"s-felix-valois",
