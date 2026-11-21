@@ -61,5 +61,9 @@ const LINKS = {
     "url": "/2026/11/21-nov-apresentacao-de-nossa-senhora.html",
     "liberar_em": "2026-11-21"
   },
-  "dom-pentecostes-1": "/2026/11/vigesimo-quarto-domingo-depois-de.html"
+  "dom-pentecostes-1": "/2026/11/vigesimo-quarto-domingo-depois-de.html",
+  "santa-cecilia": {
+    "url": "/2026/11/22-nov-s-cecilia-virgem-e-martir.html",
+    "liberar_em": "2026-11-22"
+  }
 };
