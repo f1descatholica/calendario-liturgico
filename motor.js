@@ -2861,7 +2861,7 @@ const SANTOS_FIXOS = {
       t:"Ss. Quatro Coroados, mártires",
       rito:RITO.SEMIDUPLEX, prec:PREC.FESTA_SEMIDUPLEX,
       s:"Sl 78. Intret in conspectu tuo... Hb 11,33-39 • Mt 10,26-32",
-      l:"/2025/11/08-nov-ss-quatro-coroados-martires.html",
+      l:"/2026/11/08-nov-ss-quatro-coroados-martires.html",
       p: { cor: COR.VERMELHA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_N }
   }],
   "11-9": [{
@@ -2869,7 +2869,7 @@ const SANTOS_FIXOS = {
       t:"Dedicação da Basílica do SSmo. Salvador (Latrão)",
       rito:RITO.DUPLEX_II, prec:PREC.FESTA_II_CLASSE,
       s:"Gn 28. Terribilis est locus iste... Ap 21,2-5 • Lc 19,1-10",
-      l:"/2025/11/09-nov-dedicacao-da-basilica-do-ssmo.html",
+      l:"/2026/11/09-nov-dedicacao-da-basilica-do-ssmo.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.DEDICACAO, comum: COMUM.PROPRIA }
   }, {
       id:"s-teodoro-martir",
@@ -2884,7 +2884,7 @@ const SANTOS_FIXOS = {
       t:"S. André Avelino, confessor",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Sl 36. Os justi meditabitur sapientiam... Eclo 31,8-11 • Lc 12,35-40",
-      l:"/2025/11/10-nov-s-andre-avelino-confessor.html",
+      l:"/2026/11/10-nov-s-andre-avelino-confessor.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.CONF_NPON }
   }, {
       id: "ss-trifonio-respicio-ninfa",
@@ -2899,14 +2899,14 @@ const SANTOS_FIXOS = {
       t:"S. Martinho de Tours, bispo e confessor",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Eclo 45. Statuit ei Dominus testamentum pacis... Eclo 44,16-27; 45,3-20 • Lc 11,33-36",
-      l:"/2025/11/11-nov-s-martinho-bispo-e-confessor.html",
+      l:"/2026/11/11-nov-s-martinho-de-tours-bispo-e.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }, {
       id: "s-menas-martir",
       t: "S. Menas, mártir",
       rito: RITO.SIMPLEX, prec: PREC.FESTA_SIMPLEX,
       s: "Sl 63. Lætábitur justus in Dómino... 2 Tm 2,8-10; 3,10-12 • Mt 10,26-32",
-      l: "/",
+      l: "/2026/11/11-nov-sao-menas-martir.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_1_2, orProprias: true }
   }],
   "11-12":[{
@@ -2914,7 +2914,7 @@ const SANTOS_FIXOS = {
       t:"S. Martinho I, papa e mártir",
       rito:RITO.SEMIDUPLEX, prec:PREC.FESTA_SEMIDUPLEX,
       s:"Jo 21. Si díligis me... 1 Pd 5,1-4; 5,10-11 • Mt 16,13-19",
-      l:"/2025/11/12-nov-s-martinho-i-papa-e-martir.html",
+      l:"/2026/11/12-nov-s-martinho-i-papa-e-martir.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.SUM_PONT }
   }],
   "11-13":[{
@@ -2922,7 +2922,7 @@ const SANTOS_FIXOS = {
       t:"S. Diogo, confessor",
       rito:RITO.SEMIDUPLEX, prec:PREC.FESTA_SEMIDUPLEX,
       s:"Sl 91. Justus ut palma florebit... 1 Co 4,9-14 • Lc 12,32-34",
-      l:"/2025/11/13-nov-s-diogo-confessor.html",
+      l:"/2026/11/13-nov-s-diogo-confessor.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
   "11-14":[{
@@ -2930,7 +2930,7 @@ const SANTOS_FIXOS = {
       t:"S. Josafá, bispo e mártir",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Liturgia. Gaudeamus omnes in Domino... Hb 5,1-6 • Jo 10,11-16",
-      l:"/2025/11/14-nov-s-josafa-bispo-e-martir.html",
+      l:"/2026/11/14-nov-s-josafa-bispo-e-martir.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
   "11-15":[{
@@ -2938,7 +2938,7 @@ const SANTOS_FIXOS = {
       t:"Santo Alberto Magno, bispo, confessor e doutor",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Eclo 15. In medio Ecclesiæ aperuit os ejus... 2 Tm 4,1-8 • Mt 5,13-19",
-      l:"/2025/11/15-nov-s-alberto-magno-bispo-confessor.html",
+      l:"/2026/11/15-nov-s-alberto-magno-bispo-confessor.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: COMUM.DOCT }
   }],
   "11-16":[{
@@ -2946,7 +2946,7 @@ const SANTOS_FIXOS = {
       t:"Santa Gertrudes, virgem",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Sl 44. Dilexisti justitiam... 2 Co 10,17-18; 11,1-2 • Mt 25,1-13",
-      l:"/2025/11/16-nov-s-gertrudes-virgem.html",
+      l:"/2026/11/16-nov-s-gertrudes-virgem.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
   "11-17":[{
@@ -2954,7 +2954,7 @@ const SANTOS_FIXOS = {
       t:"S. Gregório Taumaturgo, bispo e confessor",
       rito:RITO.SEMIDUPLEX, prec:PREC.FESTA_SEMIDUPLEX,
       s:"Eclo 45. Statuit ei Dominus testamentum pacis... Eclo 44,16-27; 45,3-20 • Mc 11,22-24",
-      l:"/2025/11/17-nov-s-gregorio-taumaturgo-bispo-e.html",
+      l:"/2026/11/17-nov-s-gregorio-taumaturgo-bispo-e.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
   "11-18":[{
@@ -2962,7 +2962,7 @@ const SANTOS_FIXOS = {
       t:"Dedicação das Basílicas de S. Pedro e S. Paulo",
       rito:RITO.DUPLEX_MAJ, prec:PREC.FESTA_DUPLEX_MAJ,
       s:"Gn 28. Terribilis est locus iste... Ap 21,2-5 • Lc 19,1-10",
-      l:"/2025/11/18-nov-dedicacao-das-basilicas-de-s.html",
+      l:"/2026/11/18-nov-dedicacao-das-basilicas-de-s.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.DEDICACAO, comum: COMUM.PROPRIA }
   }],
   "11-19":[{
@@ -2970,7 +2970,7 @@ const SANTOS_FIXOS = {
       t:"Santa Isabel da Hungria, viúva",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Sl 118. Cognovi Domine quia æquitas judicia tua... Pr 31,10-31 • Mt 13,44-52",
-      l:"/2025/11/19-nov-s-isabel-da-hungria-viuva.html",
+      l:"/2026/11/19-nov-s-isabel-da-hungria-viuva.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA },
 	 }, {
       id: "s-ponciano-papa",
@@ -2985,7 +2985,7 @@ const SANTOS_FIXOS = {
       t:"S. Félix de Valois, confessor",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Sl 91. Justus ut palma florebit... 1 Co 4,9-14 • Lc 12,32-34",
-      l:"/2025/11/20-nov-s-felix-de-valois-confessor.html",
+      l:"/2026/11/20-nov-s-felix-de-valois-confessor.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
   "11-21":[{
@@ -2993,7 +2993,7 @@ const SANTOS_FIXOS = {
       t:"Apresentação de Nossa Senhora",
       rito:RITO.DUPLEX_MAJ, prec:PREC.FESTA_DUPLEX_MAJ,
       s:"Liturgia. Salve sancta parens... Eclo 24,14-16 • Lc 11,27-28",
-      l:"/2025/11/21-nov-apresentacao-de-nossa-senhora.html",
+      l:"/2026/11/21-nov-apresentacao-de-nossa-senhora.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.BVM, comum: COMUM.PROPRIA }
   }],
   "11-22":[{
@@ -3353,6 +3353,11 @@ const SANTOS_FIXOS = {
 };
 
 
+// fim const SANTOS_FIXOS = {
+
+
+
+
 
 const SANTOS_FIXOS_ORIGINAL = JSON.parse(JSON.stringify(SANTOS_FIXOS));
 
@@ -3555,7 +3560,7 @@ function prepararMotorLiturgico(anoParaCalcular) {
     "XXIII":"/2026/11/xxiii-domingo-depois-de-pentecostes.html",
     "XXIV":"/2026/11/xxiv-domingo-depois-de-pentecostes.html",
     "XXV":"/2026/11/dominica-sexta-qu-superfuit-post-epiph.html",
-    "XXVI":"",
+    "XXVI":"/2025/11/xxiv-domingo-depois-de-pentecostes.html",
     "XXVII":"",
     "XXVIII":""
     };
