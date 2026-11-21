@@ -548,9 +548,10 @@
   { "id": "dom-pentecostes-XXI", "t": "XXI Domingo depois de Pentecostes", "data": null },
   { "id": "dom-pentecostes-XXII", "t": "XXII Domingo depois de Pentecostes", "data": null },
   { "id": "dom-pentecostes-XXIII", "t": "XXIII Domingo depois de Pentecostes", "data": null },
-  { "id": "dom-pentecostes-XXIV", "t": "XXIV Domingo depois de Pentecostes (V da Epifania)", "data": null },
-  { "id": "dom-pentecostes-XXV", "t": "XXV Domingo depois de Pentecostes (VI da Epifania)", "data": null },
-  { "id": "dom-pentecostes-XXVI", "t": "XXIV e Último Domingo depois de Pentecostes", "data": null },
+  { "id": "dom-pentecostes-XXIV", "t": "XXIV Domingo depois de Pentecostes", "data": null },
+  { "id": "dom-pentecostes-XXIV-V-epi", "t": "XXIV Domingo depois de Pentecostes (V da Epifania)", "data": null },
+  { "id": "dom-pentecostes-XXV-VI-epi", "t": "XXV Domingo depois de Pentecostes (VI da Epifania)", "data": null },
+  { "id": "dom-pentecostes-XXVI-XXIV-pent", "t": "XXVI Domingo depois de Pentecostes (Missa do XXIV)", "data": null },
   { "id": "dom-pentecostes-XXVII", "t": "XXVII Domingo depois de Pentecostes", "data": null },
   { "id": "dom-pentecostes-XXVIII", "t": "XXVIII Domingo depois de Pentecostes", "data": null },
   
