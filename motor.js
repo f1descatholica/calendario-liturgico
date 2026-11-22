@@ -3560,7 +3560,7 @@ function prepararMotorLiturgico(anoParaCalcular) {
     "XXIII":"/2026/11/xxiii-domingo-depois-de-pentecostes.html",
     "XXIV":"/2026/11/xxiv-domingo-depois-de-pentecostes.html",
     "XXV":"/2026/11/dominica-sexta-qu-superfuit-post-epiph.html",
-    "XXVI":"/2025/11/xxiv-domingo-depois-de-pentecostes.html",
+    "XXVI":"/2026/11/vigesimo-quarto-domingo-depois-de.html",
     "XXVII":"",
     "XXVIII":""
     };
