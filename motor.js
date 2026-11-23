@@ -1,4 +1,5 @@
 
+
 "use strict";
 // =========================================================
 // O CÉREBRO - MOTOR LITÚRGICO GLOBAL github
@@ -3008,16 +3009,16 @@ const SANTOS_FIXOS = {
       id:"s-clemente-i",
       t:"S. Clemente I, papa e mártir",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
-      s:"Jo 21. Si díligis me... Fl 3,17-21; 4,1-3 • Mt 25,14-23",
-      l:"",
+      s: "Is 59. Dicit Dóminus: Sermónes mei... Fp 3,17-21; 4,1-3 • Mt 24,42-47",
+      l:"/2026/11/s-clementis-i-papae-et-mart-23-nov.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }, {
       id:"santa-felicidade-martir",
       t:"S. Felicidade, mártir",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
-      s:"Sl 36. Salus autem justorum a Domino... Pr 31,10-31 • Mt 12,46-50",
-      l:"",
-      p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_1 }
+      s: "Sl 118. Me exspectavérunt peccatóres... Eclo 51,1-8 • Mt 13,44-52",
+      l: "/2026/11/santa-felicidade-martir-23-nov.html",
+      p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.NON_VIRG, orProprias: true }
   }],
   "11-24":[{
       id:"s-joao-da-cruz",
