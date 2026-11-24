@@ -11,5 +11,9 @@ const LINKS = {
   "s-crisogono-martir": {
     "url": "/2026/11/chrysogono-mart-24-nov.html",
     "liberar_em": "2026-11-24"
+  },
+  "santa-catarina-alexandria": {
+    "url": "/2026/11/25-nov-s-catarina-de-alexandria-virgem.html",
+    "liberar_em": "2026-11-25"
   }
 };
