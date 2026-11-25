@@ -19,5 +19,9 @@ const LINKS = {
   "s-silvestre-abade": {
     "url": "/2026/11/26-nov-s-silvestre-abade.html",
     "liberar_em": "2026-11-26"
+  },
+  "s-pedro-alexandria": {
+    "url": "/2026/11/pedro-de-alexandria-bispo-e-marter-26.html",
+    "liberar_em": "2026-11-26"
   }
 };
