@@ -1,5 +1,4 @@
 
-
 "use strict";
 // =========================================================
 // O CÉREBRO - MOTOR LITÚRGICO GLOBAL github
@@ -3002,7 +3001,7 @@ const SANTOS_FIXOS = {
       t:"Santa Cecília, virgem e mártir",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Sl 118. Loquebar de testimoniis tuis... Eclo 51,13-17 • Mt 25,1-13",
-      l:"/2025/11/22-nov-s-cecilia-virgem-e-martir.html",
+      l:"/2026/11/22-nov-s-cecilia-virgem-e-martir.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
   "11-23":[{
@@ -3025,22 +3024,22 @@ const SANTOS_FIXOS = {
       t:"S. João da Cruz, confessor e doutor",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Eclo 15. In medio Ecclesiæ aperuit os ejus... 2 Tm 4,1-8 • Mt 5,13-19",
-      l:"/2025/11/24-nov-s-joao-da-cruz-confessor-e.html",
+      l:"/2026/11/24-nov-s-joao-da-cruz-confessor-e.html",
       p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.COMUM, comum: COMUM.DOCT }
   }, {
       id:"s-crisogono",
       t:"S. Crisógono, mártir",
-      rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
-      s:"Sl 63. Lætabitur justus in Domino... 2 Tm 2,8-10; 3,10-12 • Mt 10,26-32",
-      l:"",
-      p: { cor: COR.VERMELHA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_1 }
+      rito: RITO.SIMPLEX, prec: PREC.FESTA_SIMPLEX,
+      s: "Sl 20. In virtute tua Domine lætabitur justus... Sb 10,10-14 • Mt 10,34-42",
+      l: "/2026/11/chrysogono-mart-24-nov.html",
+      p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_1, orProprias: true }
   }],
   "11-25":[{
       id:"santa-catarina-alexandria",
       t:"Santa Catarina de Alexandria, virgem e mártir",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Sl 118. Loquebar de testimoniis tuis... Eclo 51,1-8; 12 • Mt 25,1-13",
-      l:"/2025/11/25-nov-s-catarina-virgem-e-martir.html",
+      l:"/2026/11/25-nov-s-catarina-de-alexandria-virgem.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }],
   "11-26":[{
@@ -3048,15 +3047,31 @@ const SANTOS_FIXOS = {
       t:"S. Silvestre, abade",
       rito:RITO.DUPLEX, prec:PREC.FESTA_DUPLEX,
       s:"Sl 36. Os justi meditabitur sapientiam... Eclo 45,1-6 • Mt 19,27-29",
-      l:"/2025/11/26-nov-s-silvestre-abade.html",
+      l:"/2026/11/26-nov-s-silvestre-abade.html",
       p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.ABBATIS }
   }, {
       id:"s-pedro-alexandria",
       t:"S. Pedro de Alexandria, bispo e mártir",
       rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
       s:"Jo 21. Si díligis me... 1 Pd 5,1-4; 10-11 • Mt 16,13-19",
-      l:"",
+      l:"/2026/11/pedro-de-alexandria-bispo-e-marter-26.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_1_PONT }
+  }],
+    "11-27": [{
+      id: "nossa-senhora-medalha-milagrosa",
+      t: "Nossa Senhora da Medalha Milagrosa",
+      rito: RITO.LOCAL, prec: PREC.PRO_ALIQUIBUS_LOCIS,
+      s: "Ap 12. Signum magnum apparuit in caelo... Ap 11,19; 12,1-10 • Jo 2,1-11",
+      l: "/2025/11/27-nov-feria-nossa-senhora-da-medalha.html",
+      p: { cor: COR.BRANCA, gloria: true, credo: true, prefacio: PREF.BVM, comum: COMUM.PROPRIA }
+  }],
+  "11-28": [{
+      id: "santa-catarina-laboure",
+      t: "S. Catarina Labouré, virgem",
+      rito: RITO.LOCAL, prec: PREC.PRO_ALIQUIBUS_LOCIS,
+      s: "Sl 44. Dilexisti justitiam... Eclo 51,1-8; 51,12 • Mt 25,1-13",
+      l: "/2025/11/28-nov-feria-s-catarina-laboure-virgem.html",
+      p: { cor: COR.BRANCA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.VIRG_1, orProprias: true }
   }],
   "11-29":[{
       id:"vigilia-santo-andre",
@@ -3066,19 +3081,19 @@ const SANTOS_FIXOS = {
       l:"/2025/11/29-nov-vigilia-de-s-andre.html",
       p: { cor: COR.ROXA, gloria: false, credo: false, _gradual: "gradual", prefacio: PREF.COMUM, comum: COMUM.PROPRIA }
   }, {
-      id:"s-saturnino",
-      t:"S. Saturnino, mártir",
-      rito:RITO.SIMPLEX, prec:PREC.FESTA_SIMPLEX,
-      s:"Sl 20. In virtute tua Domine lætabitur justus... Sb 10,10-14 • Mt 10,34-39",
-      l:"",
-      p: { cor: COR.VERMELHA, gloria: false, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_1 }
+      id: "s-saturnino-martir",
+      t: "S. Saturnino, mártir",
+      rito: RITO.SIMPLEX, prec: PREC.FESTA_SIMPLEX,
+      s: "Sl 63. Lætábitur justus in Dómino... 2 Tm 2,8-10; 3,10-12 • Mt 10,26-32",
+      l:"/2025/11/s-saturnino-martir-29-nov.html",
+      p: { cor: COR.VERMELHA, gloria: true, credo: false, prefacio: PREF.COMUM, comum: COMUM.MART_1_2, orProprias: true }
   }],
   "11-30":[{
       id:"santo-andre-apostolo",
       t:"Santo André, apóstolo",
       rito:RITO.DUPLEX_II, prec:PREC.FESTA_II_CLASSE,
       s:"Mt 4. Dominus secus mare Galilææ... Rm 10,10-18 • Mt 4,18-22",
-      l:"",
+      l:"/2025/09/30-nov-s-andre-apostolo.html",
       p: { cor: COR.VERMELHA, gloria: true, credo: true, prefacio: PREF.APOSTOLOS, comum: COMUM.PROPRIA }
   }],
 
